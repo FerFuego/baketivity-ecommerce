@@ -1,0 +1,80 @@
+// Responsive mixins for media queries
+
+// Desktop mixins
+@mixin desktop {
+    @media only screen and (min-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin desktop-md {
+    @media only screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+// Tablet mixins
+@mixin tablet {
+    @media only screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin tablet-xs {
+    @media only screen and (max-width: 992px) {
+        @content;
+    }
+}
+
+// Mobile mixins
+@mixin mobile {
+    @media only screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mobile-md {
+    @media only screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin mobile-sm {
+    @media only screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin mobile-s {
+    @media only screen and (max-width: 380px) {
+        @content;
+    }
+}
+
+@mixin mobile-xs {
+    @media only screen and (max-width: 320px) {
+        @content;
+    }
+}
+
+@mixin button-primary-styles {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+    font-family: 'FilsonPro';
+    color: white;
+    background-color: #E52441;
+    border-radius: 6px;
+    width: max-content;
+    max-width: 100%;
+    height: max-content;
+    padding: 10px 26px;
+    transition: .3s linear;
+
+    &:hover {
+        background-color: #CC1A34;
+        transition: .3s linear;
+    }
+}

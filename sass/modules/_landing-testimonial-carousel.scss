@@ -1,0 +1,127 @@
+.module-testimonial-carousel {
+	padding: 25px 0;
+	background: #FFD64F;
+	
+	@media (min-width: 768px) {
+		padding: 40px 0;
+	}
+	
+	.slick-dots {
+		margin: 20px 0 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		
+		li {
+			margin: 0 5px;
+			
+			&::marker {
+				display: none;
+			}
+			
+			button {
+				width: 10px;
+				height: 10px;
+				padding: 0;
+				border: 1px solid #D9B12E;
+				background: none;
+				text-indent: -99em;
+				overflow: hidden;
+				border-radius: 100%;
+			}
+			
+			&.slick-active {
+				button {
+					background: #D9B12E;
+				}
+			}
+		}
+	}
+	
+	.testimonial-carousel {
+		position: relative;
+		
+		&__item {
+			
+			svg {
+				display: flex;
+				margin: auto;
+				margin-bottom: 10px;
+			}
+			
+			p {
+				font-size: 22px;
+				line-height: 30px;
+				color: #846809;
+				text-align: center;
+				margin: 0;
+				font-weight: 900;
+			}
+		}
+		
+		.slick-arrow {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			background: none;
+			overflow: hidden;
+			text-indent: -99em;
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+			background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIyMyIgdmlld0JveD0iMCAwIDEwIDIzIj4KICA8cGF0aCBpZD0iRXhjbHVzaW9uXzIiIGRhdGEtbmFtZT0iRXhjbHVzaW9uIDIiIGQ9Ik0wLTQ3OTl2MEgwbDcuMTI3LTExLjVMMC00ODIybDEwLDExLjVMMC00Nzk5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA0ODIyKSIgZmlsbD0iIzg0NjgwOSIvPgo8L3N2Zz4K');
+			background-position: center;
+			background-repeat: no-repeat;
+	
+			&.slick-prev {
+				left: -40px;
+				transform: translateY(-50%) scaleX(-1);
+			}
+			
+			&.slick-next {
+				right: -40px;
+			}
+		}
+		
+		@media (min-width: 768px) {
+			&__item {
+				svg {
+					margin-bottom: 20px;
+				}
+				
+				p {
+					font-size: 34px;
+					line-height: 42px;
+				}
+			}
+		}
+	}
+	
+	.testimonial-thumb {
+		margin-top: 40px;
+		
+		&__item {
+			margin: 0 15px;
+			
+			img {
+				opacity: 0.5;
+				transition: opacity ease-in-out 300ms;
+			}
+			
+			&.slick-current {
+				img {
+					opacity: 1;
+				}
+			}
+		}
+		
+		@media (min-width: 768px) {
+			margin-top: 30px;
+			
+			&__item {
+				margin: 0 20px;
+			}
+		}
+	}
+}

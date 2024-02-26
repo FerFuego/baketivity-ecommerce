@@ -1,0 +1,59 @@
+.baked-goodies {
+    padding: 37px 0 56px;
+    &__container {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // mobile
+        @media (max-width: 768px) {
+            margin-left: 30px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            max-width: 100%;
+        }
+    }
+    &__title {
+        font-family: $primary-font;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 44px;
+        color: #09989A;
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+        position: relative;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 20px;
+            line-height: 31px;
+            max-width: 292px;
+            margin: 0 auto 30px;
+        }
+    }
+    &__item {
+        margin: 15px;
+        min-width: -moz-fit-content;
+        min-width: fit-content;
+        width: -moz-max-content;
+        width: max-content;
+    }
+    &__item-image {
+        height: auto;
+        width: 100%;
+        max-height: 64px;
+        max-width: 248px;
+        // mobile
+        @media (max-width: 768px) {
+            max-height: 35px;
+            max-width: 170px;
+        }
+    }
+}

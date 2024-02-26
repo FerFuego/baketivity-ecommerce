@@ -1,0 +1,40 @@
+.highlighted {
+    position: relative;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+        padding: 24.29px 0;
+    }
+
+    &__step {
+        display: flex !important;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 9px;
+
+        @include mobile-s {
+            justify-content: center;
+        }
+    }
+
+    &__img {
+        margin: 0;
+        height: 53px;
+        width: 53px;
+    }
+
+    &__title {
+        font-family: $primary-font;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 14px;
+        color: $primary-black;
+        width: 100%;
+        max-width: 122px;
+    }
+}

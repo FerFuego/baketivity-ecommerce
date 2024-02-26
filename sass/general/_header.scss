@@ -1,0 +1,122 @@
+
+.sign-up-message {
+	position: relative;
+	min-height: 50px;
+	max-height: 50px;
+	z-index: 999;
+
+	// mobile
+	@include mobile {
+		max-height: none;
+		padding: 5px 0;
+	}
+
+	.klaviyo_messages {
+		// mobile
+		@include mobile {
+			position: relative;
+			text-align: center;
+			padding: 0 10px;
+			width: 100%;
+		}
+	}
+}
+
+.sign-up-message * {
+	margin: 0 5px;
+	color: $white;
+	font-size: 15px;
+}
+
+#sign-up-message input {
+	border-radius: 3px;
+}
+
+#sign-up-message-button,
+#sign-up-message input[type="submit"] {
+	background-color: $new-red;
+	border-radius: 3px;
+	color: $white;
+	height: 37.63px;
+	// mobile
+	@include mobile {
+		font-size: 12px;
+		padding: 10px 0;
+		width: 90px;
+	}
+}
+
+#sign-up-message input[type="text"] {
+	color: $grey;
+	height: 37.63px;
+}
+
+.bg-grey {
+	background-color: $grey;
+}
+
+.bg-green {
+	background-color: $title-green;
+}
+
+.bg-red {
+	background-color: $red-alert;
+}
+
+.sign-up-message-close {
+	cursor: pointer;
+}
+
+.site-logo img {
+	max-width: 135px !important;
+}
+
+.main-navigation ul.menu>li>a,
+.main-navigation ul.nav-menu>li>a {
+	padding: 10px 24px;
+	font-size: 18px;
+	text-transform: none;
+	line-height: 18px;
+	font-weight: 500;
+}
+
+.sticky {
+    position: fixed !important;
+	top: 0;
+}
+
+.main-navigation ul.menu>li>a,
+.main-navigation ul.nav-menu>li>a {
+	padding: 0 8px;
+	font-size: 16px !important;
+	text-transform: none;
+	line-height: 18px;
+	font-weight: 500;
+}
+
+#menu-primary-menu ul.sub-menu a {
+	text-transform: none;
+}
+
+.gform_ajax_spinner {
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+#kla_embed_klaviyo_emailsignup_widget--1 {
+	//mobile
+	@include mobile {
+		display: block !important;
+	}
+	.sign-up-message-close {
+		//mobile
+		@include mobile {
+			position: absolute;
+			right: 10px;
+			top: 18px;
+			width: 14px;
+		}
+	}
+}

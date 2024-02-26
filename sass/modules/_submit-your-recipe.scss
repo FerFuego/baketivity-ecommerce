@@ -1,0 +1,315 @@
+.submit_your_recipe {
+    display: block;
+    padding: 33px 0 25px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1088px;
+    }
+
+    &__header {
+        width: 100%;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+
+        @include mobile {
+            flex-direction: column;
+            padding: 0 15px;
+        }
+    }
+
+    &__left {
+        display: block;
+        width: 50%;
+
+        @include mobile {
+            width: 100%;
+        }
+
+        img {
+            @include mobile {
+                margin: 10px auto;
+                width: 130px
+            }
+        }
+    }
+
+    &__right {
+        display: block;
+        width: 50%;
+
+        @include mobile {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+        color: $white;
+        position: relative;
+        padding: 0 30px 16px;
+        margin: 0 auto;
+        width: max-content;
+
+        background-image: url(images/bake-away/subrayado-yellow.svg);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: auto;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(images/bake-away/exclamation-yellow.svg);
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            background-size: auto;
+            left: -37px;
+            top: -8px;
+            height: 61px;
+            width: 61px;
+        }
+
+        @include mobile {
+            font-size: 26px;
+            padding: 0 25px 7px;
+            background-size: 70%;
+        }
+    }
+
+    .field_description_below .gfield_description {
+        padding-top: 0px;
+    }
+
+    .gform_validation_errors,
+    .validation_error {
+        background-color: $white !important;
+        border: 1px solid $new-red !important;
+        font-family: $primary-font !important;
+        font-weight: 500;
+        font-size: 16px;
+        color: $new-red !important;
+        margin-top: 0;
+        margin-bottom: 0;
+
+        h2 {
+            font-family: $primary-font !important;
+            color: $new-red !important;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+
+    form {
+
+        p,
+        a,
+        label,
+        span,
+        .term-d,
+        .gfield_description {
+            font-family: $primary-font !important;
+            font-size: 14px !important;
+            font-weight: 400 !important;
+            line-height: 18px !important;
+            color: $white;
+        }
+
+        .validation_message {
+            color: $new-red;
+        }
+
+        input[type=text],
+        input[type=tel],
+        input[type=email] {
+            font-family: $primary-font !important;
+            padding: 10px !important;
+            height: 37px;
+            border-radius: 8px;
+        }
+
+        input[type=file] {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-color: $white;
+            background-size: 24%;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            height: 87.74px;
+            width: 260px;
+        }
+
+        .ginput_container_text,
+        .ginput_container_phone,
+        .ginput_container_email,
+        .ginput_container_date,
+        .ginput_container_fileupload {
+            margin-top: 0 !important;
+        }
+
+        .gfield_validation_message {
+            display: block;
+            padding: 10px !important;
+            background-color: $new-red !important;
+            color: $white !important;
+            padding-top: 10px !important;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .ginput_preview_list {
+            position: relative;
+            top: -34px;
+
+            .ginput_preview {
+                font-family: $primary-font;
+                font-size: 13px;
+                font-weight: 300;
+                display: flex;
+                color: $white;
+                align-items: center;
+                gap: 10px;
+
+                img {
+                    flex: none;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+        }
+
+        .gfield_label {
+            position: relative;
+            height: 170px;
+            margin-bottom: -170px;
+            cursor: pointer;
+            width: 100%;
+            z-index: 4;
+        }
+
+        .ginput_container_fileupload {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-color: $white;
+            background-size: 24%;
+            border: none;
+            border-radius: 8px;
+            display: block;
+            cursor: pointer;
+            margin-top: 30px !important;
+            position: relative;
+            height: 87.74px;
+            width: 260px;
+            z-index: 2;
+
+            input {
+                display: none;
+            }
+
+            @include mobile {
+                background-size: 20%;
+                height: 120px;
+                width: 100%;
+            }
+        }
+
+        .gfield:nth-child(6) .ginput_container_fileupload {
+            background-image: url(images/bake-away/upload_file_1.svg);
+        }
+
+        .gfield:nth-child(7) .ginput_container_fileupload {
+            background-image: url(images/bake-away/upload_file_2.svg);
+        }
+
+        .gform_fileupload_rules {
+            margin-top: -48px;
+            position: absolute;
+            font-size: 12px !important;
+            line-height: 15px !important;
+            height: 15px;
+            display: block;
+        }
+
+        .gform_fields {
+            position: relative;
+        }
+
+        .gform-datepicker {
+            width: 100%;
+        }
+
+        li.gfield.gfield_error {
+            background-color: transparent !important;
+            margin-bottom: 0 !important;
+            border-top: 0 !important;
+            border-bottom: 0 !important;
+            padding-bottom: 0 !important;
+            padding-top: 0 !important;
+        }
+
+        input[type=submit] {
+            background-color: $new-red;
+            color: $white;
+            border-radius: 4px !important;
+            font-family: $primary-font !important;
+            font-size: 15px !important;
+            font-weight: 700 !important;
+            line-height: 15px !important;
+            height: 37px !important;
+            width: 200px !important;
+
+        }
+
+        .gform_footer {
+
+            @include mobile {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .custom_video_preview {
+            position: absolute;
+            margin-top: 0 !important;
+            right: 0;
+            bottom: 45px;
+            height: 88px;
+            width: 50%;
+            z-index: 2;
+
+            video {
+                height: 100%;
+                width: 100%;
+            }
+
+            @include mobile {
+                bottom: 45px;
+                height: 121px;
+                width: 50%;
+            }
+
+            @include mobile-sm {
+                bottom: 62px;
+                left: 0;
+                margin: 0 auto;
+                width: 100%;
+            }
+
+            @include mobile-xs {
+                bottom: 82px;
+            }
+        }
+    }
+}

@@ -1,0 +1,411 @@
+.cooking-popup {
+    position: fixed;
+    background-color: rgba(#000000, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999999;
+
+    &:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url(images/popup/bg-popup.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: $white;
+        width: 100%;
+        max-width: 650px;
+        height: 460px;
+        padding: 0;
+        text-align: center;
+
+        // mobile
+        @media (max-width: 768px) {
+            background-image: url(images/popup/bg-mobile.webp);
+            background-size: cover;
+            height: 611px;
+        }
+    }
+
+    &__close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        transition: all 200ms;
+        font-size: 30px;
+        line-height: 24px;
+        font-weight: 200;
+        text-decoration: none;
+        color: $primary-black;
+        font-family: $primary-font;
+        z-index: 22;
+
+        // mobile
+        @media (max-width: 768px) {
+            text-shadow: 10px 0px #fff;
+            width: 20px;
+        }
+
+        &:target {
+            .cooking-popup {
+                visibility: hidden;
+            }
+        }
+    }
+
+    &__body {
+        height: 100%;
+        display: block;
+        position: relative;
+        padding: 27px 0 0 33px;
+
+        // mobile
+        @media (max-width: 768px) {
+            padding: 23px 0 0 27px;
+        }
+    }
+
+    &__logo {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 181px;
+        margin-bottom: 6px;
+    }
+
+    &__title-1 {
+        background-image: url(images/popup/trazado-yellow.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: $primary-black;
+        font-family: $primary-font;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+        width: max-content;
+        margin-bottom: 0;
+        padding: 4px 13px;
+        display: block;
+        margin-left: -12px;
+        margin-top: -8px;
+    }
+
+    &__title-2 {
+        color: $primary-black;
+        font-family: $primary-font;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        width: 100%;
+        max-width: 307px;
+        margin-bottom: 0;
+
+        // mobile
+        @media (max-width: 768px) {
+            max-width: 200px;
+
+            &::after {
+                content: '';
+                display: block;
+                background-image: url(images/popup/trazado-red.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 24px;
+                width: 190px;
+            }
+        }
+    }
+
+    &__copy {
+        color: $primary-black;
+        font-family: $primary-font;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: left;
+        max-width: 200px;
+        margin-bottom: -7px;
+        margin-top: 6px;
+        padding: 0;
+        width: 100%;
+    }
+
+    &__list {
+        background-image: url(images/popup/trazado.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $primary-black;
+        font-family: $primary-font;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: left;
+        line-height: 20px;
+        margin: 0 0 -4px 0;
+        padding: 10px 10px 0px 4px;
+        display: block;
+        width: max-content;
+
+        &--alt {
+            background-image: url(images/popup/trazado-xs.svg) !important;
+            background-size: 100%;
+            padding: 10px 10px 10px 4px;
+            line-height: 15px;
+        }
+    }
+
+    &__gift {
+        background-image: url(images/popup/gift.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 139px;
+        width: 113px;
+        position: absolute;
+        left: 22px;
+        bottom: 12px;
+
+        &::after {
+            content: '';
+            background-image: url(images/popup/green-arrow.svg);
+            display: block;
+            height: 49px;
+            width: 76px;
+            position: absolute;
+            right: -80px;
+            top: 11px;
+
+            // mobile
+            @media (max-width: 768px) {
+                right: -83px;
+                top: 47px;
+                transform: rotate(22deg);
+            }
+        }
+
+        // mobile
+        @media (max-width: 768px) {
+            transform: rotate(-15deg);
+            bottom: 70px;
+            left: 0;
+            height: 160px;
+            width: 130px;
+        }
+    }
+
+    &__footer {
+        background-color: $new-red;
+        height: 107px;
+        width: 100%;
+        position: absolute;
+        padding: 5px 33px;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+
+        // mobile
+        @media (max-width: 768px) {
+            height: 179px;
+            flex-direction: column;
+            padding: 5px 27px;
+        }
+    }
+
+    &__text {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 383px;
+        transform: translate(126px, 0px);
+
+        // mobile
+        @media (max-width: 768px) {
+            transform: translate(115px, 0px);
+            width: 100%;
+            max-width: 255px;
+        }
+    }
+
+    &__footer-title-1 {
+        background-image: url(images/popup/trazado-white-4.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: $primary-black;
+        font-family: $primary-font;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        padding: 8px 10px 3px 15px;
+        margin-left: -15px;
+        margin-bottom: 0;
+        width: 254px;
+
+        // mobile
+        @media (max-width: 1000px) {
+            padding: 5px 0px 0px 10px;
+        }
+
+        @media (max-width: 768px) {
+            background-image: url(images/popup/trazado-white.svg)x;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            max-width: 100%;
+            font-size: 14px !important;
+            line-height: 18px;
+            margin-top: 10px;
+            padding: 13px 0px 2px 15px;
+            width: 240px;
+        }
+    }
+
+    &__footer-title-2 {
+        background-image: url(images/popup/trazado-white-3.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: $primary-black;
+        font-family: $primary-font;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        padding: 3px 10px 3px 15px;
+        margin-left: -15px;
+        margin-bottom: 0;
+        margin-top: -12px;
+        width: 210px;
+
+        // mobile
+        @media (max-width: 1000px) {
+            line-height: 20px;
+            padding: 7px 3px 3px 10px;
+        }
+
+        @media (max-width: 768px) {
+            background-image: url(images/popup/trazado-white-5.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            max-width: 100%;
+            font-size: 14px !important;
+            line-height: 18px;
+            margin-top: -11px;
+            padding: 8px 10px 3px 15px;
+        }
+    }
+
+    &__footer-copy {
+        color: $white;
+        font-family: $primary-font;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        max-width: 233px;
+
+        // mobile
+        @media (max-width: 1000px) {
+            font-size: 13px !important;
+            line-height: 18px;
+            margin-top: 0;
+        }
+
+        @media (max-width: 768px) {
+            max-width: 100%;
+            font-size: 13px !important;
+            line-height: 19px;
+        }
+    }
+
+    &__form {
+        display: flex;
+        z-index: 100;
+
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+    }
+
+    .klaviyo_header,
+    .error_message {
+        font-size: 12px;
+        font-family: $primary-font;
+        color: $white;
+    }
+
+    .klaviyo_subheader {
+        display: none;
+        visibility: hidden;
+    }
+
+    #kla_embed_klaviyo_emailsignup_widget--3 {
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 32px;
+
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 16px;
+            margin-top: 0;
+            width: 100%;
+        }
+    }
+
+    #kla_email_klaviyo_emailsignup_widget--3 {
+        border-top-left-radius: 8px;
+        font-family: "FilsonPro";
+        font-size: 13px;
+        color: #43454b !important;
+        background: $white;
+        box-shadow: none;
+        border-bottom-left-radius: 8px;
+        display: block !important;
+        float: left;
+        width: 177px;
+        height: 37px;
+        line-height: 16px;
+        min-width: 100px;
+        border-radius: 4px;
+
+        // mobile
+        @media (max-width: 768px) {
+            width: 85%;
+        }
+    }
+
+    #sign-up-message-button,
+    #sign-up-message input[type="submit"] {
+        background-color: #09989A !important;
+        display: block;
+        color: $white;
+        font-size: 11px;
+        font-weight: 700;
+        font-family: $primary-font;
+        border: none;
+        border-radius: 4px;
+        margin-left: -30px;
+        padding: 0;
+        width: 50px;
+        height: 37px;
+
+        // mobile
+        @media (max-width: 768px) {
+            margin-left: 5px;
+        }
+    }
+}

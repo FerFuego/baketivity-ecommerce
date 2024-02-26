@@ -1,0 +1,135 @@
+.capture_steps {
+    display: block;
+    position: relative;
+    margin: 60px 0 95px;
+
+    &__container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1088px;
+
+        @include mobile {
+            padding: 0 15px;
+        }
+    }
+
+    &__header {
+        margin-bottom: 54px;
+    }
+
+    &__title {
+        font-family: $primary-font;
+        font-size: 37px;
+        line-height: 44px;
+        font-weight: 800;
+        color: $primary-black;
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: 25px;
+
+        background-image: url(images/bake-away/subrayado-violet-title-2.svg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+
+        @include mobile {
+            font-size: 26px;
+            line-height: 32px;
+        }
+    }
+
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #4D4D4F;
+        text-align: center;
+        margin-bottom: 0;
+
+        @include mobile {
+            font-size: 19px;
+            line-height: 26px;
+            max-width: 292px;
+            margin: 0 auto;
+        }
+    }
+
+    &__steps {
+        display: flex;
+        justify-content: space-between;
+
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__step {
+        width: 318px;
+
+        @include mobile {
+            display: flex;
+            margin-bottom: 32px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__item-image {
+        display: block;
+        width: 175px;
+        height: 150px;
+        margin: 0 auto 37px;
+
+        @include mobile {
+            flex: none;
+            margin: 0;
+            margin: 0 15px 0 0;
+            height: 101px;
+            width: 96px;
+        }
+    }
+
+    &__image {
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    &__item-title {
+        font-family: $primary-font;
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #7E2088;
+        text-align: center;
+        margin-bottom: 16px;
+
+        @include mobile {
+            font-size: 18px;
+            line-height: 28px;
+            text-align: left;
+            margin-bottom: 8px;
+        }
+    }
+
+    &__item-text {
+        font-family: $primary-font;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        color: $primary-black;
+        text-align: center;
+        margin-bottom: 0;
+
+        @include mobile {
+            text-align: left;
+            margin-bottom: 0;
+        }
+    }
+}

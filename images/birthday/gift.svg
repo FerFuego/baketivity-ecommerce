@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 63" width="54" height="63">
+	<title>gift</title>
+	<defs>
+		<image  width="54" height="63" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA/CAMAAACclMsnAAAAAXNSR0IB2cksfwAAAFFQTFRFAAAAcLa4u97f////yOTle7y/1uvrZbCy4/Lyh8PF8vn5fL2/yeXl1+vrvN7flMrM8/n5rtjZodHS5PLziMPFcLa58/n5oNHSZK+y////rdfYKvh7IQAAABt0Uk5TAAAA/wAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAipQGvAAAARxJREFUeJztlt0OgyAMhZk4REVRp/t7/wfdYi206LbgkiXbPFf0wFdK4QIhULtETkr3gmiv0E8yMVMqibQD84L6SUixWb8gDWz9nJJSLduMU7NpKYslitVZomeMqfx+PlllaoPj0mEajBoi2/D8jQV/AlOHQdy6uKKUcXYNBoYWkpKzGk+1xOZVtmPU0R4d3KmoC9tZltvSBRli7GFYVvUChsczzOxYWTbokPdkz0zN8ve8Q7RKVuMQXByExQLGUsGjObq4nbjT+TF2Pl2CG8m1jJDK6d4R0quosQtRBaKUWEPdW/UORp85u8u5Lwj2aHbDNuzLsOs6LFq/j3323jZsw/4bi9Y6rMFfYZxK/JJGafycDofXC6mq+9/0BuBSGU2cl2J0AAAAAElFTkSuQmCC"/>
+	</defs>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

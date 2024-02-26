@@ -1,0 +1,143 @@
+.banner-full-width {
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 136px;
+        max-width: 1386px;
+        margin: 0 auto;
+        padding: 19.92px 0 14.83px;
+        position: relative;
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+            max-width: 100%;
+            padding: 12px 30px;
+        }
+    }
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100%;
+    }
+    &__left {
+        display: block;
+        width: 180px;
+        height: 100%;
+        position: relative;
+        // desktop small
+        @media (max-width: 1200px) {
+            width: 160px;
+            margin-right: 50px;
+        }
+        // tablet
+        @media (max-width: 1100px) {
+            width: 160px;
+            margin-right: 0;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+            margin-right: 0;
+        }
+    }
+    &__right {
+        display: block;
+        width: 200px;
+        height: 100%;
+        position: relative;
+        // tablet
+        @media (max-width: 1100px) {
+            width: 150px;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    &__link {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    &__title {
+        background-image: url(images/modules/trazado-title-white-2.svg);
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        font: normal normal 700 30px/32px 'FilsonPro';
+        letter-spacing: 0px;
+        color: $title-green;
+        margin-bottom: -5px;
+        text-align: center;
+        padding: 10px 55px 10px 35px;
+        position: relative;
+        width: 100%;
+        &::before {
+            content: '';
+            display: none;
+        }
+        &::after {
+            content: '';
+            background-image: url(images/modules/icons-red-title-left.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform: rotate(180deg);
+            display: block;
+            position: absolute;
+            width: 38.25px;
+            height: 40.61px;
+            right: 22px;
+            top: 0px;
+            // mobile
+            @media (max-width: 768px) {
+                transform: rotate(193deg);
+                right: 16px;
+                top: 33px;
+            }
+            @media (max-width: 375px) {
+                right: 0px;
+                top: 13px;
+            }
+            @media (max-width: 320px) {
+                right: -24px;
+                top: 2px;
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            background-image: url(images/modules/bg-white-title-mobile.svg);
+            background-size: contain;
+            padding: 20px 33px 12px;
+            font: normal normal 700 23px/25px 'FilsonPro';
+        }
+        // mobile
+        @media (max-width: 375px) {
+            font: normal normal 700 18px/21px 'FilsonPro';
+        }
+        @media (max-width: 320px) {
+            padding: 9px 0px 12px;
+        }
+    }
+    &__copy {
+        display: flex;
+        justify-content: center;
+        font: normal normal 500 20px/32px 'FilsonPro';
+        letter-spacing: 0px;
+        color: $primary-black;
+        margin-bottom: 0;
+        text-align: center;
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal 500 16px/23px 'FilsonPro';
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "key": "group_640b817b18436",
+    "title": "Option: Starter Kit",
+    "fields": [
+        {
+            "key": "field_640b8a2228716",
+            "label": "Active Starter Kit",
+            "name": "active_starter_kit",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_640b819cbdac9",
+            "label": "Product Starter Kit",
+            "name": "product_starter_kit",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "product"
+            ],
+            "taxonomy": "",
+            "allow_null": 1,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
+            "key": "field_640b81cdbdaca",
+            "label": "Message Starter Kit Condition",
+            "name": "delivery_message_kit",
+            "type": "text",
+            "instructions": "Example: You can only purchase the Starter Kit without any other products.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_640b8212bdacb",
+            "label": "Message Starter Kit Condition Coupon",
+            "name": "delivery_message_coupon",
+            "type": "text",
+            "instructions": "Example: You can only purchase the Starter Kit without any other coupon or promotion.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_640b8884163ee",
+            "label": "Message Starter Kit Error",
+            "name": "delivery_message_error",
+            "type": "text",
+            "instructions": "Example: You have already purchased the Starter Kit or you hased an order.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1685546173
+}

@@ -1,0 +1,331 @@
+.bake-away-vote {
+
+    /* HERO */
+    .hero {
+
+        @include mobile {
+            height: 774px;
+        }
+
+        @include mobile-sm {
+            height: 545px;
+        }
+
+        &__container-fluid {
+
+            @include mobile {
+                background: linear-gradient(180deg, #f3f5f6 0%, #f3f5f6 38%, rgba(255, 255, 255, 0) 41%)
+            }
+
+            @include mobile-sm {
+                background: linear-gradient(180deg, #f3f5f6 0%, #f3f5f6 53%, rgba(255, 255, 255, 0) 60%)
+            }
+
+            @include mobile-s {
+                background: linear-gradient(180deg, #f3f5f6 0%, #f3f5f6 53%, rgba(255, 255, 255, 0) 60%)
+            }
+
+            @include mobile-xs {
+                background: linear-gradient(180deg, #f3f5f6 0%, #f3f5f6 66%, rgba(255, 255, 255, 0) 69%)
+            }
+        }
+
+        &__logo {
+            display: none;
+        }
+
+        &__logo-mobile {
+            display: block;
+            margin-bottom: 15px;
+            width: 134px;
+
+            @include mobile {
+                margin-bottom: 0;
+            }
+        }
+
+        &__title {
+            background-image: url(images/bake-away/subrayado-violet-title-5.svg);
+            background-repeat: no-repeat;
+            background-position: 64% bottom;
+            font: normal normal 700 50px/51px $primary-font;
+            margin-bottom: 0;
+            padding-bottom: 14px;
+
+            @include mobile {
+                background-size: 90%;
+                font-size: 33px;
+                line-height: 34px;
+            }
+        }
+
+        &__subtitle {
+            font: normal normal 500 21px/28px $primary-font;
+            margin-bottom: 50.26px;
+
+            @include mobile {
+                font: normal normal 500 14px/20px $primary-font;
+                margin-bottom: 21px;
+            }
+        }
+
+        &__button {
+            width: 146px;
+        }
+
+        &__left {
+            position: relative;
+            top: -32px;
+
+            @include mobile {
+                top: 0;
+            }
+        }
+
+        &__ctas {
+            @include mobile {
+                justify-content: center;
+            }
+        }
+    }
+
+    /* SIMPLE STEP BY STEP GIVING */
+    .simple-step-by-step-giving {
+
+        &__title {
+            &::after {
+                content: '';
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-image: url(images/bake-away/subrayado-violet-title-3.svg);
+                height: 19px;
+                bottom: -15px;
+                right: 0;
+                left: 0;
+                margin: 0 0 0 auto;
+                position: absolute;
+                width: 258px;
+            }
+        }
+
+        &__item-title {
+            color: #7E2088;
+            margin: 0 auto 15px;
+        }
+
+        &__item {
+            width: 260px;
+
+            @include mobile {
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: row;
+                width: 400px;
+                max-width: 100%;
+            }
+        }
+
+        &__item-head {
+            @include mobile {
+                display: flex;
+                flex: none;
+            }
+        }
+
+        &__item-image {
+
+            @include mobile {
+                flex: none;
+                height: 98px;
+                width: 98px;
+            }
+        }
+
+        &__item-num {
+            background-color: $new-red;
+            color: $white;
+            border: 0;
+            position: relative;
+            z-index: 1;
+
+            @include mobile {
+                font-size: 17px;
+                line-height: 17px;
+                margin: 0 0 0 -18px;
+                flex: none;
+                position: relative;
+                top: 10px;
+                padding: 0;
+                height: 27px;
+                width: 27px;
+                z-index: 1;
+            }
+        }
+
+        &__item-title {
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+
+            @include mobile {
+                text-align: left;
+            }
+        }
+
+        &__item-body {
+            @include mobile {
+                margin-left: 10px;
+            }
+        }
+
+        &__item-content {
+            @include mobile {
+                text-align: left;
+            }
+        }
+    }
+
+    /* SIMPLE TEXT */
+    .simple-text {
+        background-color: #7E2088;
+        padding: 40px 0 24px;
+
+        &__container {
+            max-width: 555px;
+            margin: 0 auto;
+        }
+
+        &__text {
+            font-size: 26px;
+            line-height: 32px;
+            position: relative;
+            padding-bottom: 20px;
+
+            background-image: url(images/bake-away/subrayado-violet-title-4.svg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+            &::before {
+                content: '';
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-image: url(images/bake-away/arrow-red-1.svg);
+                top: 9px;
+                left: -45px;
+                position: absolute;
+                height: 77px;
+                width: 44px;
+
+                @include mobile {
+                    top: inherit;
+                    left: 0;
+                    bottom: -23px;
+                    rotate: -45deg;
+                }
+            }
+
+            &::after {
+                content: '';
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-image: url(images/bake-away/arrow-red-2.svg);
+                bottom: 65px;
+                right: -46px;
+                position: absolute;
+                height: 36px;
+                width: 47px;
+
+                @include mobile {
+                    top: -34px;
+                    right: 0px;
+                }
+            }
+
+            p {
+                font-size: 26px;
+                line-height: 32px;
+                color: $white;
+                margin-bottom: 0;
+
+                @include mobile {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+
+            @include mobile {
+                background-size: 60%;
+                background-position: 75% bottom;
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+    }
+
+}
+
+/* MODAL */
+.blocker {
+    z-index: 100000;
+}
+
+.modal a.close-modal {
+    background-image: url(images/bake-away/close.svg) !important;
+    top: 12px !important;
+    right: 10px !important;
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.gform_wrapper .gform_validation_errors {
+    font-family: $primary-font !important;
+    background-color: $new-red !important;
+    border: none !important;
+    color: $white !important;
+    padding: 8px 8px 8px 33px !important;
+
+    h2,
+    span {
+        font-family: $primary-font !important;
+        border: none !important;
+        color: $white !important;
+    }
+}
+
+/* FORM MODAL */
+.gform_wrapper .gfield_validation_message,
+.gform_wrapper .validation_message {
+    background: transparent !important;
+    font-family: $primary-font !important;
+    font-size: 12px !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.gform_wrapper .gform_confirmation_message {
+    font-family: $primary-font;
+    color: $primary-green;
+    font-size: 14px;
+    font-weight: 400;
+
+    h3 {
+        font-family: $primary-font;
+        color: $primary-green;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-family: $primary-font;
+        color: $primary-green;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    a {
+        color: $primary-green;
+        text-decoration: underline;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,169 @@
+.started-fundraising-form {
+    display: block;
+    position: relative;
+    margin: 0 0 50px;
+    padding-top: 140px;
+    width: 100%;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        max-width: 842px;
+    }
+    &__header {
+        margin-bottom: 63px;
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 23px;
+        }
+    }
+    &__body {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    &__title {
+        margin-bottom: 8px;
+        p {
+            font-family: $primary-font;
+            font-size: 37px;
+            font-weight: 700;
+            line-height: 51px;
+            color: $primary-black;
+
+            display: inline-flex;
+            flex-wrap: wrap;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 0 auto 0;
+        }
+        img {
+            height: 52px;
+            width: 234px;
+            margin: 0 12px;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    &__title-mobile {
+        display: none;
+        margin-bottom: 8px;
+        p {
+            font-family: $primary-font;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 32px;
+            color: $primary-black;
+
+            display: inline-flex;
+            flex-wrap: wrap;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 0 auto 0;
+        }
+        img {
+            height: 39px;
+            width: 179px;
+            margin: 0 12px -27px;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 33px;
+        color: $primary-black;
+        margin-bottom: 0px;
+        text-align: center;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    .gform_wrapper {
+        max-width: 628px;
+        margin: 0 auto;
+        // mobile 
+        @media (max-width: 768px) {
+            padding: 20px 20px 0;
+        }
+        * {
+           font-family: $primary-font !important;
+           font-size: 14px !important;
+           font-weight: 400 !important;
+           b {
+                font-weight: 700 !important;
+           }
+       }
+       input,
+       select {
+           background-color: #F8F8F8;
+           border: none;
+           box-shadow: none;
+           border-radius: 8px;
+       }
+       .gfield_description,
+       textarea {
+            border: none !important;
+            background-color: #F8F8F8 !important;
+            font-size: 12px !important;
+            font-weight: 400 !important;
+            line-height: 18px !important;
+            border-radius: 8px;
+            height: 106px !important;
+            margin-top: 0px !important;
+       }
+       input[type=submit] {
+            width: 187px;
+            height: 37px;
+            background-color: $new-red;
+            border-radius: 4px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700 !important;
+            color: $white;
+            line-height: 1 !important;
+            margin: 48px auto 0;
+        }
+        .validation_message {
+            display: none !important;
+        }
+    } 
+    .gform_footer {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .gform_confirmation_wrapper {
+        max-width: 100%;
+        padding: 20px;
+        font-family: $primary-font;
+        text-align: center;
+    }
+    &__custom {
+        margin-bottom: 38px;
+    }
+    &__label {
+        font-family: $primary-font;
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        line-height: 14px;
+        color: #BEBEBE;
+        margin-top: 42px;
+    }
+}

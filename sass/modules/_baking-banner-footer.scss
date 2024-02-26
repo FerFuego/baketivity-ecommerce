@@ -1,0 +1,114 @@
+.baking-banner-footer {
+    background-color: #C0DD52;
+    height: 84px;
+    width: 100%;
+    // mobile
+    @media (max-width: 880px) {
+        height: 167px;
+    }
+    &__container {
+        height: 100%;
+        width: 100%;
+        max-width: 1088px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        // mobile
+        @media (max-width: 880px) {
+            flex-direction: column;
+        }
+    }
+    &__title {
+        font-family: $primary-font;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $primary-black;
+        display: block;
+        margin-right: 12px;
+        margin-bottom: 0;
+        padding: 12px 12px 12px 13px;
+        position: relative;
+
+        background-image: url(images/baking/bg-title-white-2.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        &::after {
+            content: '';
+            background-image: url(images/baking/trazado-red-3.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: block;
+            position: absolute;
+            bottom: -3px;
+            right: 50px;
+            height: 15px;
+            width: 165px;
+            @media (max-width: 600px) {
+                right: 34px;
+                bottom: 2px;
+            }
+        }
+        // mobile
+        @media (max-width: 880px) {
+            margin-bottom: 20px;
+            margin-right: 0;
+        }
+        @media (max-width: 600px) {
+            background-image: url(images/baking/background-image-mobile.png);
+            background-size: auto;
+            font-size: 22px;
+            padding: 15px 15px 15px 28px;
+            text-align: center;
+            margin-right: 0;
+            width: 100%;
+            max-width: 331px;
+        }
+        @media (max-width: 330px) {
+            font-size: 16px;
+        }
+    }
+    &__cta {
+        background-color: $new-red;
+        color: $white;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 15px;
+        position: relative;
+        height: 37px;
+        width: 173px;
+        &::after {
+            content: '';
+            background-image: url(images/baking/exclamation-green-2.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: block;
+            position: absolute;
+            right: -55px;
+            height: 55px;
+            width: 56px;
+            // mobile
+            @media (max-width: 880px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.cooking-page {
+    .baking-banner-footer__title {
+        // mobile
+        @media (max-width: 480px) {
+            background-size: auto;
+            font-size: 18px;
+        }
+    }
+}

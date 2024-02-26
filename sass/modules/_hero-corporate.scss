@@ -1,0 +1,153 @@
+.hero-corporate {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    margin-top: 0px;
+    // mobile
+    @media (max-width: 768px) {
+        background-color: #f3f5f6;
+        background-position: bottom center;
+        background-size: 100%;
+        margin-top: 0;
+    }
+    &__container-fluid {
+        background: rgb(243,245,246);
+        background: linear-gradient(90deg, rgba(243,245,246,1) 0%, rgba(243,245,246,1) 35%, rgba(255,255,255,0) 50%);
+        display: block;
+        width: 100%;
+        height: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            background: rgb(243,245,246);
+            background: linear-gradient(180deg, rgba(243,245,246,1) 0%, rgba(243,245,246,1) 23%, rgba(255,255,255,0) 40%);
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            min-height: 886px;
+            max-width: 100%;
+        }
+        @media (max-width: 586px) {
+            background: rgb(243,245,246);
+            background: linear-gradient(180deg, rgba(243,245,246,1) 0%, rgba(243,245,246,1) 30%, rgba(255,255,255,0) 40%);
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            min-height: 586px;
+            max-width: 100%;
+        }
+        @media (max-width: 340px) {
+            background: rgb(243,245,246);
+            background: linear-gradient(180deg, rgba(243,245,246,1) 0%, rgba(243,245,246,1) 40%, rgba(255,255,255,0) 60%);
+        }
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+        max-width: 1090px;
+        margin: 0 auto;
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            min-height: 500px;
+            max-width: 100%;
+        }
+    }
+    &__left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        @media (max-width: 768px){
+            align-items: center;
+            padding: 21px 0 0;
+            width: 100%;
+        }
+    }
+    &__right{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        @media (max-width: 768px){
+            height: 260px;
+            padding: 0 30px;
+            width: 100%;
+        }
+    }
+    &__content{
+        // mobile
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+    }
+    &__title{
+        text-align: left;
+        font: normal normal 500 50px/51px 'FilsonPro';
+        letter-spacing: 0px;
+        color: $primary-black;
+        margin-bottom: 14px;
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal 500 31px/34px 'FilsonPro';
+            text-align: center;
+            max-width: 334px;
+            margin: 0 auto 12.35px;
+        }
+        @media (max-width: 480px) {
+            font: normal normal 500 31px/34px 'FilsonPro';
+            text-align: center;
+            margin: 0 auto 12.35px;
+        }
+        @media (max-width: 340px) {
+            font: normal normal 500 25px/30px 'FilsonPro';
+            text-align: center;
+            margin: 0 auto 12.35px;
+        }
+    }
+    &__subtitle{
+        text-align: left;
+        font: normal normal 500 21px/33px 'FilsonPro';
+        letter-spacing: 0px;
+        color: $primary-black;
+        margin-bottom: 42px;
+        width: 100%;
+        max-width: 485px;
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal 500 14px/20px 'FilsonPro';
+            text-align: center;
+            padding: 0 30px;
+        }
+    }
+    &__button{
+        background: #E52441;
+        border-radius: 4px;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font: normal normal 700 15px/18px 'FilsonPro';
+        letter-spacing: 0px;
+        height: 38px;
+        width: 260px;
+        // mobile
+        @media (max-width: 768px) {
+            position: absolute;
+            bottom: 35.37px;
+            z-index: 2;
+        }
+    }
+}

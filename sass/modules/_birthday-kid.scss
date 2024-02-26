@@ -1,0 +1,237 @@
+.birthday-kid {
+    height: auto;
+    width: 100%;
+    padding: 45px 15px 66px;
+
+    @include mobile {
+        padding: 22px 15px 26.5px;
+    }
+
+    &__container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+
+        @include mobile {
+            margin: -30px auto 0;
+        }
+    }
+
+    &__header {
+        width: 100%;
+    }
+
+    &__header-title {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 41px;
+        text-align: center;
+        margin: 0 auto 48px;
+        color: $primary-black;
+        display: block;
+        width: 100%;
+        text-align: center;
+        max-width: 798px;
+        position: relative;
+
+        &::before {
+            content: '';
+            background-image: url(images/birthday/red-exclamation.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: -6px;
+            left: 0px;
+            margin: 0 auto;
+            height: 61px;
+            width: 34px;
+
+            @include mobile {
+                height: 47px;
+                left: -26px;
+            }
+        }
+
+        &::after {
+            content: '';
+            background-image: url(images/birthday/trazado-red.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            bottom: -14px;
+            right: 17px;
+            margin: 0 auto;
+            height: 21px;
+            width: 244px;
+
+            @include mobile {
+                height: 15px;
+                width: 210px;
+            }
+        }
+
+        @include tablet-xs {
+            font-size: 34px;
+        }
+
+        @include mobile {
+            background-size: 100%;
+            font-size: 26px;
+            line-height: 32px;
+            max-width: 324px;
+        }
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        @include tablet-xs {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__item {
+        background-color: #FFD64F;
+        border-radius: 12px;
+        display: flex;
+        width: 100%;
+        max-width: 536px;
+        height: 205.5px;
+        padding: 29px 15px;
+
+        @include tablet {
+            max-width: 460px;
+        }
+
+        @include tablet-xs {
+            margin-bottom: 60px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        @include mobile {
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            height: 226px;
+            margin-bottom: 0;
+            margin-top: 75px;
+            padding: 22px 15px;
+            position: relative;
+        }
+    }
+
+    &__item-icon {
+        background-size: contain;
+        display: block;
+        height: 146px;
+        width: 146px;
+        margin-right: 20px;
+        flex: none;
+
+        @include tablet {
+            height: 100px;
+            width: 100px;
+        }
+
+        @include mobile {
+            position: absolute;
+            top: -60px;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+
+        @include mobile-xs {
+            height: 90px;
+            width: 90px;
+            top: -70px;
+        }
+    }
+
+    &__item-title {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        color: $primary-black;
+        margin-bottom: 12px;
+
+        @include mobile {
+            text-align: center;
+            margin-bottom: 9.5px;
+        }
+    }
+
+    &__item-text {
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        color: $primary-black;
+        margin-bottom: 22px;
+
+        @include mobile {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: center;
+            margin-bottom: 22.5px;
+        }
+    }
+
+    &__item-cta {
+        background-color: $new-red;
+        font-family: $primary-font;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 700;
+        color: $white;
+        margin-bottom: 0px;
+        display: flex;
+        border-radius: 3px;
+        justify-content: center;
+        align-items: center;
+        height: 37px;
+        width: 190px;
+
+        &:hover {
+            background-color: #cc1a34;
+        }
+
+        @include mobile {
+            margin: 0 auto;
+        }
+    }
+
+    &__button {
+        background-color: $new-red;
+        font-family: $primary-font;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 700;
+        color: $white;
+        margin-bottom: 0px;
+        display: flex;
+        border-radius: 3px;
+        justify-content: center;
+        align-items: center;
+        height: 37px;
+        width: 190px;
+
+        &:hover {
+            background-color: #cc1a34;
+        }
+
+        @include mobile {
+            margin: 0 auto 0;
+        }
+    }
+}

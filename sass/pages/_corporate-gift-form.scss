@@ -1,0 +1,34 @@
+.corporate-gift-form {
+    .sweeten-your-gifts {
+        padding: 35px 0 35px !important;
+        &__item-copy {
+            margin: 0 auto 40px;
+        }
+    }
+    .corporate-banner-cta-2 {
+        // mobile
+        @media (max-width: 768px) {
+            height: 220px;
+        }
+    }
+    &__back {
+        display: block;
+        background-image: url(images/corporate/back-to-corporate-gift.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        position: fixed;
+        top: 580px;
+        left: 45px;
+        height: 45px;
+        width: 175px;
+        z-index: 3;
+        // mobile 
+        @media (max-width: 768px) {
+            top: 712px;
+            left: 15px;
+            height: 35px;
+            width: 130px;
+        }
+    }
+}

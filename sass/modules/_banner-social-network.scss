@@ -1,0 +1,131 @@
+.banner-social-network {
+    padding: 27px 0;
+    height: 121px;
+    width: 100%;
+    // mobile
+    @media (max-width: 768px) {
+        height: auto;
+        padding: 17px 25px 21px;
+    }
+    &__container {
+        width: 100%;
+        max-width: 1032px;
+        margin: 0 auto;
+    }
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    &__title {
+        font-family: 'FilsonPro';
+        font-size: 37px;
+        line-height: 41px;
+        font-weight: 800;
+        color: $primary-black;
+        display: block;
+        margin-bottom: -12px;
+        padding-bottom: 12px;
+        padding-right: 18px;
+        width: 318px;
+        
+        background-repeat: no-repeat;
+        background-size: 267px;
+        background-image: url(images/cake-it/trazado-title-social.svg);
+        background-position: right bottom;
+        // mobile
+        @media (max-width: 768px) {
+            display: flex;
+            align-items: center;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 23px;
+            background-size: 155px;
+            padding-right: 0;
+            padding-bottom: 0;
+            max-width: max-content;
+            margin-bottom: 20px;
+            background-position: 76% bottom;
+        }
+    }
+    &__icon {
+        display: block;
+        width: auto;
+        height: 67px;
+        margin: 0 19px 0 19px;
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    &__icon-mobile {
+        display: none;
+        // mobile
+        @media (max-width: 768px) {
+            display: block;
+            width: 45px;
+            height: 45px;
+            margin: 0 10px 0 0;
+        }
+    }
+    &__text {
+        display: block;
+        width: 100%;
+        max-width: 550px;
+        position: relative;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 16px;
+            line-height: 21px;
+            text-align: center;
+        }
+        p {
+            font-family: 'FilsonPro';
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 500;
+            color: $primary-black;
+            margin-bottom: 0;
+            // mobile
+            @media (max-width: 768px) {
+                font-size: 16px;
+                line-height: 21px;
+                text-align: center;
+            }
+        }
+        strong {
+            font-family: 'FilsonPro';
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 700;
+            color: $primary-black;
+            // mobile
+            @media (max-width: 768px) {
+                font-size: 16px;
+                line-height: 21px;
+            }
+        }
+        &::after {
+            content: '';
+            width: 55px;
+            height: 56px;
+            display: block;
+            position: absolute;
+            right: -66px;
+            top: 0px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(images/cake-it/exclamation-social-red.svg);
+            // mobile
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
+}

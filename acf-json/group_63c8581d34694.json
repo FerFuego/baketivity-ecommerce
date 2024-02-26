@@ -1,0 +1,375 @@
+{
+    "key": "group_63c8581d34694",
+    "title": "Page: Corporate Gift",
+    "fields": [
+        {
+            "key": "field_63c8583527611",
+            "label": "Flexible Content",
+            "name": "corporate__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_63c858ab4a5fa": {
+                    "key": "layout_63c858ab4a5fa",
+                    "name": "hero-corporate",
+                    "label": "Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63c85f5085b47",
+                            "label": "Hero",
+                            "name": "hero-corporate",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63c85eb74ef82"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63c92e2a89a46": {
+                    "key": "layout_63c92e2a89a46",
+                    "name": "gifting-is-better",
+                    "label": "Gifting is Better",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63c92e3b89a47",
+                            "label": "Gifting is Better",
+                            "name": "gifting-is-better",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63c92cbb3e27c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63c96b413e88e": {
+                    "key": "layout_63c96b413e88e",
+                    "name": "simple-step-by-step-giving",
+                    "label": "Simple Step-by-Step Giving",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63c96b4a3e88f",
+                            "label": "Simple Step-by-Step Giving",
+                            "name": "simple-step-by-step-giving",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63c96a7605971"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63c994b105541": {
+                    "key": "layout_63c994b105541",
+                    "name": "corporate-gift",
+                    "label": "Corporate Gift",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63c994bc05542",
+                            "label": "Corporate Gift",
+                            "name": "corporate-gift",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63c99231ecc6b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63cabf67d83a3": {
+                    "key": "layout_63cabf67d83a3",
+                    "name": "sweeten-your-gifts",
+                    "label": "Sweeten Your Gifts",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63cabf6fd83a4",
+                            "label": "Sweeten Your Gifts",
+                            "name": "sweeten-your-gifts",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63cabd98d157a"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63f79734cbd75": {
+                    "key": "layout_63f79734cbd75",
+                    "name": "corporate-gift-contact-us",
+                    "label": "Have a question",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63f79740cbd76",
+                            "label": "corporate-gift-contact-us",
+                            "name": "corporate-gift-contact-us",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63aafb4f09f09"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },                
+                "layout_63cae47bc2b41": {
+                    "key": "layout_63cae47bc2b41",
+                    "name": "testimonials",
+                    "label": "Testimonials",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63cae481c2b42",
+                            "label": "Testimonials",
+                            "name": "testimonials",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e5108b206"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63caee9af33f4": {
+                    "key": "layout_63caee9af33f4",
+                    "name": "corporate-banner-cta",
+                    "label": "Corporate Banner CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63caeeacf33f5",
+                            "label": "Corporate Banner CTA",
+                            "name": "corporate-banner-cta",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63caee0c2b229"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63caf2652877d": {
+                    "key": "layout_63caf2652877d",
+                    "name": "baked-goodies",
+                    "label": "Baked Goodies",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63caf27b2877e",
+                            "label": "Baked Goodies",
+                            "name": "baked-goodies",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63caf2134f5b1"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63cec4dbc352f": {
+                    "key": "layout_63cec4dbc352f",
+                    "name": "corporate-gift-form",
+                    "label": "Corporate Gift Form",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63cec4e9c3530",
+                            "label": "Corporate Gift Form",
+                            "name": "corporate-gift-form",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63cec453a18b9"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        },
+        {
+            "key": "field_63d16db6c23f7",
+            "label": "Corporate Gift Page Link",
+            "name": "corporate_gift_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template_pages\/corporate-gift.php"
+            }
+        ],
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template_pages\/corporate-gift-form.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1674669592
+}

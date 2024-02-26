@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 76" width="306" height="76">
+	<title>Captura de pantalla 2024-01-03 a la(s) 13</title>
+	<defs>
+		<image  width="303" height="76" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS8AAABMBAMAAADO5yyrAAAAAXNSR0IB2cksfwAAACdQTFRF+dhn68xiSUIsICAgi3xBcGQ5w6pUVU4wLSsk0LZZOjYoLiskppJLEQNKgwAAAA10Uk5TAAD//////////////xsdMMgAAAHNSURBVHiczdA9SgRBFATgFv9Y2EDmBiIYi40gaOARBC8gBsabCaZGZhsKHsADGJkteDF3tqfHnemf99Dprqqwaah6nzFBGnscPhaMtm/nxJ4fFd7yp77G2qpk2r71AbYmmbqvPcDam+KDfPY2fTLZ5gB7UWGRz51VkTmw2xqLuuyryOqDKcnqg+nIEGAqMgSYhgwDpiDDgMlkKDCRDAUmkeHABDIcWJ4MCZYlQ4LlyLBgGTIsWJoMDZYkQ4OlyPBgCTI8WJyMASxKxgAWI+MAi5BxgIVkLGABGQvYmIwHbETGAzYkYwIbkDmw08d87icqPhB6HnoyBybmbKJhu6q2lqxR/aw8rCXTgdUetibTfaw9zC7MC+Wwy6V5oxz2asxMR1Z32BrMdGQfT/ksJhp2KPQ8ezBP9jVR8X/z3oN1ZFdL8CKX2WcPxkW2DcZENgBjIhuC8ZCNwHjIxmAsZAEYC1kIxkEWAeMgi4ExkEXBGMjiYHiyBBieLAWGJkuCocnSYFiyDBiWLAeGJMuCIcnyYDgyAQxHJoGhyEQwFJkMhiFTgGHINGAIMhUYgkwHVp9MCebJVsUH+cyVYI7suvie33zrwBzZqvCY7czjYD8xxIhCT3Ld5wAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

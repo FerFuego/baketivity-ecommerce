@@ -1,0 +1,161 @@
+.cooking-reinventing {
+    position: relative;
+    height: 608px;
+    width: 100%;
+    // tablet
+    @media (max-width: 1024px) {
+        height: auto;
+        margin-bottom: 50px;
+    }
+    &__container {
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+        padding: 20px 15px 0;
+        display: flex;
+        justify-content: space-between;
+        // tablet
+        @media (max-width: 1024px) {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+    }
+    &__left {
+        position: relative;
+        width: 50%;
+        // tablet
+        @media (max-width: 1024px) {
+            width: 100%;
+        }
+    }
+    &__right {
+        width: 50%;
+        padding-top: 49px;
+        // tablet
+        @media (max-width: 1024px) {
+            width: 100%;
+        }
+    }
+    &__img {
+        height: auto;
+        right: 0;
+        top: 0;
+        position: absolute;
+        width: 684px;
+        max-width: inherit;
+        max-height: 608px;
+        // tablet
+        @media (max-width: 1024px) {
+            position: relative;
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+        }
+    }
+    &__title {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 800;
+        line-height: 46px;
+        color: $primary-black;
+        background-image: url(images/cooking-kits/background-orange-1.svg), url(images/cooking-kits/background-orange-2.svg);
+        background-repeat: no-repeat;
+        background-position: top left, bottom left;
+        background-size: contain, 302px;
+        max-width: 526px;
+        margin-bottom: 20px;
+        padding-left: 26px;
+        margin-left: -26px;
+        padding-bottom: 5px;
+        position: relative;
+        &::before {
+            content: '';
+            background-image: url(images/cooking-kits/exclamation-red.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: block;
+            width: 43px;
+            height: 41px;
+            position: absolute;
+            top: -24px;
+            left: -10px;
+        }
+        &::after {
+            content: '';
+            background-image: url(images/cooking-kits/trazado-red.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            display: block;
+            width: 267px;
+            height: 20px;
+            position: absolute;
+            bottom: -10px;
+            left: 40px;
+            // tablet
+            @media (max-width: 1024px) {
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+            }
+            // mobile
+            @media (max-width: 768px) {
+                width: 155px;
+            }
+        }
+        // tablet
+        @media (max-width: 1024px) {
+            background-position: top center, bottom center;
+            line-height: 42px;
+            text-align: center;
+            padding-right: 16px;
+            margin: 0 auto 10px;
+            max-width: 540px;
+        }
+        // mobile
+        @media (max-width: 767px) {
+            font-size: 23px;
+            line-height: 25px;
+            max-width: 350px;
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        color: $primary-black;
+        margin-bottom: 23px;
+        max-width: 446px;
+        // tablet
+        @media (max-width: 1024px) {
+            margin: 0 auto 23px;
+            text-align: center;
+        }
+        // mobile
+        @media (max-width: 767px) {
+            font-size: 16px;
+            line-height: 23px;
+            max-width: 264px;
+        }
+    }
+    &__copy {
+        position: relative;
+        p {
+            font-family: $primary-font;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 32px;
+            color: $primary-black;
+            margin-bottom: 0;
+            // tablet
+            @media (max-width: 1024px) {
+                text-align: center;
+            }
+            // mobile
+            @media (max-width: 767px) {
+                font-size: 16px;
+                line-height: 23px;
+            }
+        }
+    }
+}

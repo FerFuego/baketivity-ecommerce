@@ -1,0 +1,137 @@
+.birthday-box {
+    height: auto;
+    width: 100%;
+    padding: 22px 15px 64px;
+    @include mobile {
+        padding: 22px 15px 26.5px;
+    }
+    &__container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+        @include tablet {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__header {
+        width: 100%;
+    }
+    &__header-title {
+        background-image: url(images/birthday/brush-white.svg);
+        background-position: 100% 109%;
+        background-repeat: no-repeat;
+        background-size: 55%;
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+        margin: 0 auto 48px;
+        color: $primary-black;
+        display: block;
+        width: 100%;
+        text-align: center;
+        max-width: 798px;
+        position: relative;
+        &::after {
+            content: '';
+            background-image: url(images/birthday/title-line.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            bottom: -14px;
+            right: 0px;        
+            margin: 0 auto;
+            height: 14px;
+            width: 234px;
+        }
+        @include mobile {
+            background-size: 100%;
+            font-size: 26px;
+            line-height: 32px;
+            max-width: 324px;
+        }
+    }
+    &__left {
+        width: 50%;
+        margin-right: 50px;
+        @include mobile {
+            width: 100%;
+            margin-right: 0px;
+        }
+    }
+    &__right {
+        padding-top: 15px;
+        width: 100%;
+        max-width: 421px;
+        @include mobile {
+            padding-top: 22px;
+        }
+    }
+    &__text {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 35px;
+        color: $primary-black;
+        margin-bottom: 41px;
+        @include tablet {
+            text-align: center;
+        }
+        @include mobile {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: center;
+            margin-bottom: 22.5px;
+        }
+    }
+    &__button {
+        background-color: $new-red;
+        font-family: $primary-font;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 700;
+        color: $white;
+        margin-bottom: 0px;
+        display: flex;
+        border-radius: 3px;
+        justify-content: center;
+        align-items: center;
+        height: 37px;
+        width: 190px;
+        &:hover {
+            background-color: #cc1a34;
+        }
+        @include mobile {
+            margin: 0 auto 0;
+        }
+    }
+    .corporate-gift-slider__product-button {
+        @include tablet {
+            margin: 0 auto;
+        }
+    }
+    .support-video {
+        height: 326px;
+        width: 536px;
+        @include mobile {
+            margin: 0 auto;
+        }
+        @include mobile-md {
+            height: auto;
+            width: 100%;
+        }
+    }
+    .added_to_cart {
+        display: none !important;
+    }
+    .corporate-gift-slider__product-button {
+        &:hover {
+            background-color: #cc1a34;
+        }
+    }
+}

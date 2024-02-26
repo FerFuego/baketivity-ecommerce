@@ -1,0 +1,241 @@
+.plan-for-plan {
+    position: relative;
+    padding: 32px 0 34px;
+    margin-bottom: 36px;
+    width: 100%;
+    // mobile
+    @media (max-width: 768px) {
+        padding: 30px 23px 22px;
+    }
+    @media (max-width: 320px) {
+        padding: 30px 15px 22px;
+    }
+    &__container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px auto;
+        padding: 0;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    &__left {
+        position: relative;
+        width: 50%;
+        // mobile
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+    &__right {
+        position: relative;
+        width: 50%;
+        // mobile
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+    &__icon {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        height: 155px;
+        width: 155px;
+        position: absolute;
+        left: 35px;
+        top: 35%;
+        &::before {
+            content: '';
+            background-image: url(images/home/trazado-red-2.svg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            position: absolute;
+            left: -10px;
+            bottom: -24px;
+            height: 35px;
+            width: 38px;
+            // mobile
+            @media (max-width: 768px) {
+                background-size: contain;
+                transform: rotate(-20deg);
+                left: 32px;
+                bottom: -62px;
+                height: 32px;
+                width: 28px;
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            top: 53%;
+            height: 106px;
+            width: 106px;
+        }
+        @media (max-width: 320px) {
+            left: -18px;
+        }
+    }
+    &__image {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        height: 298px;
+        width: 386px;
+        position: absolute;
+        right: 85px;
+        &::before {
+            content: '';
+            background-image: url(images/home/trazado-red-3.svg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            position: absolute;
+            left: -10px;
+            top: 0px;
+            height: 133px;
+            width: 139px;
+            // mobile
+            @media (max-width: 768px) {
+                background-size: contain;
+                height: 90px;
+                width: 96px;
+            }
+            @media (max-width: 320px) {
+                top: 17px;
+            }
+        }
+        &::after {
+            content: '';
+            background-image: url(images/home/trazado-red-1.svg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            position: absolute;
+            right: -56px;
+            bottom: 70px;
+            height: 45px;
+            width: 105px;
+            // mobile
+            @media (max-width: 768px) {
+                background-size: contain;
+                bottom: -10px;
+                height: 28px;
+                width: 65px;
+                right: -10px;
+                transform: rotateX(0deg) rotateY(-180deg) rotateZ(52deg);
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            position: relative;
+            right: initial;
+            margin: 0 auto;
+            height: 204px;
+            width: 264px;
+        }
+    }
+    &__title {
+        background-image: url(images/home/bg-title-2.svg), url(images/home/bg-title-1.svg);
+        background-repeat: no-repeat;
+        background-position: top left, bottom left;
+        background-size: auto;
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 800;
+        color: $primary-black;
+        line-height: 45px;
+        padding: 17px 20px 7px;
+        margin-bottom: 0;
+        margin-left: -20px;
+        position: relative;
+        &::after {
+            content: '';
+            background-image: url(images/home/trazado-title-play.svg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            position: absolute;
+            left: 300px;
+            top: 70px;
+            height: 17px;
+            width: 167px;
+            // mobile
+            @media (max-width: 768px) {
+                left: 0;
+                right: 0;
+                top: 77px;
+                margin: 0 auto;
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+        }
+        &--mobile {
+            display: none;
+            // mobile
+            @media (max-width: 768px) {
+                background-position: top center, bottom center;
+                background-size: contain, auto;
+                font-size: 26px !important;
+                line-height: 32px !important;
+                margin-left: 0;
+                padding: 17px 0 7px;
+                text-align: center;
+                display: block;
+            }
+            @media (max-width: 320px) {
+                font-size: 21px !important;
+                line-height: 24px !important;
+            }
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 700;
+        color: $primary-black;
+        line-height: 35px;
+        margin-bottom: 11px;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 14px !important;
+            text-align: center;
+        }
+    }
+    &__text {
+        p {
+            font-family: $primary-font;
+            font-size: 20px;
+            font-weight: 400;
+            color: $primary-black;
+            line-height: 30px;
+            margin-bottom: 0;
+            // mobile
+            @media (max-width: 768px) {
+                font-size: 16px !important;
+                line-height: 24px !important;
+                text-align: center;
+            }
+        }
+        strong {
+            font-family: $primary-font;
+            font-size: 20px;
+            font-weight: 700;
+            color: $primary-black;
+            line-height: 30px;
+            // mobile
+            @media (max-width: 768px) {
+                font-size: 16px !important;
+                line-height: 24px !important;
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 16px !important;
+            line-height: 24px !important;
+            text-align: center;
+        }
+    }
+}

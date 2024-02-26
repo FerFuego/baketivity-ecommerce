@@ -1,0 +1,68 @@
+{
+  "name": "baketivity",
+  "version": "1.0.0",
+  "description": "Custom Theme for Baketivity",
+  "author": "Hazak",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "homepage": "http://gitlab.abovebits.com/baketivity/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+http://gitlab.abovebits.com/baketivity/"
+  },
+  "bugs": {
+    "url": "http://gitlab.abovebits.com/baketivity/baketivity/-/issues"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^12.1.0",
+    "cssnano": "^4.1.10",
+    "dir-archiver": "^1.1.1",
+    "es6-promise": "^4.2.8",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-rtlcss": "^1.4.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.13.6",
+    "eslint": "^7.21.0"
+  },
+  "rtlcssConfig": {
+    "options": {
+      "autoRename": false,
+      "autoRenameStrict": false,
+      "blacklist": {},
+      "clean": true,
+      "greedy": false,
+      "processUrls": false,
+      "stringMap": []
+    },
+    "plugins": [],
+    "map": false
+  },
+  "scripts": {
+    "start": "gulp",
+    "compile:rtl": "rtlcss style.css style-rtl.css",
+    "lint:scss": "wp-scripts lint-style 'sass/**/*.scss'",
+    "lint:js": "wp-scripts lint-js 'js/*.js'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp-cli": "^2.3.0",
+    "gulp-install": "^1.1.0",
+    "gulp-version-number": "^0.2.4"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  }
+}

@@ -1,0 +1,122 @@
+.home-share {
+    padding: 42px 0;
+    &__container {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // mobile
+        @media (max-width: 768px) {
+            padding: 0 15px;
+        }
+    }
+    &__title {
+        background-image: url(images/home/trazado-title-share-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: $primary-font;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 44px;
+        color: $white;
+        margin-bottom: 0;
+        padding: 4px 20px;
+        text-align: center;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 19px !important;
+            font-weight: 500 !important;
+            line-height: 19px !important;
+        }
+        @media (max-width: 380px) {
+            font-size: 16px !important;
+        }
+        @media (max-width: 320px) {
+            font-size: 13px !important;
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 44px;
+        color: $white;
+        text-align: center;
+        margin-bottom: 3px;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 27px;
+        }
+    }
+    &__link {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 44px;
+        color: $white;
+        display: block;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        max-width: 370px;
+        &::before {
+            content: '';
+            background-image: url(images/home/green-arrow-share.svg);
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            width: 45px;
+            height: 27px;
+            top: 20%;
+            left: 0;
+            // mobile
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+        &::after {
+            content: '';
+            background-image: url(images/home/green-arrow-share.svg);
+            display: block;
+            position: absolute;
+            width: 45px;
+            height: 27px;
+            top: 20%;
+            right: 0;
+            transform: rotateY(180deg);
+            // mobile
+            @media (max-width: 768px) {
+                background-size: contain;
+                right: -27px;
+                width: 20px;
+                height: 12px;
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 27px;
+        }
+    }
+    &__link--mobile {
+        display: none;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        color: $white;
+        position: relative;
+        // mobile 
+        @media (max-width: 768px) {
+            display: initial;
+        }
+    }
+}

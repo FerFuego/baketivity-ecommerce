@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 63" width="15" height="15">
+	<title>Captura de pantalla 2023-11-07 a la(s) 16</title>
+	<defs>
+		<image  width="80" height="70" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABGBAMAAACpsA4YAAAAAXNSR0IB2cksfwAAACRQTFRF0zpH0zpH22Rz6rC4////332K5Jah9Njc5Jeh1k5d9dnd6rC5PAPCrQAAAAx0Uk5T/wD/////////YP//06lNJAAAAQBJREFUeJzVls0NwjAMRjsCpeLEHTEAI7gDRGIGJmAEDlzZgRE6IJUQaX74nCeBhPAt0tNLmzi2u+5vos9jXaz7lQAPgYGDjQw8mAUCDmal8j24mcFCKbY+VkoB1kp1PJVSgZVSgZVSgqVSgqVSg4VSg4XSAXOlA+ZKD8yUHpgpXTBVumCq9MFE6YOJsgEuyga4KFtgVLbAqGyCL2UEdycR56cyghfzIlBwpKDdvm1MvnF/FXG3/K/xOX56M/iuafbgfKQZjt8MfYX4XdNKgWsPrWa4PtKKi2s47Qq4z9DOhXsh7a64X9MJAM8U20qotp7g3DMr4STVTwGCetr7RTwARw/3JHkyRuUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="-12" y="-4"/>
+</svg>

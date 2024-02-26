@@ -1,0 +1,229 @@
+{
+    "key": "group_6405e30102821",
+    "title": "Page: Starter Kit",
+    "fields": [
+        {
+            "key": "field_6405e31d16fac",
+            "label": "Starter flexible content",
+            "name": "starter__flexible_content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_6405e33b660a6": {
+                    "key": "layout_6405e33b660a6",
+                    "name": "hero-starter-kit",
+                    "label": "Hero Starter Kit",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6405e3a157447",
+                            "label": "Hero Starter Kit",
+                            "name": "hero-starter-kit",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6307d5b5d52d0"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6405e48418a24": {
+                    "key": "layout_6405e48418a24",
+                    "name": "steps-starter-kit",
+                    "label": "Steps Starter Kit",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6405e49c18a25",
+                            "label": "Steps Starter Kit",
+                            "name": "steps-starter-kit",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6307d99f0fe5e"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6405e9080f540": {
+                    "key": "layout_6405e9080f540",
+                    "name": "get-a-taste",
+                    "label": "Get a taste",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6405e9100f541",
+                            "label": "Get a taste",
+                            "name": "get-a-taste",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_630ce1ec9d553"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6405f1d5953dc": {
+                    "key": "layout_6405f1d5953dc",
+                    "name": "sign-up-for-your-free-kit",
+                    "label": "Sign up for your FREE kit",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6405f1e8953dd",
+                            "label": "Sign up for your FREE kit",
+                            "name": "sign-up-for-your-free-kit",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_630e063ea67ea"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_647764c1df751": {
+                    "key": "layout_647764c1df751",
+                    "name": "video-promo",
+                    "label": "Video Promo",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_647764cddf752",
+                            "label": "Video Promo",
+                            "name": "video-promo",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64762b3f15f0b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64b96d54bfaed": {
+                    "key": "layout_64b96d54bfaed",
+                    "name": "video_streaming",
+                    "label": "Video Streaming",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64b96d72bfaee",
+                            "label": "Video Streaming",
+                            "name": "video_streaming",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633ec1daa06af"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template_pages\/starter-kit-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1689873811
+}

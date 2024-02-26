@@ -1,0 +1,292 @@
+.baketivity-time-form {
+    display: block;
+    width: 100%;
+
+    &__wrapper {
+        display: block;
+        width: 100%;
+        max-width: 1470px;
+        margin: 0 auto;
+    }
+
+    &__container {
+        display: flex;
+        align-items: normal;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__left {
+        background-color: $white;
+        width: 48%;
+
+        img {
+            height: 100%;
+            border-radius: 0;
+        }
+
+        @include tablet-xs {
+            display: none;
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('images/baketivity-time/bg-arrows-desktop.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 52%;
+
+        @include tablet-xs {
+            width: 100%;
+        }
+
+        @include mobile {
+            background-image: none;
+        }
+    }
+
+    &__content {
+        background-color: $primary-grey;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+        padding: 31.7px 21px 32.5px;
+        margin: 70px auto 56px;
+        height: 100%;
+        width: 100%;
+        max-width: 397px;
+        max-height: 600px;
+
+        @include mobile-s {
+            margin: 70px 15px 56px;
+        }
+    }
+
+    &__image {
+
+        @media (max-width: 1200px) {
+            height: 100%;
+            width: auto;
+            max-width: fit-content;
+        }
+
+        @include tablet-xs {
+            display: none;
+        }
+    }
+
+    &__title {
+        font-family: $primary-font;
+        font-size: 25px;
+        line-height: 27px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        color: $new-red;
+        text-align: left;
+
+        @include tablet-xs {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 25px;
+        line-height: 27px;
+        font-weight: 700;
+        margin-bottom: 33px;
+        color: $primary-black;
+        text-align: left;
+        display: inline-block;
+        margin-right: -5px;
+
+        @include mobile-s {
+            font-size: 21px;
+            line-height: 24px;
+        }
+
+        span {
+            display: inline-block;
+        }
+
+        img {
+            margin-bottom: -10px;
+            max-width: 216px;
+
+            @include mobile-s {
+                max-width: 178px;
+            }
+        }
+
+    }
+
+    .gform_wrapper {
+        width: 100%;
+        max-width: 628px;
+        margin: 0 auto;
+
+        @include mobile {
+            padding: 0 !important;
+        }
+
+        * {
+            font-family: $primary-font !important;
+            font-size: 14px !important;
+            font-weight: 400 !important;
+
+            b {
+                font-weight: 700 !important;
+            }
+        }
+
+        ul {
+            @include mobile-sm {
+                display: flex;
+                flex-direction: column;
+                max-width: 100% !important;
+            }
+        }
+
+        li {
+            @include mobile-sm {
+                width: 100% !important;
+                max-width: 100% !important;
+                padding-right: 0 !important;
+            }
+        }
+
+        input {
+            background-color: $white !important;
+            border: none !important;
+            box-shadow: none !important;
+            border-radius: 8px !important;
+            padding: 5px 12px !important;
+            height: 36px !important;
+        }
+
+        textarea {
+            background-color: $white !important;
+            border: none !important;
+            box-shadow: none !important;
+            border-radius: 8px !important;
+            padding: 5px 12px !important;
+            height: 120px !important;
+        }
+
+        input[type=submit] {
+            width: 100% !important;
+            height: 37px !important;
+            background-color: $new-red !important;
+            border-radius: 4px !important;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700 !important;
+            color: $white !important;
+            line-height: 1 !important;
+            text-transform: initial;
+            margin: 0 !important;
+            padding: 12px 24px !important;
+
+            // mobile
+            @include mobile-sm {
+                margin: 0 auto !important;
+                width: 100% !important;
+            }
+        }
+    }
+
+    .gform_heading {
+        display: none;
+    }
+
+    fieldset,
+    legend {
+        background-color: transparent !important;
+        margin-bottom: 0 !important;
+    }
+
+    .gform-icon {
+        display: none;
+    }
+
+    .gform_confirmation_wrapper {
+        max-width: 100%;
+        padding: 20px;
+        font-family: $primary-font;
+        color: $new-green;
+        text-align: center;
+    }
+
+    .gfield {
+        position: relative;
+    }
+
+    .gfield_error {
+        background: transparent !important;
+        border: none !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding: 0 0 !important;
+
+        input {
+            border: 1px solid $new-red !important;
+        }
+    }
+
+    .gfield_validation_message {
+        text-align: right;
+        position: absolute;
+        margin: 0 !important;
+        font-size: 12px !important;
+    }
+
+    .gform_captcha {
+
+        // mobile
+        @include mobile-sm {
+            margin: 22px auto 0 !important;
+        }
+    }
+
+    .gform_legacy_markup_wrapper div.validation_error {
+        color: $new-red;
+        font-family: $primary-font;
+        border-top: 1px solid $new-red;
+        border-bottom: 1px solid $new-red;
+    }
+
+    .gform_validation_errors>h2 {
+        color: $new-red;
+    }
+
+    .gform_legacy_markup_wrapper .gfield_error .gfield_label {
+        color: $new-red;
+    }
+
+    .gform_legacy_markup_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
+    .gform_legacy_markup_wrapper li.gfield_error textarea {
+        border: 1px solid $new-red !important;
+    }
+
+    .gform_validation_errors {
+        display: none;
+    }
+
+    .gform_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gform_ajax_spinner {
+        margin: 0 auto 0;
+    }
+}

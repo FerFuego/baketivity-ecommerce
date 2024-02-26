@@ -1,0 +1,122 @@
+.cta-reclaim {
+    margin-bottom: 0;
+    width: 100%;
+    &__container {
+        display: block;
+        width: 100%;
+        max-width: 1090px;
+        margin: 0 auto;
+        // mobile
+        @media (max-width: 768px) {
+            padding: 38.09px 20px 24.01px;
+            max-width: 100%;
+        }
+    }
+    &__content {
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 102px 28px;
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            padding: 30px 26px 24px;
+        }
+        @media (max-width: 320px) {
+            padding: 0px 10px 0px;
+        }
+    }
+    &__title {
+        background-image: url(images/modules/bg-yellow-title.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        font: normal normal 700 25px/32px 'FilsonPro';
+        margin-bottom: 0;
+        padding: 10px 20px;
+        margin-left: -20px;
+        position: relative;
+        width: max-content;
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            background-image: url(images/modules/icon-exclamation-yellow.svg);
+            background-repeat: no-repeat;
+            height: 67.55px;
+            width: 65.67px;
+            left: -40px;
+            top: 5px;
+            // mobile
+            @media (max-width: 768px) {
+                left: -23px;
+                top: 31px;
+                transform: rotate(-18deg);
+            }
+        }
+        &::after {
+            content: '';
+            display: none;
+            position: absolute;
+            background-image: url(images/modules/small-arrow-left-yellow.svg);
+            background-repeat: no-repeat;
+            height: 29.99px;
+            width: 46.23px;
+            right: -18px;
+            bottom: 15px;
+            // mobile
+            @media (max-width: 768px) {
+                display: block;
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            background-image: url(images/modules/bg-yellow-all-in-one.svg);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: contain;
+            font: normal normal 700 27px/32px 'FilsonPro' !important;
+            text-align: center;
+            padding: 20px 10px 10px;
+            margin: 0 auto 15px;
+            width: 100%;
+            max-width: 256px;
+        }
+        // mobile
+        @media (max-width: 320px) {
+            font: normal normal 700 20px/21px 'FilsonPro' !important;
+        }
+    }
+    &__text {
+        font: normal normal 500 18px/26px 'FilsonPro' !important;
+        color: $white;
+        margin-bottom: 0;
+        margin-top: -10px;
+        // mobile
+        @media (max-width: 768px) {
+            text-align: center;
+            margin-bottom: 24.16px;
+        }
+        @media (max-width: 320px) {
+            font: normal normal 500 13px/22px 'FilsonPro' !important;
+            margin-top: 0px;
+        }
+    }
+    &__link {
+        background-image: url(images/cooking-kits/home-btn-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border-radius: 6px;
+        font: normal normal 500 16px/22px 'FilsonPro';
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 46.66px;
+        width: 264.41px;
+        font-size: 0;
+    }
+}

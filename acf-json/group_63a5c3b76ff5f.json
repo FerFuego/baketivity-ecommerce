@@ -1,0 +1,522 @@
+{
+    "key": "group_63a5c3b76ff5f",
+    "title": "Page: Baking & Cooking Club",
+    "fields": [
+        {
+            "key": "field_63a5c475b285d",
+            "label": "Content Page",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_63a5c47f58c27": {
+                    "key": "layout_63a5c47f58c27",
+                    "name": "hero-baking",
+                    "label": "Hero Baking",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63a5c5ba766c3",
+                            "label": "Hero Baking",
+                            "name": "hero-baking",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63a5c4fa8858b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_658edb1335530": {
+                    "key": "layout_658edb1335530",
+                    "name": "hero-home-simple",
+                    "label": "Hero Home Simple",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_658edb4235531",
+                            "label": "Hero Home Simple",
+                            "name": "hero-home-simple",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_656a0398b41d8"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a5c7053caab": {
+                    "key": "layout_63a5c7053caab",
+                    "name": "baking-tab-cta",
+                    "label": "Baking Tab CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63a5c70f3caac",
+                            "label": "Baking Tab CTA",
+                            "name": "baking-tab-cta",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63a5c6118ddbd"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a611c2d801d": {
+                    "key": "layout_63a611c2d801d",
+                    "name": "subscription",
+                    "label": "Subscription",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63a61310097ac",
+                            "label": "Title",
+                            "name": "title_module",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_63a61319097ad",
+                            "label": "Copy",
+                            "name": "copy_module",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_63a611d0d801e",
+                            "label": "Subscription",
+                            "name": "subscription",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a33be90af30"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a994fcafdc0": {
+                    "key": "layout_63a994fcafdc0",
+                    "name": "baking-club-duff",
+                    "label": "Baking Club Duff",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63a9950aafdc1",
+                            "label": "Baking Club Duff",
+                            "name": "baking-club-duff",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63a993f52007f"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a995ec57818": {
+                    "key": "layout_63a995ec57818",
+                    "name": "red-banner-cta",
+                    "label": "Red Banner CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63a995f557819",
+                            "label": "Red Banner CTA",
+                            "name": "red-banner-cta",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63a995510f959"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a9fe8db06a5": {
+                    "key": "layout_63a9fe8db06a5",
+                    "name": "what-is-inside",
+                    "label": "What is inside",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63a9fe9fb06a6",
+                            "label": "What is inside",
+                            "name": "what-is-inside",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63a9fc3ae8b2d"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_658ee088c3c6f": {
+                    "key": "layout_658ee088c3c6f",
+                    "name": "what-is-inside-2",
+                    "label": "What is inside 2",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_658ee088c3c70",
+                            "label": "What is inside 2",
+                            "name": "what-is-inside-2",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_658ee0226bd1e"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63ab2c4b923b3": {
+                    "key": "layout_63ab2c4b923b3",
+                    "name": "lets-get-baking",
+                    "label": "Lets Get Baking",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63ab2c55923b4",
+                            "label": "Lets Get Baking",
+                            "name": "lets-get-baking",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63ab2900548a7"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63aafc9ab7f21": {
+                    "key": "layout_63aafc9ab7f21",
+                    "name": "shopping-list",
+                    "label": "Shopping List",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63aafca9b7f22",
+                            "label": "Shopping List",
+                            "name": "shopping-list",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63aaf910aaa21"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63aafcd2b7f23": {
+                    "key": "layout_63aafcd2b7f23",
+                    "name": "baking-banner-footer",
+                    "label": "Baking Banner Footer",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63aafceab7f24",
+                            "label": "Baking Banner Footer",
+                            "name": "baking-banner-footer",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63aafb4f09f09"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64776293ea84d": {
+                    "key": "layout_64776293ea84d",
+                    "name": "video-promo",
+                    "label": "Video Promo",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6477629bea84e",
+                            "label": "Video Promo",
+                            "name": "video-promo",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64762b3f15f0b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64b96b9aae018": {
+                    "key": "layout_64b96b9aae018",
+                    "name": "video_streaming",
+                    "label": "Video Streaming",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64b96ba4ae019",
+                            "label": "Video Streaming",
+                            "name": "video_streaming",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633ec1daa06af"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6595571201443": {
+                    "key": "layout_6595571201443",
+                    "name": "soft-reviews",
+                    "label": "Soft Reviews",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6595576f01444",
+                            "label": "Soft Reviews",
+                            "name": "soft-reviews",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_659555134af47"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/baking-club-page.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/cooking-club-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1704286109
+}

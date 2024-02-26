@@ -1,0 +1,25 @@
+.page-cooking-kits,
+.cooking-page {
+    @media (max-width: 900px) {
+        .sub-product-list:nth-child(4) {
+            .sub-total {
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+            .sub-save-price {
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+        }
+        .sub-product-list:nth-child(5) {
+            .sub-total {
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+            .sub-save-price {
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.birthday-page{
+    // change original styles
+    .hero-home {
+        &__container-fluid {
+            // mobile
+            @include mobile {
+                height: 768px;
+                background: rgb(243,245,246);
+                background: linear-gradient(180deg, rgba(243,245,246,1) 27%, rgba(243,245,246,0.7) 38%, rgba(255,255,255,0) 50%);
+            }
+            @include mobile-sm {
+                height: 100%;
+            }
+        }
+        &__title {
+            font-weight: bold;
+        }
+        &__subtitle {
+            font: normal normal 500 21px/33px $primary-font;
+            max-width: 476px;
+            margin-bottom: 54px;
+            // mobile
+            @include mobile {
+                font: normal normal 500 14px/20px $primary-font;
+                max-width: 100%;
+                margin-bottom: 24px;
+            }
+        }
+    }
+    .hero-home__right {
+        &::before {
+            //mobile
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+    .baking-banner-footer__title {
+        @include mobile {
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+    }
+    .baking-banner-footer__cta::after {
+        display: none;
+    }
+    .baking-banner-footer__title::after {
+        display: none;
+    }
+    .baking-banner-footer__title strong {
+        font-weight: 800 !important;
+    }
+}

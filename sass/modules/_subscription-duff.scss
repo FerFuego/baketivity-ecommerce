@@ -1,0 +1,534 @@
+.subscription-duff {
+  background-color: #fd9dea;
+
+  &__container {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    height: 724px;
+    // mobile
+    @media (max-width: 768px) {
+      height: auto;
+      flex-direction: column-reverse;
+    }
+  }
+  &__left {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 50%;
+
+    // mobile
+    @media (max-width: 768px) {
+      height: 411px;
+      width: auto;
+    }
+  }
+  &__right {
+    position: relative;
+    padding: 66px 10px 66px 100px;
+    height: 100%;
+    width: 50%;
+
+    @media (max-width: 1200px) {
+      padding: 66px 29px;
+    }
+
+    // mobile
+    @media (max-width: 768px) {
+      padding: 32.5px 29px 0;
+      width: 100%;
+    }
+    @media (max-width: 320px) {
+      padding: 32.5px 15px 0;
+      width: 100%;
+    }
+  }
+  &__header {
+    display: block;
+    margin-bottom: 26px;
+    // mobile
+    @media (max-width: 768px) {
+      margin-bottom: 27px;
+    }
+    &--alt {
+      max-width: 415px;
+      margin-bottom: 26px;
+    }
+  }
+  &__title {
+    font-family: "FilsonProH";
+    font-size: 23px;
+    line-height: 32px;
+    color: $primary-black;
+    display: block;
+    max-width: 555px;
+    margin-left: -10px;
+    margin-bottom: 0;
+    padding: 0 10px 10px;
+    position: relative;
+
+    // mobile
+    @media (max-width: 768px) {
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+      margin: 0 auto 10px;
+      padding: 0;
+    }
+  }
+  &__subtitle {
+    font-family: "FilsonPro";
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 31px;
+    color: $primary-black;
+    text-align: center;
+    font-style: italic;
+    display: block;
+    max-width: 530px;
+    margin-bottom: 0;
+    // mobile
+    @media (max-width: 768px) {
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    &--alt {
+      font-family: "FilsonPro";
+      font-size: 37px;
+      font-weight: 800;
+      line-height: 44px;
+      color: $primary-black;
+      max-width: 415px;
+      margin: -20px auto 0;
+      padding: 0 0px 10px;
+      position: relative;
+    }
+  }
+  &__body {
+    margin-bottom: 15px;
+    // mobile
+    @media (max-width: 768px) {
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &--alt {
+      max-width: 443px;
+    }
+  }
+  &__text {
+    font-family: "FilsonPro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: $primary-black;
+    display: block;
+    max-width: 415px;
+    margin-bottom: 20px;
+    position: relative;
+    strong {
+      font-family: "FilsonPro";
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 32px;
+      color: $primary-black;
+      margin-bottom: 0;
+      // mobile
+      @media (max-width: 768px) {
+        font-size: 20px !important;
+        line-height: 27px;
+        line-height: 26px;
+        text-align: center;
+      }
+    }
+    p {
+      font-family: "FilsonPro";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      color: $primary-black;
+      margin-bottom: 0;
+      // mobile
+      @media (max-width: 768px) {
+        font-size: 16px !important;
+        line-height: 20px;
+        text-align: center;
+      }
+    }
+    &::after {
+      content: "";
+      display: block;
+      width: 49px;
+      height: 70px;
+      position: absolute;
+      bottom: -2px;
+      right: -40px;
+      z-index: 0;
+
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url(images/duff/duff-down-arrow.svg);
+      // mobile
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+    // mobile
+    @media (max-width: 768px) {
+      div {
+        line-height: 27px;
+        text-align: center;
+        width: 100%;
+      }
+    }
+    &--alt {
+      font-family: "FilsonPro";
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 32px;
+      color: $primary-black;
+      margin-bottom: 25px;
+      p {
+        font-family: "FilsonPro";
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 32px;
+        color: $primary-black;
+      }
+      &::after {
+        left: 220px;
+        transform: rotate(15deg);
+        bottom: -20px;
+        width: 40px;
+        height: 55px;
+      }
+    }
+  }
+  &__items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 444px;
+    margin-bottom: 47px;
+
+    // mobile
+    @media (max-width: 768px) {
+      margin-bottom: 23px;
+    }
+  }
+  &__item {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 14px;
+    margin: 0px auto 7px auto;
+    height: 57px;
+    width: 98%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 29px 9px 24px;
+    z-index: 1;
+
+    &:last-of-type {
+      margin-bottom: 0 !important;
+    }
+
+    @media (max-width: 992px) {
+      padding: 8px 12px 9px;
+    }
+    // mobile
+    @media (max-width: 768px) {
+      padding: 8px 12px 9px;
+      margin: 0px auto 15px auto;
+      width: 96%;
+    }
+    @media (max-width: 320px) {
+      padding: 8px;
+    }
+  }
+  &__label {
+    font-family: "FilsonPro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 41px;
+    color: $primary-black;
+    display: block;
+    margin-bottom: -3px !important;
+    position: relative;
+    // mobile
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+    @media (max-width: 320px) {
+      font-size: 10px;
+    }
+  }
+  .added_to_cart {
+    display: none !important;
+  }
+  &__span {
+    font-family: "FilsonPro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: $primary-black;
+    margin-top: 2px;
+    // mobile
+    @media (max-width: 320px) {
+      font-size: 12px;
+    }
+  }
+  &__green {
+    font-family: "FilsonPro";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    color: $new-green;
+    margin-left: 3px;
+    margin-top: 2px;
+    // mobile
+    @media (max-width: 320px) {
+      font-size: 10px;
+    }
+  }
+  &__strong {
+    font-family: "FilsonPro";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: $primary-black;
+    margin-right: 5px;
+    .price ins,
+    .woocommerce-Price-amount {
+      // mobile
+      @media (max-width: 320px) {
+        font-size: 14px;
+      }
+    }
+    // mobile
+    @media (max-width: 320px) {
+      font-size: 14px;
+    }
+  }
+  &__product-name {
+    width: 100px;
+  }
+
+  &__limited-offer {
+    font-family: "filson-pro";
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+
+    line-height: 13px;
+    text-align: center;
+    padding: 5px 10px 3px 10px;
+    color: #09989a;
+
+    &__strong {
+      font-family: "FilsonProH";
+    }
+
+    //mobile
+    @media (max-width: 768px) {
+      position: absolute;
+      top: 4px;
+      right: 32px;
+
+      br {
+        display: none;
+      }
+    }
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 160px;
+    // mobile
+    @media (max-width: 320px) {
+      width: 170px;
+    }
+  }
+  &__button {
+    display: block;
+    border-radius: 3px;
+    font-family: "FilsonPro";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    height: 37px;
+    width: 210px;
+    color: $white;
+    background-color: $new-red;
+    &:hover {
+      color: $white !important;
+      span {
+        color: $white !important;
+      }
+    }
+    // mobile
+    @media (max-width: 768px) {
+      margin: 27px auto 0;
+    }
+  }
+  input[type="radio"] {
+    /* hide original inputs */
+    visibility: hidden;
+    position: absolute;
+  }
+  input[type="radio"] + label {
+    cursor: pointer;
+    margin-left: 0;
+    padding-left: 25px;
+  }
+  input[type="radio"] + label:before {
+    content: " ";
+    border: 4px solid #cbcbcb;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-right: 10px;
+    transition: 0.3s;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 10px;
+    width: 10px;
+  }
+  /* CUSTOM RADIO AND CHECKBOX STYLES */
+  /* DEFAULT */
+  input[type="radio"] + label:before {
+    border-radius: 50%;
+    width: 10px;
+  }
+  /* CHECKED */
+  input[type="radio"]:checked + label:before {
+    background-color: #000;
+    /* box-shadow: inset 0 0px 0px white, inset 0 0 0px white, inset 0 0 0 2px white; */
+  }
+  &__product {
+    background-color: $light-grey-2;
+    border-radius: 15px;
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 13px 107px 25px;
+    img {
+      margin-bottom: 16px;
+    }
+    // mobile
+    @media (max-width: 825px) {
+      padding: 13px 50px 25px;
+    }
+  }
+  &__product-title {
+    font-family: "FilsonPro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: $new-red;
+  }
+  &__product-price {
+    font-family: "FilsonPro";
+    font-size: 21px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: $primary-black;
+    strong {
+      font-family: "FilsonPro";
+      font-weight: 700;
+      font-size: 21px !important;
+    }
+    span {
+      font-family: "FilsonPro";
+      font-weight: 500;
+      font-size: 17px !important;
+    }
+  }
+  &__product-link {
+    background-color: $new-red !important;
+    color: $white;
+    font-family: "FilsonPro";
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    margin: 0 auto;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.no-offer-item .subscription-duff__green {
+  display: none;
+}
+
+.subscription-duff__limited-offer-item {
+  display: block;
+  background: #ffd64f;
+  width: 100%;
+  color: #333334;
+  font-family: "FilsonPro";
+  font-weight: 500;
+  font-size: 11px;
+  left: 0;
+  top: 23px;
+  text-align: center;
+  height: 150px;
+  border-radius: 16px;
+  z-index: 0;
+  position: relative;
+  padding-top: 4px;
+  margin-top: -22px;
+  margin-bottom: -105px;
+}
+
+.subscription-duff__limited-offer-item br {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .subscription-duff__limited-offer-item {
+    font-size: 12px !important;
+    line-height: 16px;
+    top: 23px;
+    height: 232px;
+    padding-top: 11px;
+    margin-top: -22px;
+    margin-bottom: -160px;
+    font-weight: 600 !important;
+  }
+  .subscription-duff__limited-offer-item br {
+    display: block;
+  }
+
+  .offer-item-container {
+    height: 75px;
+  }
+
+  .offer-item-container .subscription-duff__price {
+    padding-top: 20px;
+  }
+}

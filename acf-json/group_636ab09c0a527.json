@@ -1,0 +1,229 @@
+{
+    "key": "group_636ab09c0a527",
+    "title": "Page: Duff Goldman",
+    "fields": [
+        {
+            "key": "field_636ab0bed0f51",
+            "label": "Content",
+            "name": "duff__flexible_content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_636ab0deda06a": {
+                    "key": "layout_636ab0deda06a",
+                    "name": "hero_duff",
+                    "label": "Hero Duff",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_636ab110d0f52",
+                            "label": "Hero Duff",
+                            "name": "hero_duff",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62f2adc81ce3d"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_636bf5fcdca2c": {
+                    "key": "layout_636bf5fcdca2c",
+                    "name": "subscription_duff",
+                    "label": "Subscription Duff",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_636bf616dca2d",
+                            "label": "Subscription Duff",
+                            "name": "subscription_duff",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636bf5bf78449"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6373e3f166f13": {
+                    "key": "layout_6373e3f166f13",
+                    "name": "shop_duff",
+                    "label": "Shop Duff",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6373e3f866f14",
+                            "label": "Shop Duff",
+                            "name": "shop_duff",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6373e3724d2db"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_636ffea84172c": {
+                    "key": "layout_636ffea84172c",
+                    "name": "video_duff",
+                    "label": "Video Duff",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_636ffeb44172d",
+                            "label": "Video",
+                            "name": "video",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636ffe2ed42fe"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63700f7d00837": {
+                    "key": "layout_63700f7d00837",
+                    "name": "content_duff",
+                    "label": "Content Duff",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63700f8400838",
+                            "label": "Content Duff",
+                            "name": "content_duff",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63700e90298b1"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63700fe3293eb": {
+                    "key": "layout_63700fe3293eb",
+                    "name": "banner_social_network_duff",
+                    "label": "Banner Social Network Duff",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63701005293ec",
+                            "label": "Banner Social Network Duff",
+                            "name": "banner_social_network_duff",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63700fb84a5f1"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/duff-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1668539426
+}

@@ -1,0 +1,216 @@
+.holiday {
+    .hero-home {
+        background-size: cover;
+
+        &__title {
+            background-image: url(images/holiday/holiday-trazado-hero-0.svg), url(images/holiday/holiday-trazado-hero-1.svg);
+            background-repeat: no-repeat;
+            background-position: 15px -7px, -1px 50px;
+            padding-left: 40px;
+            margin-left: -40px;
+
+            // mobile
+            @media (max-width: 768px) {
+                background-size: contain;
+                background-position: -2px 2px, 1px 44px;
+                padding-top: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin: 0 auto;
+            }
+        }
+
+        &__subtitle {
+            margin-bottom: 32px;
+        }
+
+        &__button {
+            border: 0;
+            width: 142px;
+        }
+
+        // tablet
+        @media (max-width: 1024px) {
+            background-position: center;
+        }
+    }
+
+    .steps-to-play {
+        &__title {
+            position: relative;
+            max-width: 355px;
+            margin: 0 auto 8px;
+
+            &::before {
+                content: '';
+                background-image: url(images/holiday/one-star-icon-1.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: block;
+                height: 14px;
+                left: -10px;
+                position: absolute;
+                top: -4px;
+                width: 11px;
+
+                // mobile
+                @media (max-width: 768px) {
+                    background-image: url(images/holiday/icon-31.svg);
+                    height: 50px;
+                    left: -21px;
+                    top: -15px;
+                    width: 50px;
+                }
+            }
+
+            &::after {
+                background-image: url(images/holiday/steps-icon-2.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                content: '';
+                display: block;
+                height: 50px;
+                right: -48px;
+                position: absolute;
+                top: -13px;
+                width: 67px;
+
+                // mobile
+                @media (max-width: 768px) {
+                    background-image: url(images/holiday/steps-icon-4.svg);
+                }
+            }
+
+            // mobile
+            @media (max-width: 768px) {
+                max-width: 262px;
+            }
+        }
+    }
+
+    .plan-for-plan {
+        background-image: url(images/holiday/bg-orange.png);
+        background-position: 80% 0;
+        background-repeat: no-repeat;
+        background-size: 700px;
+        padding: 18px 0;
+
+        // mobile
+        @media (max-width: 768px) {
+            background-image: url(images/holiday/bg-orange-mobile.png);
+            background-position: top center;
+            background-size: 100%;
+        }
+
+        &__title {
+            &::after {
+                content: '';
+                background-image: url(images/holiday/icon-christmas.svg);
+                background-repeat: no-repeat;
+                background-size: auto;
+                position: absolute;
+                left: 286px;
+                top: 57px;
+                height: 59px;
+                width: 48px;
+
+                // mobile
+                @media (max-width: 768px) {
+                    left: 232px;
+                    top: 80px;
+                    height: 59px;
+                    width: 48px;
+                    z-index: 1;
+                }
+            }
+        }
+
+        &__title--mobile {
+            max-width: 320px;
+            margin: 0 auto 23px;
+
+            &::before {
+                content: '';
+                background-image: url(images/holiday/subrayado-title.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                bottom: -10px;
+                height: 17px;
+                width: 167px;
+                left: 0px;
+                right: 0;
+                margin: 0 auto;
+            }
+        }
+
+        &__image::before {
+
+            // mobile
+            @media (max-width: 768px) {
+                content: '';
+                top: -19px;
+            }
+        }
+    }
+
+    .otk-text {
+        font-family: $primary-font;
+        font-size: 20px;
+        line-height: 30px;
+        color: $primary-black;
+        max-width: 570px;
+        margin: 0 auto;
+    }
+
+    #sign-up-message-button {
+        height: 37px !important;
+        width: 88px !important;
+        padding: 0 !important;
+    }
+
+    .m-subscription {
+        &__copy {
+            margin-bottom: 0;
+        }
+    }
+
+    // desktop
+    .sub-product-list .product.type-product:nth-child(2),
+    // mobile
+    .sub-product-list:nth-child(3) .product.type-product {
+        &::before {
+            display: none !important;
+        }
+    }
+
+    // desktop
+    .sub-product-list .product.type-product:nth-child(3),
+    // mobile
+    .sub-product-list:nth-child(4) .product.type-product {
+        &::before {
+            content: '★ MOST POPULAR ★';
+            background-color: #FFD64F;
+            border-radius: 13px !important;
+            border: 2px solid #FFD64F;
+            color: $primary-black;
+            display: block;
+            position: absolute;
+            padding: 10px 0 0 0;
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 800;
+            line-height: 17px;
+            margin-left: -27px;
+            height: 120px;
+            top: -53px;
+            width: 100%;
+            z-index: -1;
+
+            // mobile 
+            @media (max-width: 768px) {
+                margin-left: -37px;
+            }
+        }
+    }
+}

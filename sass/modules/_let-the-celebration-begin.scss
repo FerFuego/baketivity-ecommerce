@@ -1,0 +1,537 @@
+.let-the-celebration-begin {
+    background-color: #C0DD52;
+    padding: 60px 15px 67px;
+    position: relative;
+    &__container {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto 57px;
+    }
+    &__title {
+        background-image: url(images/birthday/brush-white.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-family: $primary-font;
+        font-size: 37px;
+        line-height: 41px;
+        font-weight: 800;
+        color: $primary-black;
+        width: 100%;
+        width: max-content;
+        margin: 0 auto 12px;
+        padding: 10px 20px;
+        position: relative;
+        // mobile
+        @include mobile {
+            font-size: 26px;
+            line-height: 32px;
+            margin-bottom: 13px;
+        }
+        @include mobile-s {
+            font-size: 21px;
+        }
+        &::before {
+            background-image: url(images/birthday/red-exclamation.svg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: '';
+            position: absolute;
+            display: block;
+            top: 0;
+            left: -30px;
+            width: 47px;
+            height: 47px;
+        }
+        &::after {
+            background-image: url(images/birthday/red-down-arrow.svg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: '';
+            position: absolute;
+            display: block;
+            top: 0;
+            right: -28px;
+            width: 37px;
+            height: 58px;
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 500;
+        color: $primary-black;
+        margin-bottom: 30px;
+        text-align: center;
+        span {
+            color: $primary-black;
+            display: block;
+            text-align: center;
+            font-family: $primary-font;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: italic;
+            line-height: 27px;
+        }
+        // mobile
+        @include mobile {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 24px;
+        }
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        @include tablet {
+            justify-content: center;
+        }
+    }
+    &__item {
+        background-color: $white;
+        border-radius: 15px;
+        margin-bottom: 11px;
+        height: 242px;
+        width: 536px;
+        @include mobile {
+            height: 190px;
+        }
+    }
+    &__item-product {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 34px;
+        height: 162px;
+        width: 100%;
+        @include mobile {
+            padding: 0 15px;
+            height: 130px;
+        }
+    }
+    &__item-image {
+        height: 100%;
+        width: auto;
+        max-height: 153px;
+        max-width: 168px;
+        @include mobile {
+            max-height: 100px;
+            max-width: 112px;
+            margin-right: 20px;
+        }
+    }
+    &__item-cart {
+        background-color: #F2F2F2;
+        border-radius: 0  0 15px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: $primary-font;
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 700;
+        padding: 0 29px;
+        height: 80px;
+        width: 100%;
+        @include mobile {
+            padding: 0 15px;
+            height: 60px;
+        }
+    }
+    &__item-label {
+        @include mobile {
+            display: none;
+        }
+    }
+    &__item-content {
+        width: 100%;
+        max-width: 274px;
+    }
+    &__item-title {
+        font-family: $primary-font;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+        color: $primary-black;
+        margin-bottom: 16px;
+        text-align: center;
+        @include mobile {
+            font-size: 18px;
+            line-height: 20px;
+            text-align: left;
+        }
+    }
+    &__item-text {
+        font-family: $primary-font;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        color: $primary-black;
+        margin-bottom: 0;
+        text-align: center;
+        @include mobile {
+            font-size: 14px;
+            line-height: 20px;
+            text-align: left;
+        }
+    }
+    .corporate-gift-slider__product-quantity {
+        margin-bottom: 0;
+        input {
+            height: 30px;
+        }
+        @include mobile {
+            margin: 10px 13px 10px
+        }
+    }
+    .corporate-gift-slider__product-button {
+        margin: 0 !important;
+        &:hover {
+            background-color: #cc1a34;
+        }
+        @include mobile {
+            margin: 0 !important;
+            width: 136px;
+            flex: none;
+        }
+    }
+    .added_to_cart {
+        display: none !important;
+    }
+    /* EXTRA Sweetness */
+    &__extra {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px auto 30px;
+        @include mobile {
+            margin: 0px auto 100px;
+        }
+    }
+    &__extra-title {
+        font-family: $primary-font;
+        font-size: 37px;
+        line-height: 41px;
+        font-weight: 700;
+        color: $primary-black;
+        text-align: center;
+        width: 100%;
+        max-width: 524px;
+        margin: 0 auto 45px;
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            background-image: url(images/birthday/trazado-red.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            right: 0;
+            bottom: -19px;
+            position: absolute;
+            height: 27px;
+            width: 289px;
+            @include mobile {
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: -13px;
+                height: 16px;
+                width: 167px;
+            }
+        }
+        @include mobile {
+            font-size: 26px;
+            line-height: 32px;
+            font-weight: 800;
+            text-align: center;
+            width: 100%;
+            max-width: 218px;
+        }
+    }
+    &__extra-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        @include tablet {
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__extra-item {
+        background-color: $white;
+        border-radius: 15px;
+        height: 380px;
+        width: 352px;
+        @include tablet {
+            margin-bottom: 8px;
+        }
+        @include mobile {
+            height: 190px;
+            width: 100%;
+            max-width: 536px;
+        }
+    }
+    &__extra-item-product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 34px;
+        height: 250px;
+        width: 100%;
+        @include mobile {
+            flex-direction: row;
+            height: 131px;
+        }
+    }
+    &__extra-item-cart {
+        background-color: #F2F2F2;
+        border-radius: 0  0 15px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-family: $primary-font;
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 700;
+        padding: 16px 29px;
+        height: 130px;
+        width: 100%;
+        .corporate-gift-slider__product-quantity {
+            margin: 0 !important;
+        }
+        @include mobile {
+            flex-direction: row;
+            height: 60px;
+        }
+    }
+    &__extra-item-title {
+        font-family: $primary-font;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+        color: $primary-black;
+        margin-bottom: 0;
+        text-align: center;
+        @include mobile {
+            font-size: 20px;
+            line-height: 25px;
+            text-align: left;
+            margin-bottom: 0;
+        }
+    }
+    &__extra-item-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        @include mobile {
+            width: 109px;
+        }
+    }
+    /* Custom EVITES */
+    &__evites {
+        display: flex;
+        border-radius: 15px;
+        height: 223px;
+        margin: 0px auto 0px;
+        padding: 34px 41px;
+        width: 100%;
+        max-width: 1080px;
+        @include mobile {
+            height: 275px;
+            padding: 15px;
+            flex-direction: column-reverse;
+            max-width: 536px;
+        }
+    }
+    &__evites-content-left {
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-width: 513px;
+        position: relative;
+        flex: none;
+        @include mobile {
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+    &__evites-content-right {
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-width: 513px;
+        position: relative;
+        &::before {
+            content: '';
+            display: block;
+            background-image: url(images/birthday/arrow-red-raise-money.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            left: 0;
+            top: 120px;
+            position: absolute;
+            height: 60px;
+            width: 77px;
+            @include mobile {
+               display: none;
+            }
+        }
+        &::after {
+            content: '';
+            display: block;
+            background-image: url(images/birthday/roller-arrow-purple.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            left: 58px;
+            top: -30px;
+            position: absolute;
+            transform: rotate(260deg);
+            height: 69px;
+            width: 78px;
+            @include mobile {
+               display: none;
+            }
+        }
+        @include mobile {
+            margin: 0 auto;
+        }
+    }
+    &__evites-title {
+        font-family: $primary-font;
+        font-size: 37px;
+        line-height: 44px;
+        font-weight: 700;
+        color: $primary-black;
+        margin-bottom: 10px;
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            background-image: url(images/birthday/title-line-red.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            right: 2px;
+            bottom: -9px;
+            position: absolute;
+            height: 15px;
+            width: 267px;
+            @include mobile {
+                right: 12px;
+                height: 10px;
+                width: 162px;
+            }
+        }
+        @include mobile {
+            font-size: 22px;
+            line-height: 25px;
+            text-align: center;
+            max-width: 341px;
+            margin: 0 auto 12.6px;
+        }
+    }
+    &__evites-text {
+        font-family: $primary-font;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        color: $primary-black;
+        margin-bottom: 20px;
+        @include mobile {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            margin-bottom: 28.4px;
+            text-align: center;
+        }
+    }
+    &__evites-cta {
+        background-color: $new-red;
+        font-family: $primary-font;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 700;
+        color: $white;
+        margin-bottom: 0px;
+        display: flex;
+        border-radius: 3px;
+        justify-content: center;
+        align-items: center;
+        height: 37px;
+        width: 190px;
+        &:hover {
+            background-color: #cc1a34;
+        }
+        &.disable {
+            background-color: #868688;
+            &:hover {
+                background-color: #868688;
+            }
+        }
+        @include mobile {
+            margin: 0 auto;
+        }
+    }
+    &__evites-image {
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        height: 240px;
+        top: -47px;
+        right: -40px;
+        width: 468px;
+        z-index: 1;
+        &::after {
+            content: '';
+            display: block;
+            background-image: url(images/birthday/cake-right-arrow.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            right: -13px;
+            top: 20px;
+            position: absolute;
+            transform: rotate(155deg);
+            height: 31px;
+            width: 46px;
+            @include mobile {
+               display: none;
+            }
+        }
+        @include mobile {
+            left: 0;
+            right: 0;
+            top: -16px;
+            margin: 0 auto;
+            height: 182px;
+            width: 364px;
+            max-width: 100%;
+        }
+        @include mobile-s {
+            left: 0;
+            right: 0;
+            top: -16px;
+            margin: 0 auto;
+            height: 157px;
+            width: 364px;
+            max-width: 100%;
+        }
+        @include mobile-xs {
+            left: 0;
+            right: 0;
+            top: -16px;
+            margin: 0 auto;
+            height: 130px;
+            width: 364px;
+            max-width: 100%;
+        }
+    }
+}

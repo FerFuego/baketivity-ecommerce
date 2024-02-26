@@ -1,0 +1,172 @@
+.blog-banner-cta-2 {
+    display: block;
+    position: relative;
+    margin: 0 auto 86px;
+    height: 85px;
+    width: 100%;
+    // mobile 
+    @media (max-width: 768px) {
+        height: 244px;
+        padding: 0 20px;
+    }
+    &__container {
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        margin: 0 auto;
+        padding: 16px 33px;
+        width: 100%;
+        max-width: 1088px;
+        // mobile 
+        @media (max-width: 768px) {
+            flex-direction: column;
+            max-width: 333px;
+            padding: 11px 30px;
+        }
+    }
+    &__center {
+        display: block;
+        width: 100%;
+        max-width: 380px;
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 22px;
+        }
+    }
+    &__title {
+        background-image: url(images/blog/brush-white-banner-cta-2.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-family: $primary-font;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $primary-black;
+        position: relative;
+        padding: 10px 16px 16px;
+        span {
+            color: $new-red;
+            font-weight: 800;
+        }
+        &::before {
+            content: '';
+            background-image: url(images/blog/trazado-yellow-banner-cta-2.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: 21px;
+            width: 228px;
+            // mobile 
+            @media (max-width: 768px) {
+                height: 15px;
+                width: 165px;
+                left: 0;
+                margin: 0 auto;
+            }
+        }
+        // mobile 
+        @media (max-width: 768px) {
+            background-image: url(images/blog/brush-banner-2-2.svg), url(images/blog/brush-banner-2.svg);
+            background-position: 50% -20%, 0% 75%;
+            background-size: 78%, contain;
+            text-align: center;
+            line-height: 26px;
+            padding: 0px 16px 16px;
+            width: 217px;
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 27px;
+        color: $white;
+        position: relative;
+        // mobile 
+        @media (max-width: 768px) {
+            text-align: center;
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+    &__cta {
+        background-color: $new-red;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        color: $white;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        
+        height: 37px;
+        width: 173px;
+
+        transition: all .1s ease-in-out;
+
+        &:hover {
+            border: 2px solid $white;
+        }
+    }
+    form {
+        margin-bottom: 0 !important;
+    }
+    form input[type="text"] {
+        background-color: $white;
+    }
+    #kla_email_klaviyo_emailsignup_widget--3 {
+        border-radius: 5px;
+        height: 37px;
+        width: 185px;
+        min-width: 185px;
+    }
+    #sign-up-message-button {
+        border-radius: 5px;
+        padding: 0 10px;
+        margin-left: -5px;
+    }
+    &__right {
+        position: relative;
+    }
+    .success_message {
+        font-family: $primary-font;
+        font-size: 13px;
+        margin-left: 22px;
+        line-height: 16px;
+        position: relative;
+        max-width: 180px;
+        // mobile
+        @media (max-width: 768px) {
+            top: -28px;
+            left: 63px;
+        }
+    }
+    .error_message {
+        font-family: $primary-font;
+        font-size: 13px;
+        color: $new-red;
+        line-height: 16px;
+        position: absolute;
+        left: 0;
+        top: 43px;
+        max-width: 180px;
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            position: relative;
+            right: 0;
+            height: 16px;
+            top: 5px;
+        }
+    }
+}

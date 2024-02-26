@@ -1,0 +1,278 @@
+.header-checkout {
+    background-color: $white;
+    height: 88px;
+    box-shadow: 0 0 5px 4px #eeeeee;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+
+    // tablet
+    @include tablet {
+        background-color: $primary-grey;
+        height: 66px;
+        max-width: 100%;
+        position: fixed;
+    }
+
+    &__container {
+        display: block;
+        width: 100%;
+        max-width: 1088px;
+
+        // tablet
+        @include tablet {
+            align-items: center;
+            display: flex;
+            margin: 0 15px;
+            width: 100%;
+            max-width: 100%;
+            height: 66px;
+        }
+    }
+
+    &__col-full {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        // tablet
+        @include tablet {
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+
+    &__site-logo {
+        height: auto;
+        width: 100%;
+        max-width: 181px;
+    }
+
+    &__site-info {
+        font-size: 15.2px;
+
+
+        &__desktop {
+            display: flex;
+            flex-direction: column;
+
+            // tablet
+            @include mobile {
+                display: none;
+            }
+        }
+
+        &__mobile {
+            cursor: pointer;
+            display: none;
+            flex-direction: column;
+            align-items: flex-end;
+            position: relative;
+            margin-right: 26px;
+
+            &::after {
+                content: '';
+                display: block;
+                border-left: 2px solid $primary-black !important;
+                border-right: 0 !important;
+                border-bottom: 2px solid $primary-black !important;
+                transform: rotate(-45deg);
+                position: absolute;
+                right: -24px;
+                top: 7px;
+                height: 10px !important;
+                width: 10px !important;
+            }
+
+            // tablet
+            @include mobile {
+                display: flex;
+            }
+        }
+
+        strong {
+            font-size: 18.2px;
+            line-height: 18.2px;
+
+            bdi {
+                font-size: 18.2px;
+                line-height: 18.2px;
+            }
+        }
+
+        sub {
+            top: 0;
+        }
+
+        a {
+            font-family: $primary-font;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            text-align: right;
+            color: $title-green;
+            text-decoration: underline;
+        }
+    }
+
+    .custom-logo-link {
+        margin-bottom: 0;
+        width: 103px;
+    }
+
+    .baketivity-primary-navigation {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        // mobile
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            padding: 0px 22px 0 20px;
+            top: 70px;
+            width: 100% !important;
+        }
+    }
+
+    .tab-pane-checkout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        max-width: 695px;
+
+        &__step {
+            background-color: $white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 0 10px;
+            text-decoration: none !important;
+
+            // mobile
+            @media (max-width: 1024px) {
+                margin-top: -14px;
+                padding: 0 6px;
+            }
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+
+            &--active {
+                .tab-pane-checkout__num {
+                    color: $new-red;
+                    border: 1px solid $new-red;
+                }
+            }
+
+            &--active {
+                .tab-pane-checkout__title {
+                    color: $new-red;
+                    display: block !important;
+                }
+            }
+        }
+
+        &__num {
+            display: flex;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 1px solid #D6D6D6;
+            color: #D6D6D6;
+            font-family: $primary-font;
+            margin-right: 6px;
+            min-width: 24px;
+
+            // mobile
+            @media (max-width: 1024px) {
+                margin-right: 0;
+            }
+        }
+
+        &__title {
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 700;
+            font-family: $primary-font;
+            color: $new-red;
+
+            // mobile
+            @include mobile {
+                display: none;
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0;
+                top: 28px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        &__arrow {
+            display: block;
+            height: 24px;
+            width: 67px;
+            background-image: url(images/checkout/arrow-checkout.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            // mobile
+            @include mobile {
+                height: 15px;
+                background-image: none;
+                border-top: 2px solid #C7C7C7;
+                width: 100%;
+            }
+        }
+    }
+
+    .tab-pane-back {
+        display: none;
+        margin-bottom: 25px;
+
+        // mobile
+        @include mobile {
+            display: block;
+            width: 100%;
+        }
+
+        &__link {
+            text-align: left;
+            font: normal normal 500 12px/18px $primary-font;
+            letter-spacing: 0px;
+            color: #C7C7C7;
+            text-decoration: none !important;
+            display: block;
+
+            &::before {
+                content: '';
+                color: #C7C7C7;
+                margin-right: 5.53px;
+                background-image: url(images/left-arrow-new.svg);
+                display: inline-flex;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                height: 12px;
+                width: 11.5px;
+            }
+        }
+    }
+}

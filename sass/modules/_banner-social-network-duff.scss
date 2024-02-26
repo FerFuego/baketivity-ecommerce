@@ -1,0 +1,159 @@
+.banner-social-network-duff {
+  background: #5353e2;
+  padding: 75px 0 50px 0;
+  width: 100%;
+  margin: 100px auto 0 auto;
+
+  // mobile
+  @media (max-width: 992px) {
+    height: auto;
+    padding: 17px 12px 30px;
+  }
+
+  &__icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -115px;
+    margin-bottom: 45px;
+    @media (max-width: 992px) {
+      margin-top: -54px;
+      margin-bottom: 20px;
+    }
+  }
+  &__container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // mobile
+    @media (max-width: 992px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__logo {
+    @media (max-width: 992px) {
+      margin: auto;
+    }
+  }
+
+  &__col-title {
+    width: 50%;
+    padding-top: 20px;
+
+    @media (max-width: 992px) {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__title {
+    font-family: "FilsonPro";
+    font-size: 37px;
+    line-height: 41px;
+    font-weight: 800;
+    color: white;
+    display: block;
+    margin-bottom: 15px;
+    padding-bottom: 26px;
+    padding-right: 18px;
+    background-repeat: no-repeat;
+    background-size: 267px;
+    background-image: url(images/duff/social_title_bg.svg);
+    background-position: 148px bottom;
+    position: relative;
+
+    // mobile
+    @media (max-width: 992px) {
+      display: flex;
+      align-items: center;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 34px;
+      padding-right: 0;
+      padding-bottom: 25px;
+      margin: 30px auto;
+      max-width: max-content;
+      text-align: center;
+      background-position: center bottom;
+      background-image: url(images/duff/social_title_mobile_bg.svg);
+      background-size: 230px;
+    }
+
+    &::after {
+      content: "";
+      background: url(images/duff/social_title_detail.svg);
+      display: block;
+      position: absolute;
+      width: 39px;
+      height: 50px;
+      top: -25px;
+      left:390px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      
+      @media (max-width:991px) {
+        left: inherit;
+        right: -39px;
+        rotate: -15deg;
+        top: -30px;
+      }
+    }
+  }
+  &__icon {
+    display: block;
+    width: auto;
+    height: 67px;
+    margin: 0 7px 0 7px;
+  }
+  &__text {
+    display: block;
+    width: 100%;
+    max-width: 534px;
+    position: relative;
+    // mobile
+    @media (max-width: 992px) {
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+    }
+
+    a {
+      color: white;
+    }
+    p {
+      font-family: "FilsonPro";
+      font-size: 22px;
+      line-height: 30px;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 0;
+      // mobile
+      @media (max-width: 992px) {
+        font-size: 16px !important;
+        line-height: 21px;
+        text-align: center;
+      }
+    }
+    strong {
+      font-family: "FilsonPro";
+      font-size: 22px;
+      line-height: 30px;
+      font-weight: 700;
+      color: white;
+      // mobile
+      @media (max-width: 992px) {
+        font-size: 16px;
+        line-height: 21px;
+      }
+    }
+  }
+}

@@ -1,0 +1,283 @@
+.cooking-club-what-is-inside {
+    position: relative;
+    padding-top: 51px;
+    margin-bottom: 0px;
+    height: 650px;
+    width: 100%;
+    // mobile
+    @media (max-width: 1060px) {
+        height: auto;
+        margin-bottom: 0;
+    }
+    &__container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
+        max-width: 1088px;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            min-height: 500px;
+            max-width: 100%;
+        }
+    }
+    &__title {
+        max-width: 334px;
+        margin: 0 auto 0;
+        position: relative;
+        p {
+            color: $primary-black;
+            display: block;
+            font-family: $primary-font;
+            font-size: 37px;
+            font-weight: 700;
+            line-height: 41px;
+            text-align: center;
+            margin-bottom: 0;
+            // mobile
+            @media (max-width: 768px) {
+                font-size: 26px;
+                line-height: 30px;
+            }
+        }
+        strong {
+            background-image: url(images/baking/bg-principal-yellow-2.svg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: $new-red;
+            display: block;
+            font-family: $primary-font;
+            font-size: 37px;
+            font-weight: 700;
+            margin-bottom: 0;
+            // mobile
+            @media (max-width: 768px) {
+                font-size: 26px;
+                line-height: 30px;
+            }
+        }
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            background-image: url(images/baking/subrayado-red-inside.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            bottom: -16px;
+            left: 0;
+            right: -38px;
+            margin: 0 auto;
+            height: 12px;
+            width: 185px;
+        }
+    }
+    &__body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 80px;
+        // mobile
+        @media (max-width: 1060px) {
+            justify-content: center;
+            padding: 0;
+            margin-top: 58px;
+        }
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 207px;
+        // mobile
+        @media (max-width: 1060px) {
+            margin: 0 15px 50px;
+            width: 161px;
+        }
+        &:last-child {
+            div.cooking-club-what-is-inside__item-image::after {
+                content: '';
+                background-image: url(images/cooking-kits/free.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: block;
+                height: 75px;
+                width: 76px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+            }
+        }
+    }
+    &__item-image {
+        background-color: #fed74e;
+        width: 207px;
+        height: 207px;
+        border-radius: 50%;
+        display: block;
+        margin-bottom: 22px;
+        position: relative;
+        // mobile
+        @media (max-width: 1060px) {
+            height: 161px;
+            width: 161px;
+        }
+    }
+    &__item-title {
+        color: $primary-black;
+        font-family: $primary-font;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 24px;
+        display: block;
+        max-width: 172px;
+        text-align: center;
+        // mobile
+        @media (max-width: 1060px) {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    &__item-link {
+        background-color: $new-red;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 4px;
+        color: $white;
+        height: 37px; 
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 22px auto 0;
+        // mobile
+        @media (max-width: 1060px) {
+            width: 100%;
+        }
+    }
+    // CTA
+    .support-video {
+        height: 100% !important;
+        border: none !important;
+        box-shadow: none !important;
+
+        &__play {
+            position: absolute;
+            top: 50%;  left: 50%;
+            transform: translate(-50%, -50%);
+            height: max-content;
+            display: block;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+    
+            svg {
+                // mobile
+                @media (max-width: 768px) {
+                    width: 80px !important;
+                }
+                rect {
+                    transition: .3s linear;
+                }
+            }
+    
+            &:hover {
+                background-color: transparent;
+                svg {
+                    rect {
+                        fill: #CC1A34;
+                        transition: .3s linear;
+                    }
+                }
+            }
+        }
+    }
+    &__video-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 10;
+        backdrop-filter: blur(5px);
+
+        &.open {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__container {
+            display: block;
+            position: relative;
+            max-width: 1000px;
+            padding: 0 40px;
+
+            @media (max-width: 768px) {
+                padding: 0 30px;
+            }
+        }
+
+        // inside popup
+        .support-video {
+            height: 100% !important;
+            border: none !important;
+            box-shadow: none !important;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .video-info {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+
+            &__iframe {
+                order: -1;
+                margin-bottom: 8px;
+
+                iframe{
+                    border-radius: 16px;
+                }
+            }
+        }
+
+        &-close {
+            position: absolute;
+            display: block;
+            height: max-content;
+            top: 13px;
+            right: 55px;
+            z-index: 10;
+            background-color: initial;
+            background-image: url(images/svg/cross-close-white.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding: initial;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+
+            &:hover {
+                background-color: transparent;
+            }
+
+            @media (max-width: 768px) {
+                top: 8px;
+                right: 40px;
+            }
+        }
+    }
+}

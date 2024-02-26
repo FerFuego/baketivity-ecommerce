@@ -1,0 +1,267 @@
+.grand-price {
+    padding: 54px 15px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+
+        @include tablet {
+            flex-direction: column-reverse;
+        }
+    }
+
+    &__left {
+        display: block;
+
+        // mobile
+        @include mobile {
+            display: none;
+        }
+    }
+
+    &__image {
+        margin-left: -100px;
+        max-width: 120%;
+    }
+
+    &__right {
+        width: 100%;
+        max-width: 536px;
+
+        @include tablet {
+            max-width: 100%;
+        }
+    }
+
+    &__label {
+        font: normal normal 800 28px/35px $primary-font;
+        text-align: center;
+        color: $white;
+        max-width: 430px;
+        margin: 0 auto 21px;
+
+        background-image: url(images/bake-away/subrayado-grand.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding: 5px 10px;
+
+        @include mobile-sm {
+            font: normal normal 800 22px/28px $primary-font;
+            background-image: none;
+        }
+    }
+
+    &__highlight {
+        font: normal normal 800 63px/54px $primary-font;
+        text-align: center;
+        color: $white;
+        display: block;
+        max-width: 491px;
+        margin: -30px auto 5px;
+        padding: 30px 0 20px;
+
+        background-image: url(images/bake-away/brush-1.svg), url(images/bake-away/brush-2.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: center top, center bottom;
+        background-size: 100%, 60%;
+        position: relative;
+
+        @include mobile-sm {
+            font: normal normal 800 48px/46px $primary-font;
+            background-position: center top, center 84%;
+            background-size: 100%, 78%;
+        }
+    }
+
+    &__copy {
+        font: normal normal 800 28px/35px $primary-font;
+        text-align: center;
+        color: $white;
+        display: block;
+        max-width: 459px;
+        margin: 0 auto;
+
+        .brush {
+            background-image: url(images/bake-away/brush-place.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            padding: 5px 10px;
+        }
+
+        .highlight {
+            background-image: url(images/bake-away/highlight.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            padding: 10px 20px;
+        }
+
+        @include mobile-sm {
+            font: normal normal 800 22px/28px $primary-font;
+        }
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 520px;
+        margin: 0 auto 24.5px;
+
+        @include mobile-sm {
+            padding: 0 20px;
+        }
+    }
+
+    &__item-image {
+        height: 121px;
+        width: 121px;
+
+        // mobile
+        @include mobile-sm {
+            height: 78px;
+            width: 78px;
+        }
+    }
+
+    &__copy-image {
+        font: normal normal 700 20px/26px $primary-font;
+        text-align: center;
+        color: $white;
+        display: block;
+        max-width: 484px;
+        padding: 10px;
+        margin: -75px auto 0px;
+
+        background-image: url(images/bake-away/brush-green-title.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        position: relative;
+    }
+
+    &__disclamer {
+        font: normal normal 400 16px/30px $primary-font;
+        text-align: center;
+        color: $white;
+        display: block;
+        max-width: 430px;
+        margin: 0 auto 28px;
+    }
+
+    &__bonus {
+        font: normal normal 400 20px/30px $primary-font;
+        text-align: center;
+        color: $white;
+        display: block;
+        max-width: 430px;
+        margin: 0 auto 43px;
+
+        span {
+            font: normal normal 500 20px/30px $primary-font;
+            display: block;
+        }
+
+        @include mobile-sm {
+            font: normal normal 400 16px/22px $primary-font;
+            padding: 0 20px;
+        }
+    }
+
+    &__bg-mobile {
+
+        // mobile
+        @include mobile {
+            background-image: url(images/bake-away/bg-items.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 130%;
+            padding: 40px 0 3px;
+            margin: -30px -15px 0;
+        }
+
+        @include mobile-sm {
+            background-size: 210%;
+        }
+    }
+
+    &__ctas {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 438px;
+
+        @include mobile-sm {
+            flex-direction: column;
+            align-items: center;
+            height: 85px;
+        }
+    }
+
+    &__cta-1 {
+        font: normal normal 700 15px/18px $primary-font;
+        background-color: $new-red;
+        border-radius: 4px;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 37px;
+        width: 200px;
+
+        @include mobile-sm {
+            width: 100%;
+            max-width: 333px;
+        }
+    }
+
+    &__cta-2 {
+        font: normal normal 700 15px/18px $primary-font;
+        background-color: transparent;
+        border-radius: 4px;
+        color: $white;
+        border: 2px solid $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 37px;
+        width: 200px;
+
+        @include mobile-sm {
+            width: 100%;
+            max-width: 333px;
+        }
+    }
+
+    &__image-mobile {
+        display: none;
+
+        // mobile
+        @include mobile {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    &__copy-image-mobile {
+        display: none;
+        font: normal normal 500 14px/18px $primary-font;
+        text-align: center;
+        color: $white;
+        max-width: 484px;
+        padding: 10px;
+        margin: 0 auto 28px;
+        max-width: 262px;
+
+        // mobile
+        @include mobile {
+            display: block;
+        }
+    }
+}

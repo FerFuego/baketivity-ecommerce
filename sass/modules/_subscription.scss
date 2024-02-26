@@ -1,0 +1,832 @@
+.m-subscription {
+    &__header {
+        margin: 44px auto;
+    }
+
+    /* --- Header --- */
+    &__header-title {
+        font-size: 37px;
+        line-height: 41px;
+        font-weight: 900;
+        font-family: 'FilsonPro';
+        text-align: center;
+        margin: 0;
+    }
+
+    &__header-copy {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        font-family: 'FilsonPro';
+        text-align: center;
+        margin: 10px 0 0;
+    }
+
+    /* --- Pricing Table --- */
+    .meta-sub {
+        display: none;
+    }
+
+    .sub-product-list {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 26px;
+    }
+
+    .sub-product-list__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto 20px;
+        position: relative;
+        padding: 0 15px;
+    }
+
+    .sub-product-list__header-title {
+        background-image: url(images/shop/brush-green-title-1.svg), url(images/shop/brush-green-title-2.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-family: $primary-font;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        color: $primary-black;
+        text-align: center;
+        margin-bottom: 0;
+        padding: 3px 20px;
+
+        @include mobile {
+            background-position: 100% 11%, 100% 84%;
+            font-size: 29px;
+            line-height: 31px;
+        }
+    }
+
+    .sub-product-list__header-subtitle {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 40px;
+        color: $primary-black;
+        text-align: center;
+        margin-bottom: 0;
+
+        @include mobile {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+
+    .sub-product-list .product.type-product {
+        background-image: none;
+        border: solid 2px $new-green;
+        border-radius: 15px !important;
+        display: flex;
+        flex-direction: column;
+        height: min-content;
+        margin-right: 6px;
+        margin-left: 6px;
+        margin-top: 60px;
+        width: min-content;
+        padding: 20px 25px 15px;
+    }
+
+    // desktop
+    .sub-product-list .product.type-product:nth-child(3),
+    // mobile
+    .sub-product-list:nth-child(3) .product.type-product {
+        &::before {
+            content: '★ MOST POPULAR ★';
+            background-color: #FFD64F;
+            border-radius: 13px !important;
+            border: 2px solid #FFD64F;
+            color: $primary-black;
+            display: block;
+            position: absolute;
+            padding: 10px 0 0 0;
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 800;
+            line-height: 17px;
+            margin-left: -27px;
+            height: 120px;
+            top: -53px;
+            width: 100%;
+            z-index: -1;
+
+            // mobile 
+            @media (max-width: 768px) {
+                margin-left: -37px;
+            }
+        }
+    }
+
+    .sub-product-list .product.type-product:hover {
+        background-image: none;
+    }
+
+    .sub-product-list .product.type-product:hover * {
+        color: #333334;
+    }
+
+    .sub-product-list .product.type-product:hover span.sub-save-price div:last-child .woocommerce-Price-amount {
+        color: $new-green;
+    }
+
+    .year-bage {
+        top: -42px;
+        font-family: 'FilsonPro';
+        font-weight: 800 !important;
+        font-size: 15px !important;
+        line-height: 17px;
+        left: -10px;
+        width: 240px;
+    }
+
+    .year-bage span,
+    .year-bage span:hover {
+        line-height: 17px;
+        font-size: 15px !important;
+        font-weight: 800 !important;
+        transform: none;
+        color: $new-red !important;
+        background-color: $white;
+    }
+
+    .year-bage span br,
+    .year-bage span:hover br {
+        content: "";
+    }
+
+    .year-bage span br:after,
+    .year-bage span:hover br:after {
+        content: " ";
+    }
+
+    .year-bage svg {
+        display: none;
+    }
+
+    .year-bage:after {
+        content: url(images/modules/small-arrow-red-down.svg);
+        right: 10px;
+        top: 24px;
+        position: absolute;
+    }
+
+    .sub-product-list span.sub-save-price {
+        background-color: transparent !important;
+        position: relative;
+        font-size: 16px;
+        text-transform: capitalize;
+        width: auto;
+        padding: 0;
+        height: auto;
+        top: 0;
+        line-height: 1.2;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 600 !important;
+        font-style: normal;
+        margin-bottom: 20px;
+        flex-direction: row;
+    }
+
+    .sub-product-list .product.type-product span.sub-save-price *,
+    .m-subscription .sub-product-list .product.type-product:hover span.sub-save-price * {
+        color: $new-green !important;
+    }
+
+    .sub-top {
+        z-index: 2;
+    }
+
+    .sub-top h4 span {
+        font-weight: 900 !important;
+        font-family: 'FilsonPro' !important;
+        font-size: 33px;
+    }
+
+    span.sub-save-price {
+        background: transparent !important;
+    }
+
+    span.sub-save-price div {
+        display: inline-block;
+        width: auto;
+        padding: 0 0 0 4px;
+        font-weight: 600 !important;
+        order: 3;
+    }
+
+    span.sub-save-price div:last-child {
+        color: transparent;
+    }
+
+    .sub-product-list a.button.product_type_subscription.add_to_cart_button {
+        width: max-content;
+        margin: 0 auto;
+        background: $new-red;
+        color: $white;
+        text-transform: capitalize !important;
+        border: none;
+        font-size: 15px;
+        font-family: $primary-font;
+        height: auto;
+        padding: 18px 26px 16px;
+        border-radius: 6px;
+        order: 4;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .sub-product-list .product.type-product:hover a.button.product_type_subscription.add_to_cart_button {
+        background: $new-red !important;
+        border: none !important;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .sub-product-list .product.type-product:hover a.button.product_type_subscription.add_to_cart_button span {
+        color: $white !important;
+    }
+
+    .sub-product-list h2 {
+        font-size: 18px;
+        line-height: 36px;
+        color: $white !important;
+        background-color: $new-green;
+        border-radius: 18px;
+        width: 140px;
+        height: 33px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -38px;
+        margin-bottom: 20px;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 700;
+        display: block;
+        text-transform: capitalize !important;
+    }
+
+    .sub-product-list h4 {
+        font-size: 33px;
+        line-height: 33px;
+        color: #333334;
+        margin-bottom: 0;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 900;
+    }
+
+    .sub-product-list span.per-month {
+        font-size: 16px;
+        color: #333334;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 600;
+        margin-top: 0;
+        line-height: 14px;
+        text-transform: lowercase !important;
+    }
+
+    .sub-product-list span.sub-total {
+        font-size: 16px;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 500;
+        color: #333334;
+        line-height: 50px;
+    }
+
+    .select-subscription {
+        text-align: center;
+    }
+
+    .select-subscription h2 {
+        font-size: 33px;
+        line-height: 41px;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 800;
+        color: #EE324D;
+        margin-bottom: 0;
+    }
+
+    .select-subscription p {
+        font-size: 20px;
+        line-height: 42px;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 400;
+        margin-top: 0;
+    }
+
+    &__shipping {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 60.83px;
+    }
+
+    &__title {
+        font-size: 18px !important;
+        line-height: 21px !important;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 500;
+        color: $new-red;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: flex-end;
+
+        &::before {
+            content: '';
+            background-image: url(images/modules/icon-shipping-car.svg);
+            background-repeat: no-repeat;
+            display: block;
+            width: 40px;
+            height: 25px;
+        }
+    }
+
+    &__copy {
+        font-size: 14px !important;
+        line-height: 21px !important;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 400;
+        color: #333334;
+        margin-bottom: 60.83px;
+        max-width: 510px;
+        text-align: center;
+
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 38px;
+        }
+    }
+
+    &__link {
+        background-color: #EE324D;
+        font-size: 18px !important;
+        line-height: 21px !important;
+        font-family: 'FilsonPro', sans-serif;
+        font-weight: 500;
+        border-radius: 5px;
+        color: $white;
+        cursor: pointer;
+        max-width: 510px;
+        text-align: center;
+        text-decoration: none;
+        padding: 12.5px 39px;
+    }
+
+    &__slider-content {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center !important;
+        width: 100%;
+    }
+
+    // tablet
+    @media (max-width: 991px) {
+        .sub-product-list h2 {
+            margin-bottom: 20px !important;
+            font-size: 18px !important;
+            line-height: 36px !important;
+            margin-top: -38px !important;
+        }
+
+        .sub-product-list h4 {
+            font-size: 33px !important;
+            line-height: 33px !important;
+        }
+
+        .sub-product-list .product.type-product:hover {
+            background-image: none !important;
+        }
+    }
+
+    // mobile
+    @media (max-width: 768px) {
+        .sub-product-list {
+            margin-bottom: 0;
+        }
+
+        .sub-product-list .product.type-product {
+            margin-right: auto;
+            margin-left: auto;
+            padding: 20px 35px 15px;
+            margin-top: 50px;
+        }
+
+        .year-bage {
+            right: 0px !important;
+        }
+
+        .sub-product-list a.button.product_type_subscription.add_to_cart_button {
+            height: auto !important;
+            padding: 18px 20px 16px;
+        }
+
+        .subscription-product-list-mobile {
+            position: relative;
+        }
+
+        .subscription-product-list-mobile .tab button {
+            font-size: 14px;
+            line-height: 1.2;
+            padding: 5px 12px;
+            font-family: 'FilsonPro', sans-serif;
+            font-weight: 600;
+            text-transform: capitalize !important;
+            margin: 10px 1px 0;
+            color: #9A9A9A;
+            background-color: #fff !important;
+            border-bottom: solid 2px #9A9A9A;
+        }
+
+        .subscription-product-list-mobile .tab button.active {
+            background-color: #fff !important;
+            color: #ee324d !important;
+            border-bottom: solid 2px;
+        }
+
+        .select-subscription h2 {
+            font-size: 22px !important;
+            line-height: 32px !important;
+            margin-bottom: 0;
+        }
+
+        .select-subscription p {
+            font-size: 16px !important;
+            line-height: 25px !important;
+            margin-top: 0;
+        }
+
+        &__shipping {
+            max-width: 254px;
+            margin: 20px auto 58px;
+        }
+    }
+
+    // responsive
+    @media (max-width: 440px) {
+        .subscription-product-list-mobile .tab button {
+            padding: 5px;
+        }
+    }
+
+    @media (max-width: 380px) {
+        .subscription-product-list-mobile .tab button {
+            font-size: 13px;
+        }
+    }
+
+    @media (max-width: 360px) {
+        .subscription-product-list-mobile .tab button {
+            padding: 5px 2px;
+        }
+    }
+
+    @media (max-width: 340px) {
+        .subscription-product-list-mobile .tab button {
+            font-size: 12px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        .subscription-product-list-mobile .tab button {
+            font-size: 11px;
+        }
+    }
+}
+
+/* start pricing table new styles */
+
+#pricing-table .meta-sub {
+    display: none;
+}
+
+#pricing-table .sub-product-list {
+    justify-content: center;
+}
+
+#pricing-table .sub-product-list .product.type-product {
+    background-image: none;
+    border: solid 2px #09989A;
+    border-radius: 15px !important;
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-top: 60px;
+    width: min-content;
+    padding: 20px 25px 15px;
+}
+
+#pricing-table .sub-product-list .product.type-product:hover {
+    background-image: none;
+}
+
+#pricing-table .sub-product-list .product.type-product:hover * {
+    color: #333334;
+}
+
+#pricing-table .sub-product-list .product.type-product:hover span.sub-save-price div:last-child .woocommerce-Price-amount {
+    color: #09989A;
+}
+
+#pricing-table .year-bage {
+    top: -42px;
+    font-family: 'FilsonPro';
+    font-weight: bold !important;
+    line-height: 17px;
+    width: 240px;
+    left: -10px;
+}
+
+#pricing-table .year-bage span,
+.year-bage span:hover {
+    line-height: 17px;
+    transform: none;
+    color: #ee324d !important;
+}
+
+#pricing-table .year-bage span br,
+.year-bage span:hover br {
+    content: "";
+}
+
+#pricing-table .year-bage span br:after,
+.year-bage span:hover br:after {
+    content: " ";
+}
+
+#pricing-table .year-bage svg {
+    display: none;
+}
+
+#pricing-table .year-bage:after {
+    content: url(https://wordpress-460252-1458808.cloudwaysapps.com/wp-content/uploads/2022/03/best-value-arrow.svg);
+    right: 10px;
+    position: absolute;
+}
+
+#pricing-table .sub-product-list span.sub-save-price {
+    position: relative;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: auto;
+    padding: 0;
+    height: auto;
+    top: 0;
+    line-height: 1.2;
+    font-family: filson-pro, sans-serif;
+    font-weight: 600 !important;
+    font-style: normal;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+#pricing-table .sub-product-list .product.type-product span.sub-save-price *,
+#pricing-table .sub-product-list .product.type-product:hover span.sub-save-price * {
+    color: #09989A !important;
+}
+
+#pricing-table span.sub-save-price {
+    background: transparent !important;
+}
+
+#pricing-table span.sub-save-price div {
+    display: inline-block;
+    width: auto;
+    padding: 0 0 0 4px;
+    font-weight: 600 !important;
+    order: 3;
+}
+
+#pricing-table span.sub-save-price div:last-child {
+    color: transparent;
+}
+
+#pricing-table .sub-product-list a.button.product_type_subscription.add_to_cart_button {
+    width: max-content;
+    margin: 0 auto;
+    background: $new-red;
+    color: $white;
+    text-transform: capitalize !important;
+    border: none;
+    font-size: 15px;
+    font-family: $primary-font;
+    height: auto;
+    padding: 11px 26px;
+    border-radius: 6px;
+    order: 4;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+#pricing-table .sub-product-list .product.type-product:hover a.button.product_type_subscription.add_to_cart_button {
+    background: $new-red !important;
+    border: none !important;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+#pricing-table .sub-product-list .product.type-product:hover a.button.product_type_subscription.add_to_cart_button span {
+    color: $white !important;
+}
+
+#pricing-table .sub-product-list h2 {
+    font-size: 18px;
+    line-height: 36px;
+    color: $white !important;
+    background-color: #09989A;
+    border-radius: 18px;
+    width: 140px;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -38px;
+    margin-bottom: 20px;
+    font-family: filson-pro, sans-serif;
+    font-weight: 700;
+    display: block;
+    text-transform: capitalize !important;
+}
+
+#pricing-table .sub-product-list h4 {
+    font-size: 33px;
+    line-height: 33px;
+    color: #333334;
+    margin-bottom: 0;
+    font-family: filson-pro, sans-serif;
+    font-weight: 900;
+}
+
+#pricing-table .sub-product-list span.per-month {
+    font-size: 16px;
+    color: #333334;
+    font-family: filson-pro, sans-serif;
+    font-weight: 600;
+    margin-top: 0;
+    line-height: 14px;
+    text-transform: lowercase !important;
+}
+
+#pricing-table .sub-product-list span.sub-total {
+    font-size: 16px;
+    font-family: filson-pro, sans-serif;
+    font-weight: 500;
+    color: #333334;
+    line-height: 50px;
+}
+
+.free-shipping-usa {
+    max-width: 512px;
+    margin: auto;
+    text-align: center;
+}
+
+.free-shipping-usa h4 {
+    font-size: 18px !important;
+    line-height: 21px !important;
+    font-family: filson-pro, sans-serif;
+    font-weight: 600;
+    color: #EE324D;
+}
+
+.free-shipping-usa p {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: filson-pro, sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.free-shipping-usa img {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.select-subscription {
+    text-align: center;
+}
+
+.select-subscription h2 {
+    font-size: 33px;
+    line-height: 41px;
+    font-family: filson-pro, sans-serif;
+    font-weight: 800;
+    color: #EE324D;
+    margin-bottom: 0;
+}
+
+.select-subscription p {
+    font-size: 20px;
+    line-height: 42px;
+    font-family: filson-pro, sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+@media (max-width: 991px) {
+    #pricing-table .sub-product-list h2 {
+        margin-bottom: 20px !important;
+        font-size: 18px !important;
+        line-height: 36px !important;
+        margin-top: -38px !important;
+    }
+
+    #pricing-table .sub-product-list h4 {
+        font-size: 33px !important;
+        line-height: 33px !important;
+    }
+
+    #pricing-table .sub-product-list .product.type-product:hover {
+        background-image: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #pricing-table .sub-product-list .product.type-product {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px 35px 15px;
+        margin-top: 50px;
+    }
+
+    #pricing-table .year-bage {
+        right: 0px !important;
+    }
+
+    #pricing-table .sub-product-list a.button.product_type_subscription.add_to_cart_button {
+        height: auto !important;
+        padding: 6px 20px;
+    }
+
+    #pricing-table .subscription-product-list-mobile .tab button {
+        font-size: 14px;
+        line-height: 1.2;
+        padding: 5px 12px;
+        font-family: filson-pro, sans-serif;
+        font-weight: 600;
+        text-transform: capitalize !important;
+        margin: 10px 1px 0;
+        color: #9A9A9A;
+        background-color: #fff !important;
+        border-bottom: solid 2px #9A9A9A;
+    }
+
+    #pricing-table .subscription-product-list-mobile .tab button.active {
+        background-color: #fff !important;
+        color: #ee324d !important;
+        border-bottom: solid 2px;
+    }
+
+    .select-subscription h2 {
+        font-size: 22px !important;
+        line-height: 32px !important;
+        margin-bottom: 0;
+    }
+
+    .select-subscription p {
+        font-size: 16px !important;
+        line-height: 25px !important;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 440px) {
+    #pricing-table .subscription-product-list-mobile .tab button {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 380px) {
+    #pricing-table .subscription-product-list-mobile .tab button {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 360px) {
+    #pricing-table .subscription-product-list-mobile .tab button {
+        padding: 5px 2px;
+    }
+}
+
+@media (max-width: 340px) {
+    #pricing-table .subscription-product-list-mobile .tab button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    #pricing-table .subscription-product-list-mobile .tab button {
+        font-size: 11px;
+    }
+}
+
+/* finish pricing table new styles */

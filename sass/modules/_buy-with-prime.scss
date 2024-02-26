@@ -1,0 +1,178 @@
+.buy-with-prime {
+    display: none;
+    height: auto;
+    margin: 18px 0;
+    width: 100%;
+
+    &__container {
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1088px;
+    }
+
+    &__content {
+        display: flex;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 114px;
+        height: auto;
+        padding: 15px;
+        width: 100%;
+        margin: 0 auto;
+
+        // mobile
+        @include mobile {
+            align-items: flex-start;
+            gap: 8px;
+            padding: 18px 27px 19px 13px;
+            height: 260px;
+            max-width: 335px;
+        }
+    }
+
+    &__logo-prime {
+        display: block;
+        flex: none;
+        height: 81px;
+        width: 81px;
+    }
+
+    &__logo {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    &__title {
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        color: $white;
+        text-align: center;
+        margin-bottom: 0;
+
+        // mobile
+        @include mobile {
+            font-size: 20px;
+            text-align: left;
+            line-height: 26px;
+            margin-bottom: 16px;
+        }
+    }
+
+    &__subtitle {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $white;
+        text-align: center;
+        margin-bottom: 0;
+
+        span,
+        strong {
+            position: relative;
+
+            &::after {
+                content: '';
+                display: block;
+                background: url(images/prime/subrayado-yellow.svg) no-repeat center center / contain;
+                margin: 0 auto;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: -11px;
+                height: 12px;
+                width: 100px;
+
+                // mobile
+                @include mobile {
+                    background: url(images/prime/arrow-yellow-prime.svg) no-repeat center center / contain;
+                    left: initial;
+                    right: -68px;
+                    bottom: 3px;
+                    margin: 0;
+                }
+            }
+        }
+
+        // mobile
+        @include mobile {
+            text-align: left;
+            line-height: 20px;
+            max-width: 188px;
+        }
+    }
+
+    &__cta {
+        background-color: #0192FA;
+        border: 0;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        color: $white;
+        padding: 2px 0 0 0;
+        height: 37px;
+        width: 146.57px;
+
+        &:hover {
+            background-color: #0192fadc;
+        }
+
+        // mobile
+        @include mobile {
+            position: absolute;
+            bottom: 19px;
+            left: 102px;
+        }
+    }
+
+    &__cta-link {
+        background-color: #0192FA;
+        border: 0;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        color: $white;
+        padding: 3px 0 0 0;
+        height: 37px;
+        width: 146.57px;
+
+        &:hover {
+            background-color: #0192fadc;
+        }
+
+        // mobile
+        @include mobile {
+            position: absolute;
+            bottom: 19px;
+            left: 102px;
+        }
+    }
+}
+
+// TODO: prime logo mega menu bug
+#mega-menu .buy-with-prime {
+    display: block;
+    height: auto;
+    margin: 0 10px 0 0;
+    width: 15px;
+
+    @include mobile {
+        margin: 0 13px 0 0;
+    }
+}

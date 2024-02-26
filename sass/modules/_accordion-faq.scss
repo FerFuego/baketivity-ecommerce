@@ -1,0 +1,129 @@
+.faq-accordion {
+	width: 100%;
+	max-width: 904px;
+	margin: 0 auto;
+	padding: 28px 0px;
+
+	@media (max-width: 768px) {
+		max-width: 334px;
+		padding: 2px 0px 28px 0px;
+	}
+
+	@media only screen and (min-width: 769px) and (max-width: 904px) {
+		max-width: 640px;
+	}
+
+	.panel {
+		font-family: 'FilsonPro';
+		display: none;
+		padding: 20px 0px 0px 0px;
+
+		&:first-child {
+			display: block !important;
+		}
+	}
+
+	.faq-menu-title {
+		width: 100%;
+		background-color: transparent;
+		text-align: left;
+		padding: 0px 0px 11.5px 0px;
+		margin: 35.5px 0px 0px 0px;
+		position: relative;
+		font-weight: 400;
+		border-bottom: 1.5px solid #C0DD52;
+		font-size: 22px;
+		text-overflow: ellipsis;
+		white-space: break-spaces;
+		word-break: keep-all;
+		padding-right: 50px;
+
+		@media (max-width: 768px) {
+			font-size: 16px;
+			margin: 29px 0px 0px 0px;
+			font-weight: 600;
+		}
+
+		&:hover {
+			color: black;
+		}
+	}
+
+	.accordion-faq {
+		&:after {
+			content: '\e316';
+			font-size: 35px;
+			position: absolute;
+			font-family: 'Material Icons';
+			right: 0px;
+			top: 0px;
+			transform: rotate(180deg);
+			color: black;
+			display: block;
+			font-weight: 400;
+			height: 40px;
+		}
+
+		&.active {
+			&:after {
+				transform: rotate(0deg);
+				margin-top: -15px;
+			}
+		}
+	}
+
+	&__header {
+		font-family: $primary-font;
+		font-size: 37px;
+		line-height: 51px;
+		font-weight: 700;
+		color: $primary-black;
+		margin-bottom: 0;
+		text-align: center;
+
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: center;
+		margin-top: 56px;
+		margin-bottom: 84px;
+		width: 100%;
+
+		// mobile
+		@media (max-width: 768px) {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+	&__footer-title {
+		font-family: $primary-font;
+		font-size: 18px;
+		line-height: 32px;
+		font-weight: 400;
+		color: $primary-black;
+	}
+
+	&__footer-cta {
+		font-family: $primary-font;
+		font-size: 18px;
+		line-height: 32px;
+		font-weight: 400;
+		text-decoration: underline;
+		margin-left: 5px;
+		color: #09989A;
+	}
+
+	&__footer-cta-2 {
+		font-family: $primary-font;
+		font-size: 18px;
+		line-height: 32px;
+		font-weight: 400;
+		text-decoration: underline;
+		margin-left: 5px;
+		color: #09989A;
+	}
+
+	&__footer-cta-container {}
+}

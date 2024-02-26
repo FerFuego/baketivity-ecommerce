@@ -1,0 +1,81 @@
+/* Zoom div */
+.zoom-in-out-box:hover {
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* Flash animation */
+.animate__flash {
+    animation: flash 5s infinite linear;
+}
+
+@keyframes flash {
+
+    0% {
+        opacity: 1;
+        -webkit-transform: opacity(1);
+        transform: opacity(1);
+    }
+
+    10% {
+        opacity: 0.5;
+        -webkit-transform: opacity(0.5);
+        transform: opacity(0.5);
+    }
+
+    20% {
+        opacity: 0.5;
+        -webkit-transform: opacity(0.5);
+        transform: opacity(0.5);
+    }
+
+    30% {
+        opacity: 1;
+        -webkit-transform: opacity(1);
+        transform: opacity(1);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: opacity(1);
+        transform: opacity(1);
+    }
+}
+
+
+/* Button Effect */
+.button-hovered:hover {
+    background-color: #b90520 !important;
+    transition: .3s ease-in-out;
+}
+
+/* Zoom image in card */
+.post-thumb-zoom {
+    overflow: hidden;
+}
+
+.post-thumb-child {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    transform: scale(1);
+}
+
+.post-thumb-zoom:hover .post-thumb-child,
+.post-thumb-zoom:focus .post-thumb-child {
+    transform: scale(1.1);
+}

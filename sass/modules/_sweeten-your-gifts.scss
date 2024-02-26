@@ -1,0 +1,187 @@
+.sweeten-your-gifts {
+    padding: 35px 0 74px;
+    &__container {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__header {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 29px;
+        }
+    }
+    &__header-title {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 800;
+        line-height: 44px;
+        color: $primary-black;
+        margin-bottom: 0;
+        display: block;
+        text-align: center;
+        position: relative;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 26px;
+            line-height: 31px;
+            max-width: 250px;
+        }
+    }
+    &__body {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 341px;
+        // mobile
+        @media (max-width: 768px) {
+            margin: 0 auto;
+            margin-bottom: 70px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__item-image {
+        // mobile 
+        @media (max-width: 768px) {
+            width: 100%;
+            max-width: 242px;
+            margin: 0 auto;
+        }
+    }
+    &__item-title {
+        font-family: $primary-font;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+        display: block;
+        color: $primary-black;
+        width: 100%;
+        max-width: 266px;
+        margin: 0 auto 20px;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 24px;
+            line-height: 26px;
+            text-align: center;
+        }
+    }
+    &__item-copy {
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+        display: block;
+        color: $primary-black;
+        width: 100%;
+        max-width: 269px;
+        margin: 0 auto 60px;
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 20px;
+        }
+    }
+    &__fix-margin {
+        margin-bottom: 21px;
+    }
+    &__variations {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 34px;
+        width: 100%;
+        max-width: 280px;
+        // mobile
+        @media (max-width: 768px) {
+            margin: 0 auto 35px;
+        }
+    }
+    select {
+        font-family: $primary-font;
+        font-size: 14px;
+        background-color: #F8F8F8;
+        border: none;
+        width: 180px;
+        padding: 9px;
+        border-radius: 5px;
+    }
+    &__product-quantity {
+        display: block;
+        height: auto;
+        width: 82px;
+        margin: 0 auto;
+    }
+    &__qty {
+        font-family: $primary-font;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30px;
+        color: $primary-black;
+        cursor: pointer;
+    }
+    &__qty-input {
+        background-color: #F8F8F8 !important;
+        padding: 0 !important;
+        color: $primary-black !important;
+        border: 0 !important;
+        -webkit-appearance: none !important;
+        box-sizing: border-box !important;
+        font-family: $primary-font !important;
+        font-weight: normal !important;
+        box-shadow: none !important;
+        width: 30px !important;
+        text-align: center !important;
+        margin: 0 12px !important;
+    }
+    &__item-link {
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        width: 190px;
+        height: 38px;
+        margin: 20px auto 20px;
+        background-color: $new-red;
+        border-radius: 4px;
+        // mobile
+        @media (max-width: 768px) {
+            margin: 30px auto 0px;
+        }
+    }
+    .added_to_cart {
+        display: none !important;
+    }
+
+    .gift-card-amount__select-an-amount {
+        display: none;
+        color: red;
+        font-size: 10px;
+        font-family:'FilsonPro';
+    }
+}

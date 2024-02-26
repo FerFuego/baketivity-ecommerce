@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: $primary-font;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
+
+section {
+    max-width: 1920px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    margin: 0 auto;
+}
+
+.col-full {
+    max-width: 1088px !important;
+}
+
+a,
+ins {
+    display: block;
+    text-decoration: none;
+    color: initial;
+    line-height: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    appearance: none;
+    border: none;
+}
+
+label,
+input {
+    font-family: $primary-font;
+    border: none;
+}
+
+a:focus,
+button:focus,
+.button.alt:focus,
+input:focus,
+textarea:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus {
+    outline-color: transparent;
+}
+
+#yith-wacp-popup {
+    .yith-wacp-content {
+        scroll-behavior: auto !important;
+    }
+
+    .ps__thumb-y {
+        scroll-behavior: auto !important;
+    }
+}

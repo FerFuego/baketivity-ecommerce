@@ -1,0 +1,639 @@
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product .product-qty .quantity {
+    width: 120px;
+}
+
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product {
+    background-color: #f8f8f8 !important;
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: none;
+    position: relative;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 15px !important;
+    border-radius: 9px !important;
+    padding: 18px 15px !important;
+    border-radius: 0;
+    width: 48% !important;
+    max-width: 176px;
+
+    .product.add_to_cart_inline {
+        padding: 0 !important;
+    }
+
+    button.product_type_simple {
+        background: #ee324d !important;
+        color: #fff !important;
+        border-radius: 2px !important;
+        border-color: #ee324d;
+        font-size: 10px !important;
+        font-family: $primary-font;
+        border: none !important;
+        height: 26px;
+        line-height: 26px;
+        width: 92px !important;
+        min-width: 92px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+}
+
+.yith-wacp-content .yith-wacp-related a.button.add_to_cart_button {
+    background: #ee324d !important;
+    color: #fff !important;
+    border-radius: 2px !important;
+    border-color: #ee324d;
+    font-size: 10px !important;
+    font-family: $primary-font;
+    border: none !important;
+    height: 26px;
+    line-height: 26px;
+    width: 92px !important;
+    min-width: 92px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0;
+    position: relative;
+}
+
+.product-des-pop {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-des-pop .product-description-pop {
+    display: block;
+    height: 24px;
+    width: 100%;
+}
+
+.popup-cart-d .yith-wacp-related {
+    margin-top: 25px !important;
+}
+
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product>a {
+    display: flex;
+    align-items: center;
+    width: 50% !important;
+}
+
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product img {
+    max-width: 90px !important;
+    margin-bottom: 0;
+}
+
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product h3,
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product h3 a {
+    color: #ee324d;
+    margin-left: 0;
+    line-height: 18px !important;
+    font-size: 14px !important;
+    font-family: 'FilsonPro' !important;
+    font-weight: bold !important;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product:last-child {
+    border: none !important;
+}
+
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product .woocommerce-product-rating {
+    display: none;
+}
+
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product.product-type-subscription>a {
+    width: 40% !important;
+}
+
+.yith-wacp-content .cart-related-d span.price {
+    line-height: 18px !important;
+    font-size: 14px !important;
+    font-family: 'FilsonPro' !important;
+    font-weight: 500 !important;
+}
+
+.yith-wacp-content .cart-info form input#coupon_code {
+    background-color: $white !important;
+    margin-right: 8px !important;
+    height: 41px;
+    border: solid 1px $white;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: none !important;
+    font: normal normal 500 14px/19px "FilsonPro";
+    width: 100%;
+    max-width: 100% !important;
+    min-width: 140px !important;
+    display: block;
+}
+
+.yith-wacp-content .coupon-form-toggle {
+    margin-bottom: 12px !important;
+
+    @include mobile {
+        padding: 0 !important;
+    }
+}
+
+.yith-wacp-content .cart-info form {
+    ::placeholder {
+        font: normal normal 600 14px/19px "FilsonPro";
+        color: #333334 !important;
+        opacity: 1;
+    }
+
+    ::-webkit-input-placeholder {
+        font: normal normal 600 14px/19px "FilsonPro";
+        color: #333334 !important;
+        opacity: 1;
+    }
+
+    :-ms-input-placeholder {
+        font: normal normal 600 14px/19px "FilsonPro";
+        color: #333334 !important;
+        opacity: 1;
+    }
+}
+
+.yith-wacp-content .cart-info a#nm-coupon-btn {
+    text-transform: initial !important;
+}
+
+.yith-wacp-content .cart-info form .button {
+    font-family: 'FilsonPro';
+    background-color: transparent !important;
+    border: 2px solid #4D4D4F;
+    border-radius: 8px !important;
+    padding: 8px 0px !important;
+    font-weight: 700 !important;
+    line-height: 16px !important;
+    font-size: 14px !important;
+    color: #4D4D4F;
+    width: 83px !important;
+}
+
+.yith-wacp-content .cart-info form input[type=submit] {
+    font-family: 'FilsonPro' !important;
+    background-color: transparent !important;
+    border: 2px solid #4D4D4F;
+    border-radius: 8px !important;
+    padding: 8px 0px !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    color: #4D4D4F;
+    width: 83px !important;
+}
+
+.yith-wacp-content .popup-actions .wc_payment_methods_cart {
+    justify-content: space-evenly;
+}
+
+.yith-wacp-content .cart-discount {
+    font-family: $primary-font;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.quick-cart {
+    &__quantity {
+        font-family: $primary-font;
+        font-weight: 600;
+        color: $primary-black;
+
+        .qty {
+            font-family: $primary-font;
+            font-weight: 600;
+            color: $primary-black;
+            text-align: right;
+            background-color: $white;
+            border: none !important;
+            box-shadow: none;
+            text-align: center;
+            padding: 0;
+            width: 35px !important;
+        }
+    }
+
+    &__form {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+
+        .minus {
+            background-color: transparent !important;
+            font-family: $primary-font;
+            font-weight: 300;
+            font-size: 22px;
+            border: none;
+            color: $primary-black !important;
+            cursor: pointer;
+            margin-right: 8px;
+            height: 16px;
+            line-height: 17px;
+            padding: 0;
+            height: 25px;
+            width: 14px;
+        }
+
+        .plus {
+            background-color: transparent !important;
+            font-family: $primary-font;
+            font-weight: 300;
+            font-size: 22px;
+            border: none;
+            color: $primary-black !important;
+            cursor: pointer;
+            margin-left: 8px;
+            height: 16px;
+            line-height: 17px;
+            padding: 0;
+            height: 25px;
+            width: 14px;
+        }
+    }
+
+    &__input-individual {
+        font-family: $primary-font;
+        font-weight: 600;
+        color: $primary-black;
+        text-align: right;
+        background-color: $white;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        width: 35px !important;
+    }
+
+    &__remove {
+        position: absolute;
+        right: 15px;
+        bottom: 12px;
+        text-align: right;
+        width: 50px !important;
+
+        a {
+            color: $primary-black;
+            font-size: 12px;
+            font-weight: normal;
+            font-family: $primary-font;
+            text-decoration: underline;
+            display: block;
+            width: 100%;
+
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+}
+
+.custom-quick-cart {
+    .form-coupon-loader {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.9);
+        z-index: 9999;
+        display: none;
+    }
+
+    span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 3em;
+        height: 3em;
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        border-left-color: #ee324d;
+        animation: spin 1s ease infinite;
+    }
+
+    .coupon-form-toggle {
+        margin-bottom: 0 !important;
+        background: $white 0% 0% no-repeat padding-box !important;
+        border-radius: 10px;
+        transform: transition-duration(0.3s);
+        overflow: hidden;
+        height: 47px;
+
+        &.active {
+            height: auto;
+
+            #nm-coupon-btn::before {
+                transform: rotate(135deg);
+            }
+        }
+
+        .form-coupon-checkout {
+            display: inline-flex;
+            padding: 0 10px 10px;
+            margin-bottom: 0 !important;
+            position: relative;
+            width: 100%;
+
+            .coupon {
+                display: inline-flex !important;
+                padding: 0;
+                margin-bottom: 0 !important;
+                position: relative;
+                width: 100%;
+            }
+
+            input#coupon_code {
+                border: 0 !important;
+                background-color: #f8f8f8 !important;
+                margin-right: 8px !important;
+                height: 41px;
+                border: solid 1px #f8f8f8;
+                border-top-right-radius: 7px;
+                border-top-left-radius: 7px;
+                border-bottom-left-radius: 7px;
+                border-bottom-right-radius: 7px;
+                box-shadow: none !important;
+                font: normal normal 500 14px/19px "FilsonPro";
+                width: 100%;
+                max-width: 100% !important;
+                min-width: 140px !important;
+                display: block;
+
+                @include mobile {
+                    background-color: $white !important;
+                }
+
+                &::placeholder {
+                    font: normal normal 600 14px/19px "FilsonPro";
+                    color: #333334 !important;
+                    opacity: 1;
+                }
+
+                &::-webkit-input-placeholder {
+                    font: normal normal 600 14px/19px "FilsonPro";
+                    color: #333334 !important;
+                    opacity: 1;
+                }
+
+                &:-ms-input-placeholder {
+                    font: normal normal 600 14px/19px "FilsonPro";
+                    color: #333334 !important;
+                    opacity: 1;
+                }
+            }
+
+            button[type="submit"] {
+                font-family: "FilsonPro" !important;
+                background-color: transparent !important;
+                border: 2px solid #4d4d4f;
+                border-radius: 8px !important;
+                padding: 8px 0px !important;
+                font-weight: 700 !important;
+                font-size: 14px !important;
+                line-height: 16px !important;
+                margin-bottom: 0 !important;
+                margin-top: 0 !important;
+                text-align: center;
+                color: #4d4d4f;
+                text-align: center;
+                width: 80px;
+            }
+        }
+
+        #nm-gift-btn,
+        #nm-coupon-btn {
+            text-decoration: none;
+            color: $primary-black;
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 19px;
+            text-transform: inherit;
+            margin-bottom: 0;
+            padding: 14px 11px;
+            display: flex;
+            background: $white;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row-reverse;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        #nm-coupon-btn {
+            background: transparent !important;
+
+            &::before {
+                content: "" !important;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                background: transparent;
+                border-left: 2px solid $primary-black !important;
+                border-right: 0 !important;
+                border-bottom: 2px solid $primary-black !important;
+                border-top: 0 !important;
+                position: relative;
+                transform: rotate(-45deg);
+                transition: all 0.3s ease-in-out;
+                height: 10px !important;
+                width: 10px !important;
+                right: 2px !important;
+            }
+
+            .active::before {
+                transform: rotate(136deg);
+                top: 3px;
+            }
+
+            // mobile
+            @media (max-width: 1024px) {
+                text-decoration: none;
+                color: $primary-black;
+                font-family: filsonpro;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 19px;
+                text-transform: inherit;
+                margin-bottom: 0;
+                padding: 14px 11px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                border-radius: 10px;
+                background-color: #f8f8f8 !important;
+            }
+        }
+
+        #pwgc-redeem-form {
+            display: inline-flex;
+            padding: 0 10px 10px;
+            margin-bottom: 0 !important;
+            position: relative;
+            width: 100%;
+
+            label {
+                display: none;
+            }
+
+            #pwgc-redeem-button {
+                height: 41px;
+            }
+
+            input[type="text"] {
+                border: 0 !important;
+                background-color: #f8f8f8;
+                margin-right: 8px !important;
+                height: 41px;
+                border: solid 1px #f8f8f8;
+                border-top-right-radius: 7px;
+                border-top-left-radius: 7px;
+                border-bottom-left-radius: 7px;
+                border-bottom-right-radius: 7px;
+                box-shadow: none !important;
+                font: normal normal 500 14px/19px "FilsonPro" !important;
+                text-transform: initial;
+                width: 100%;
+                max-width: 100% !important;
+                min-width: 140px !important;
+                display: block;
+
+                @include mobile {
+                    background-color: $white !important;
+                }
+            }
+
+            input[type="submit"] {
+                font-family: "FilsonPro" !important;
+                background-color: transparent !important;
+                border: 2px solid #4d4d4f;
+                border-radius: 8px !important;
+                padding: 8px 0px !important;
+                font-weight: 700 !important;
+                font-size: 14px !important;
+                line-height: 16px !important;
+                margin-bottom: 0 !important;
+                margin-top: 0 !important;
+                text-align: center;
+                color: #4d4d4f;
+                width: 80px;
+            }
+
+            ::placeholder {
+                font: normal normal 600 14px/19px "FilsonPro";
+                color: #333334 !important;
+                opacity: 1;
+            }
+
+            ::-webkit-input-placeholder {
+                font: normal normal 600 14px/19px "FilsonPro";
+                color: #333334 !important;
+                opacity: 1;
+            }
+
+            :-ms-input-placeholder {
+                font: normal normal 600 14px/19px "FilsonPro";
+                color: #333334 !important;
+                opacity: 1;
+            }
+
+            #pwgc-redeem-error {
+                color: red;
+                position: absolute;
+                bottom: 7px;
+                left: 18px;
+                font-size: 11px;
+            }
+        }
+
+        // mobile
+        @media (max-width: 1024px) {
+            text-decoration: none;
+            color: $primary-black;
+            font-family: filsonpro;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 19px;
+            text-transform: inherit;
+            display: block;
+            margin-bottom: 0;
+            padding: 14px 11px;
+            border-radius: 10px;
+            background-color: #f8f8f8 !important;
+        }
+
+    }
+}
+
+.yith-wacp-content .yith-wacp-related li.product.yith-wacp-related-product .product-image {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.yith-wacp-content .yith-wacp-related ul.products::before,
+.yith-wacp-content .yith-wacp-related ul.products::after {
+    display: none !important;
+}
+
+// mobile
+@include mobile {
+    .yith-wacp-content .product-des-pop {
+        width: 100% !important;
+    }
+
+    .yith-wacp-content .yith-wacp-related li.product a.button {
+        border-radius: 4px !important;
+        display: flex;
+        align-items: center;
+        height: 38px;
+        justify-content: center;
+        max-width: 100%;
+        min-width: 50px !important;
+        margin: 0 !important;
+        text-align: center;
+        padding: 0 !important;
+        position: relative;
+        white-space: initial;
+        width: 100% !important;
+    }
+
+    .yith-wacp-content ul.products li.product .price {
+        line-height: 1.5 !important;
+    }
+
+    .yith-wacp-content ul.products {
+        margin-bottom: 40px !important;
+    }
+
+    .product-des-pop .product-description-pop {
+        height: auto !important;
+    }
+
+    .yith-wacp-content table.cart-list td.item-info {
+        width: 100% !important;
+    }
+}

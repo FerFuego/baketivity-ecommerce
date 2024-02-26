@@ -1,0 +1,255 @@
+.bundle-includes {
+    display: block;
+    position: relative;
+    padding: 40px 15px 71px;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1088px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    &__header {
+        display: block;
+        margin-bottom: 74px;
+        //mobile
+        @include mobile-md {
+            margin-bottom: 40px;
+        }
+    }
+    &__title {
+        background-image: url(images/birthday/brush-white.svg), url(images/birthday/brush-white.svg);
+        background-position: 54% 175%, 54% 0;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 90%, 99%;
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 41px;
+        color: $primary-black;
+        margin: 0 auto 13px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        max-width: 856px;
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            background-image: url(images/birthday/red-arrow-1.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            top: -33px;
+            left: -54px;
+            height: 95px;
+            width: 94px;
+            //mobile
+            @include mobile-md {
+                display: none;
+            }
+        }
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            background-image: url(images/birthday/exclamation.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            top: 40px;
+            right: -31px;
+            height: 45px;
+            width: 46px;
+            //mobile
+            @include mobile-md {
+                display: none;
+            }
+        }
+        //mobile
+        @include mobile-md {
+            background-image: url(images/birthday/brush-white.svg), url(images/birthday/brush-white.svg), url(images/birthday/brush-white.svg);
+            background-position: 0 53px, 50% 45%, 50% -7px;
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-size: 99%, 99%, 99%;
+            font-size: 26px;
+            line-height: 32px;
+            margin-bottom: 18px;
+            width: 100%;
+        }
+        @include mobile-s {
+            background-image: url(images/birthday/brush-white.svg), url(images/birthday/brush-white.svg), url(images/birthday/brush-white.svg), url(images/birthday/brush-white.svg);
+            background-position: 0 55px, 50% 29%, 50% -6px, 50% 86px;
+            background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+            background-size: 99%, 99%, 99%, 99%;
+            font-size: 26px;
+            line-height: 32px;
+            margin-bottom: 18px;
+            width: 100%;
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: $primary-black;
+        text-align: center;
+        width: 100%;
+        max-width: 921px;
+        margin: 0 auto;
+        //mobile
+        @include mobile-md {
+            font-size: 16px;
+            line-height: 23px;
+            width: 100%;
+        }
+    }
+    &__body {
+        width: 100%;
+    }
+    &__items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        // tablet
+        @include tablet {
+            justify-content: center;
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        width: 518px;
+        // tablet
+        @include tablet {
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__item-content {}
+    &__item-text {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 37px;
+        color: $primary-black;
+        margin-bottom: 0;
+        position: relative;
+        width: 373px;
+        &::before {
+            content: "";
+            width: 110px;
+            height: 109px;
+            background-image: url(images/birthday/green-arrow-2.svg);
+            background-size: contain;
+            display: block;
+            position: absolute;
+            background-repeat: no-repeat;
+            rotate: 14deg;
+            left: -68px;
+            top: 50px;
+            //mobile
+            @include mobile-md {
+                display: none;
+            }
+        }
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            background-image: url(images/birthday/red-arrow-1.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            top: 11px;
+            right: -54px;
+            height: 95px;
+            width: 94px;
+            //mobile
+            @include mobile-md {
+                background-image: url(images/birthday/red-arrow-2.svg);
+                background-size: cover;
+                transform: rotate3d(0.7, 1, 0, 180deg);
+                top: -17px;
+                right: -52px;            
+                height: 73px;
+                width: 59px;
+            }
+        }
+        //mobile
+        @include mobile-md {
+            font-size: 20px;
+            line-height: 22px;
+            width: 100%;
+            max-width: 198px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &__item-underline {
+        display: block;
+        margin: 0 0 0 auto;
+        height: 27px;
+        width: 267px;
+    }
+    &__item-icon {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 3px solid $white;
+        border-radius: 50% !important;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -khtml-border-radius: 50%;
+        display: block;
+        flex: none;
+        margin-right: 22px;
+        height: 140px;
+        width: 140px;
+        //mobile
+        @include mobile-md {
+            height: 100px;
+            width: 100px;
+        }
+    }
+    &__item-title {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 32px;
+        color: $primary-black;
+        margin-bottom: 3.5px;
+        //mobile
+        @include mobile-md {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 400;
+            width: 100%;
+        }
+    }
+    &__item-gift {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: $title-green;
+        border-radius: 12px;
+        color: $white;
+        font-family: $primary-font;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 14px;
+        padding: 2px 0 0 10px;
+        height: 24px;
+        width: 142px;
+        img {
+            margin-right: 5px;
+            margin-top: -3px;
+            height: 14px;
+            width: 14px;
+        }
+    }
+}

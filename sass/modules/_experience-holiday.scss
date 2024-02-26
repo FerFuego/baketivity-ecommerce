@@ -1,0 +1,425 @@
+.experience-holiday {
+    position: relative;
+    padding: 45px 0 77px;
+    width: 100%;
+    // mobile
+    @media (max-width: 767px) {
+        padding: 0px 0px 75px;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px auto;
+        padding: 0;
+    }
+    &__header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 31px;
+    }
+    &__title {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 51px;
+        color: $primary-black;
+        text-align: center;
+        background-image: url(images/home/underline-red.svg);
+        background-repeat: no-repeat;
+        background-size: initial;
+        background-position: right bottom;
+        width: 100%;
+        max-width: 625px;
+        margin: 0 auto 11px;
+        padding-bottom: 4px;
+        position: relative;
+        &::before {
+            content: '';
+            background-image: url(images/holiday/ball-1.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: block;
+            height: 36px;
+            left: -13px;
+            position: absolute;
+            top: 0;
+            width: 28px;
+            // mobile
+            @media (max-width: 768px) {
+                left: 60px;
+                top: 31px;
+            }
+        }
+        &::after {
+            background-image: url(images/holiday/ball-2.svg), url(images/holiday/ball-3.svg);
+            background-repeat: no-repeat;
+            background-position: center left, center right;
+            background-size: auto, auto;
+            content: '';
+            display: block;
+            height: 50px;
+            right: -44px;
+            position: absolute;
+            top: -5px;
+            width: 61px;
+            // mobile
+            @media (max-width: 768px) {
+                background-image: url(images/holiday/ball-3.svg);
+                background-position: center left;
+                background-size: auto;
+                right: 56px;
+                top: 31px;
+                height: 36px;
+                width: 32px;
+                transform: rotate(45deg);
+            }
+        }
+        //mobile
+        @media (max-width: 767px) {
+            background-position: center bottom;
+            background-size: 116px;
+            font-size: 26px !important;
+            line-height: 32px !important;
+            padding: 0 15px 4px;
+            max-width: 322px;
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 33px;
+        color: $primary-black;
+        text-align: center;
+        margin-bottom: 0;
+        //mobile
+        @media (max-width: 767px) {
+            font-size: 17px !important;
+            line-height: 20px !important;
+            font-weight: 700;
+            padding: 0 15px;
+            max-width: 367px;
+            margin: 0 auto;
+        }
+    }
+    &__body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        // mobile
+        @media (max-width: 767px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        height: 488px;
+        min-height: 437px;
+        border-radius: 20px;
+        position: relative;
+        margin: 0 19px;
+        width: 100%;
+        max-width: 322px;
+        min-width: 322px;
+        // mobile
+        @media (max-width: 768px) {
+            margin: 0 10px 20px;
+        }
+        &:nth-child(1) {
+            &::after {
+                content: '';
+                position: absolute;
+                top: 340px;
+                right: 6px;
+                width: 57px;
+                height: 56px;
+                background-image: url(images/holiday/icon-2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                z-index: 1;
+            }
+        }
+        &:nth-child(2) {
+            &::before {
+                content: '';
+                position: absolute;
+                top: 102px;
+                left: 6px;
+                width: 36px;
+                height: 34px;
+                background-image: url(images/holiday/icon-2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                z-index: 1;
+                transform: rotate(45deg);
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 96px;
+                left: 42px;
+                width: 28px;
+                height: 26px;
+                background-image: url(images/holiday/icon-2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                z-index: 1;
+                transform: rotate(45deg);
+            }
+        }
+        &:nth-child(3) {
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 36px;
+                left: 30px;
+                width: 22px;
+                height: 21px;
+                background-image: url(images/holiday/icon-2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                transform: rotate(45deg);
+                z-index: 1;
+            }
+        }
+        &:nth-child(4) {
+            &::before {
+                content: '';
+                position: absolute;
+                top: 60px;
+                left: 17px;
+                width: 51px;
+                height: 52px;
+                background-image: url(images/holiday/icon-2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                z-index: 1;
+                transform: rotate(0);
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 81px;
+                left: 55px;
+                width: 39px;
+                height: 40px;
+                background-image: url(images/holiday/icon-2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                z-index: 1;
+                transform: rotate(0);
+            }
+        }
+        &:nth-child(5) {
+            &::after {
+                content: '';
+                position: absolute;
+                top: 224px;
+                right: 21px;
+                width: 48px;
+                height: 50px;
+                background-image: url(images/holiday/icon-2.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                transform: rotate(45deg);
+                z-index: 1;
+            }
+        }
+    }
+    &__item-image {
+        display: table;
+        height: 185px;
+        position: relative;
+        width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__item-content {
+        display: block;
+        width: 100%;
+        padding: 25px;
+        position: relative;
+        height: 200px;
+    }
+    &__item-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $primary-font;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26px;
+        color: $primary-black;
+        text-align: center;
+        padding: 15px 35px;
+        height: 82px;
+        // mobile
+        @media (max-width: 768px) {
+            padding: 15px 28px;
+        }
+        @media (max-width: 300px) {
+            font-size: 18px;
+        }
+    }
+    &__extra-sign {
+        background-color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $primary-font;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 25px;
+        color: $primary-black;
+        text-align: center;
+        padding: 5px;
+        border: 3px solid;
+        border-radius: 14px;
+        position: absolute;
+        bottom: -12px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 27px;
+        width: 167px;
+    }
+    &__item-text {
+        font-family: $primary-font;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        color: $primary-black;
+        text-align: center;
+        // mobile
+        @media (max-width: 390px) {
+            font-size: 16px;
+        }
+    }
+    &__item-link {
+        display: block;
+        background-color: $new-red;
+        border-radius: 4px;
+        width: max-content;
+        padding: 8.5px 15px;
+
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        color: $white;
+        text-align: center;
+
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        // mobile
+        @media (max-width: 300px) {
+            font-size: 13px;
+            line-height: 14px;
+        }
+    }
+    &__dots {
+        position: absolute;
+        bottom: -48.71px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        li {
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            padding: 0;
+            cursor: pointer;
+            &.slick-active {
+                button {
+                    background-color: #4D4D4F;
+                    height: 17px;
+                    width: 17px;
+                }
+            }
+        }
+        button {
+            font-size: 0;
+            line-height: 0;
+            display: block;
+            height: 13px;
+            width: 13px;
+            padding: 5px;
+            cursor: pointer;
+            color: transparent;
+            border: 0;
+            outline: none;
+            background: #D8D8D8;
+            border-radius: 50%;
+        }
+    }
+    .slick-prev {
+        background-image: url(images/modules/rounded-white-slider-arrows.svg);
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 783%;
+        background-position: left center;
+        width: 61px;
+        height: 61px;
+        left: -80px !important;
+        margin-left: 0px !important;
+        box-shadow: none !important;
+        top: 45%;
+        font-size: 0;
+        position: absolute;
+        z-index: 1;
+        &::before {
+            display: none;
+        }
+        // tablet
+        @media (max-width: 1190px) {
+            left: -20px !important;
+        }
+    }
+    .slick-next {
+        background-image: url(images/modules/rounded-white-slider-arrows.svg);
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 783%;
+        background-position: right center;
+        width: 61px;
+        height: 61px;
+        right: -47px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        box-shadow: none !important;
+        top: 45%;
+        font-size: 0;
+        position: absolute;
+        z-index: 1;
+        &::before {
+            display: none;
+        }
+        // tablet
+        @media (max-width: 1190px) {
+            right: -20px !important;
+        }
+    }
+}

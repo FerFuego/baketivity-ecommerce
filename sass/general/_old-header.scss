@@ -1,0 +1,49 @@
+header {
+    display: block;
+}
+.site-logo img {
+    max-width: 175px !important;
+}
+.primary-navigation {
+    .nav-menu {
+        .menu-item {
+            a {
+                display: block;
+                font-size: 16px;
+                padding: 10px 8px;
+                text-transform: uppercase;
+                line-height: 18px;
+                font-weight: 600;
+                color: #fff;
+            }
+        }
+        .sub-menu {
+            background-color: #00999b;
+            margin-left: 0;
+            // mobile
+            @media (max-width: 768px) {
+                background-color: #ef324c !important;
+            }
+            a {
+                color: #fff;
+                padding: 0.875em 1.41575em;
+                font-weight: 600;
+                font-size: .975em;
+                text-transform: uppercase;
+                width: 200px;
+                // mobile
+                @media (max-width: 768px) {
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+
+}
+
+// mobile
+@media (max-width: 991px) {
+    #content {
+        margin-top: 0;
+    }
+}

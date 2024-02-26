@@ -1,0 +1,50 @@
+.simple-text {
+    &__container {
+        margin: 60px auto 95px;
+        width: 100%;
+        max-width: 1088px;
+
+        @include mobile {
+            padding: 0 15px;
+        }
+    }
+
+    &__title {
+        font-family: $primary-font;
+        font-size: 37px;
+        line-height: 44px;
+        font-weight: 800;
+        color: $primary-black;
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: 45px;
+
+        background-image: url(images/bake-away/subrayado-green-title-2.svg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+
+        @include mobile {
+            font-size: 26px;
+            line-height: 32px;
+        }
+    }
+
+    &__text {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 720px;
+
+        p {
+            font-family: $primary-font;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            color: #4D4D4F;
+        }
+
+        @include mobile {
+            max-width: 100%;
+        }
+    }
+}

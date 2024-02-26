@@ -1,0 +1,80 @@
+.tinv-wraper {
+    position: absolute;
+    top: 70px;
+    left: 55%;
+    height: 40px;
+    width: 40px;
+    z-index: 9;
+    // mobile
+    @include mobile {
+        top: -115px;
+        left: 80%;
+        float: none;
+    }
+}
+.tinv-wishlist .tinv-modal .tinv-modal-inner {
+    padding: 40px 25px;
+    max-width: 390px;
+}
+.tinv-wishlist .tinv-modal.tinv-modal-open {
+    z-index: 99999 !important;
+}
+.tinv-modal-inner {
+    font-family: $primary-font !important;
+}
+.tinvwl_button_view {
+    background-color: $new-red !important;
+    border-radius: 6px !important;
+    margin-bottom: 0 !important;
+}
+.tinvwl_button_close {
+    background-color: $grey-light !important;
+    border-radius: 6px !important;
+    margin-bottom: 0 !important;
+}
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.tinvwl-position-before:hover {
+    &::after {
+        content: 'Add to favorites list';
+        font-family: $primary-font;
+        font-size: 12px;
+        font-weight: 600;
+        color: $grey-dark;
+        margin-left: 5px;
+        background-color: $white;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        border-radius: 6px;
+        text-decoration: none;
+        height: 40px;
+        width: 200px;
+        top: 33px;
+        position: absolute;
+        height: 23px;
+        width: 151px;
+        left: -77px;
+    }
+}
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.tinvwl-product-in-list:hover {
+    &::after {
+        content: 'View favorites list';
+        font-family: $primary-font;
+        font-size: 12px;
+        font-weight: 600;
+        color: $grey-dark;
+        margin-left: 5px;
+        background-color: $white;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        border-radius: 6px;
+        text-decoration: none;
+        height: 40px;
+        width: 200px;
+        top: 33px;
+        position: absolute;
+        height: 23px;
+        width: 151px;
+        left: -77px;
+    }
+}

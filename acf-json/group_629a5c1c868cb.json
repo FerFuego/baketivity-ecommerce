@@ -1,0 +1,291 @@
+{
+    "key": "group_629a5c1c868cb",
+    "title": "Page: Cooking kits",
+    "fields": [
+        {
+            "key": "field_629a5c4b0ab2c",
+            "label": "Content Page",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_629a5c7878a25": {
+                    "key": "layout_629a5c7878a25",
+                    "name": "hero",
+                    "label": "Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_629a65b701241",
+                            "label": "Hero",
+                            "name": "hero",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_629a5e09093ff"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_629a68aaf7834": {
+                    "key": "layout_629a68aaf7834",
+                    "name": "banner-full-width",
+                    "label": "Banner full width",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_629a68bff7835",
+                            "label": "Banner full width",
+                            "name": "banner-full-width",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_629a6798c8625"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63738ab40ee00": {
+                    "key": "layout_63738ab40ee00",
+                    "name": "cooking-reinventing",
+                    "label": "Cooking Reinventing",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63738ac70ee01",
+                            "label": "Cooking Reinventing",
+                            "name": "cooking-reinventing",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6373895caa3bb"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_629e19f46fa30": {
+                    "key": "layout_629e19f46fa30",
+                    "name": "how-it-works",
+                    "label": "How it works",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_629e1a0a6fa31",
+                            "label": "How it works",
+                            "name": "how-it-works",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_629e19833a13f"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_629f57fcdcd85": {
+                    "key": "layout_629f57fcdcd85",
+                    "name": "who-its-for",
+                    "label": "Who Its For",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_629f580ddcd86",
+                            "label": "Who Its For",
+                            "name": "who-its-for",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_629f55e0b6af1"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a1ef58b04a5": {
+                    "key": "layout_62a1ef58b04a5",
+                    "name": "inside-home",
+                    "label": "Inside Home",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62a1ef64b04a6",
+                            "label": "Inside Home",
+                            "name": "inside-home",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a1eb26014fb"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a23f053a5ec": {
+                    "key": "layout_62a23f053a5ec",
+                    "name": "cta-reclaim",
+                    "label": "CTA Reclaim",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62a23f103a5ed",
+                            "label": "CTA Reclaim",
+                            "name": "cta-reclaim",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a23e3a1bc27"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a33ef12ce9c": {
+                    "key": "layout_62a33ef12ce9c",
+                    "name": "subscription",
+                    "label": "Subscription",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62a33efd2ce9d",
+                            "label": "Subscription",
+                            "name": "subscription",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a33be90af30"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/home-cooking-kits.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1668516597
+}

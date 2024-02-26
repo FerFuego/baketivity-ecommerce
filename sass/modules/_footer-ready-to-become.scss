@@ -1,0 +1,106 @@
+.footer-ready-to-become {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .8);
+    background-size: cover;
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    &__shadow {
+        background-color: rgba(10,168,170,.5);
+        padding: 80px 0 100px;
+        height: 100%;
+        width: 100%;
+        @include mobile {
+            padding: 40px 0 40px;
+        }
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1088px;
+        @include mobile {
+            padding: 0 15px;
+        }
+    }
+    &__icon {
+        height: auto;
+        width: 100%;
+        max-width: 150px;
+        margin-bottom: 30px;
+        @include mobile {
+            max-width: 100px;
+        }
+    }
+    &__title {
+        font-family: $primary-font;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        color: $white;
+        text-align: center;
+        @include mobile {
+            font-size: 32px;
+            line-height: 43px;
+        }
+    }
+    &__copy {
+        font-family: $primary-font;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        color: $white;
+        text-align: center;
+        max-width: 600px;
+    }
+    &__division {
+        width: 190px;
+        height: 1px;
+        border-bottom: 1px solid $white;
+        margin-bottom: 22px;
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32px;
+        color: $white;
+        text-align: center;
+        @include mobile {
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    &__cta {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin: 40px auto 0;
+        @include mobile {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+    &__cta-btn {
+        background: $new-red;
+        border-radius: 4px;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font: normal normal 700 15px/18px $primary-font;
+        letter-spacing: 0px;
+        margin: 0 auto;
+        height: 38px;
+        width: 260px;
+        @include mobile {
+            margin-bottom: 20px;
+        }
+    }
+}

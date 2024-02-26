@@ -1,0 +1,384 @@
+{
+    "key": "group_63f43097d5510",
+    "title": "Page: Bake a talent",
+    "fields": [
+        {
+            "key": "field_6419fc46a0e7a",
+            "label": "Bake a talent",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_6419fc528ccac": {
+                    "key": "layout_6419fc528ccac",
+                    "name": "bake-talent-hero",
+                    "label": "Bake a Talent Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6419fd6da75ef",
+                            "label": "Bake a Talent Hero",
+                            "name": "bake-talent-hero",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6419fc6d83ea0"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6419fe52ddda2": {
+                    "key": "layout_6419fe52ddda2",
+                    "name": "bake-talent-left-right-1",
+                    "label": "Left\/Right 1",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6419fe67ddda3",
+                            "label": "Left\/Right 1",
+                            "name": "bake-talent-left-right-1",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6419fd4d6808c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6419ffc8bc8c7": {
+                    "key": "layout_6419ffc8bc8c7",
+                    "name": "bake-talent-left-right-2",
+                    "label": "Left\/Right 2",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6419ffd2bc8c8",
+                            "label": "Left\/Right 2",
+                            "name": "bake-talent-left-right-2",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6419fd4d6808c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_641a000bbc8c9": {
+                    "key": "layout_641a000bbc8c9",
+                    "name": "bake-talent-left-right-3",
+                    "label": "Left\/Right 3",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_641a0015bc8ca",
+                            "label": "Left\/Right 3",
+                            "name": "bake-talent-left-right-3",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6419fd4d6808c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_641a016ef4b5b": {
+                    "key": "layout_641a016ef4b5b",
+                    "name": "who-should-participate",
+                    "label": "Who Should Participate",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_641a017af4b5c",
+                            "label": "Who Should Participate",
+                            "name": "who-should-participate",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6419ff82ac08c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_641a029dbda48": {
+                    "key": "layout_641a029dbda48",
+                    "name": "bake-talent-how-it-works",
+                    "label": "How It Works",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_641a02acbda49",
+                            "label": "How It Works",
+                            "name": "bake-talent-how-it-works",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_641a01c355fc0"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_641a04835b21e": {
+                    "key": "layout_641a04835b21e",
+                    "name": "what-to-expect",
+                    "label": "What to Expect",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_641a048e5b21f",
+                            "label": "What to Expect",
+                            "name": "what-to-expect",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_641a0332c29e1"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_641a0597d4b16": {
+                    "key": "layout_641a0597d4b16",
+                    "name": "what-kids-and-parents",
+                    "label": "What Kids and Parents",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_641a05a7d4b17",
+                            "label": "What Kids and Parents",
+                            "name": "what-kids-and-parents",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_641a050d54197"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_641a09445064f": {
+                    "key": "layout_641a09445064f",
+                    "name": "bake-talent-price",
+                    "label": "Bake Talent Price",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_641a095050650",
+                            "label": "Bake Talent Price",
+                            "name": "bake-talent-price",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_641a06074578d"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_641a0a924486f": {
+                    "key": "layout_641a0a924486f",
+                    "name": "bake-talent-contact",
+                    "label": "Contact",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_641a0aa044870",
+                            "label": "Contact",
+                            "name": "bake-talent-contact",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_641a098051421"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_641a4657a4a28": {
+                    "key": "layout_641a4657a4a28",
+                    "name": "bake-talent-form",
+                    "label": "Bake a Talent Form",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_641a466ba4a29",
+                            "label": "Bake a Talent Form",
+                            "name": "bake-talent-form",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_641a467e0cfbf"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/bake-a-talent-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1679444089
+}

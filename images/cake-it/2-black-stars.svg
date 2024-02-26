@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 31" width="52" height="31">
+	<title>Captura de Pantalla 2022-08-12 a la(s) 09</title>
+	<defs>
+		<image width="30" height="32" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNC4xOTgiIGhlaWdodD0iMTUuNjU4IiB2aWV3Qm94PSIwIDAgMTQuMTk4IDE1LjY1OCI+CiAgPHBhdGggaWQ9IlRyYXphZG9fMjU1MyIgZGF0YS1uYW1lPSJUcmF6YWRvIDI1NTMiIGQ9Ik05NDMuNzIyLDMzNS42NjRhMTYuNTg2LDE2LjU4NiwwLDAsMS03LjEsNy44MjksMTYuNTg2LDE2LjU4NiwwLDAsMSw3LjEsNy44MjksMTYuNTgxLDE2LjU4MSwwLDAsMSw3LjEtNy44MjlBMTYuNTgxLDE2LjU4MSwwLDAsMSw5NDMuNzIyLDMzNS42NjRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtOTM2LjYyMyAtMzM1LjY2NCkiIGZpbGw9IiMzMzMzMzQiLz4KPC9zdmc+Cg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Trazado 2553" href="#img1" transform="matrix(.5,0,0,.5,1,15)"/>
+	<use id="Trazado 2553 copy" href="#img1" transform="matrix(.733,0,0,.733,31,0)"/>
+</svg>

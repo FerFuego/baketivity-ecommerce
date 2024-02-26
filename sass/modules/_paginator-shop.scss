@@ -1,0 +1,28 @@
+.paginator-shop {
+    width: 100%;
+    margin-bottom: 50px;
+    &__container {
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    &__page-numbers {
+        background-color: $light-grey-3;
+        border-radius: 50%;
+        color: $primary-black;
+        font-family: $primary-font;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 5px;
+        padding: 6px;
+        text-align: center;
+        text-decoration: none;
+        width: 38px;
+    }
+    .current {
+        opacity: 0.5;
+    }
+}

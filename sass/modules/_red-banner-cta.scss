@@ -1,0 +1,134 @@
+.baking-red-banner-cta {
+    display: block;
+    margin-top: -42px;
+    position: relative;
+    z-index: 1;
+    height: 84px;
+    width: 100%;
+    // mobile
+    @media (max-width: 768px) {
+        background-color: $new-red;
+        margin-top: 0;
+        height: 165px;
+    }
+    &__container{
+        background-color: $new-red;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 0;
+        height: 100%;
+        width: 100%;
+        max-width: 1088px;
+        // mobile
+        @media (max-width: 1000px) {
+            max-width: 800px;
+        }
+        @media (max-width: 768px) {
+            flex-direction: column;
+            max-width: 100%;
+            border-radius: 0;
+        }
+    }
+    &__title {
+        background-image: url(images/baking/resaltado-white.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: 50px;
+        padding: 11px 20px;
+        position: relative;
+        &::after {
+            content: '';
+            display: none;
+            background-image: url(images/baking/trazado-light-green.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0 auto;
+            width: 165px;
+            height: 15px;
+            // mobile
+            @media (max-width: 450px) {
+                display: block;
+            }
+        }
+        p {
+            font-family: $primary-font;
+            font-size: 23px;
+            font-weight: 700;
+            line-height: 30px;
+            color: $primary-black;
+            margin-bottom: 0;
+            // mobile
+            @media (max-width: 450px) {
+                max-width: 242px;
+                text-align: center;
+            }
+        }
+        strong {
+            font-family: $primary-font;
+            font-size: 23px !important;
+            font-weight: 700;
+            line-height: 30px;
+            color: red;
+            margin-bottom: 0;
+            position: relative;
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -20px;
+                left: -14px;
+                width: 165px;
+                height: 15px;
+                background-image: url(images/baking/trazado-light-green.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                // mobile
+                @media (max-width: 450px) {
+                    display: none;
+                }
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 20px;
+        }
+        @media (max-width: 450px) {
+            background-image: url(images/baking/trazado-white-1.svg), url(images/baking/trazado-white-2.svg);
+            background-position: center 3px, center 29px;
+            background-repeat: no-repeat;
+            background-size: auto;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
+    &__cta {
+        background-color: $new-red;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        border: 2px solid $white;
+        box-shadow: 0px 3px 6px #00000029;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        height: 37px;
+        width: 173px;
+    }
+}
+
+.cooking-page {
+    .baking-red-banner-cta__title p {
+        // mobile
+        @media (max-width: 480px) {
+            max-width: 253px;
+        }
+    }
+}

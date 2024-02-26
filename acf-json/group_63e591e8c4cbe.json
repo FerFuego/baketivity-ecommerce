@@ -1,0 +1,349 @@
+{
+    "key": "group_63e591e8c4cbe",
+    "title": "Page: Gifting Page",
+    "fields": [
+        {
+            "key": "field_63e592057651f",
+            "label": "Content Page",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_63e59239e33da": {
+                    "key": "layout_63e59239e33da",
+                    "name": "hero-gifting",
+                    "label": "Hero Gifting",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63e5926176520",
+                            "label": "hero-gifting",
+                            "name": "hero-gifting",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6333669019c6c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63e5980013f5a": {
+                    "key": "layout_63e5980013f5a",
+                    "name": "give-more-with-baketivity",
+                    "label": "Give more with Baketivity",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63ea63c8802cb",
+                            "label": "Title",
+                            "name": "give-more-with-baketivity-title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_63ea63dc802cc",
+                            "label": "Copy",
+                            "name": "give-more-with-baketivity-copy",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_63ea6e0ca38da",
+                            "label": "Background color",
+                            "name": "give-more-with-baketivity-background-color",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "#FFD64F"
+                        },
+                        {
+                            "key": "field_63ea6dbaa38d9",
+                            "label": "Kits",
+                            "name": "give-more-with-baketivity-kits",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e47d11b44"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        },
+                        {
+                            "key": "field_63ea6a3195376",
+                            "label": "Subscription",
+                            "name": "subscription-alternative",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6346ab6e9f31b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63ea6e9a8f61b": {
+                    "key": "layout_63ea6e9a8f61b",
+                    "name": "whats-the-occasion",
+                    "label": "What’s the Occasion?",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63ea701096a63",
+                            "label": "whats-the-occasion",
+                            "name": "whats-the-occasion",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63ea6f4027d14"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63ea6606802cd": {
+                    "key": "layout_63ea6606802cd",
+                    "name": "everything-you-want-in-a-gift",
+                    "label": "Everything You Want in a Gift",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63ea6606802d0",
+                            "label": "How it works",
+                            "name": "how-it-works",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_629e19833a13f"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        },
+                        {
+                            "key": "field_63ea6624802d1",
+                            "label": "Button",
+                            "name": "everything-you-want-in-a-gift-button",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63e596db927d2": {
+                    "key": "layout_63e596db927d2",
+                    "name": "the-sweetest-gift-their-choice",
+                    "label": "The Sweetest Gift: Their Choice",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63ea7ec859259",
+                            "label": "the-sweetest-gift-their-choice",
+                            "name": "the-sweetest-gift-their-choice",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63ea7c6abd711"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63ea6f0d8f61c": {
+                    "key": "layout_63ea6f0d8f61c",
+                    "name": "make-it-extra-special",
+                    "label": "Make It Extra Special",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63ea7f9be430c",
+                            "label": "Make it",
+                            "name": "make_it",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63ea7ef08ec9d"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63e593bbb60b2": {
+                    "key": "layout_63e593bbb60b2",
+                    "name": "testimonials",
+                    "label": "Testimonials",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63e593c2b60b3",
+                            "label": "testimonials",
+                            "name": "testimonials",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e5108b206"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template_pages\/gifting-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1676515592
+}

@@ -1,0 +1,173 @@
+.hero-home-simple {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    margin-top: 0px;
+
+    // mobile
+    @media (max-width: 768px) {
+        background-color: #f3f5f6;
+        background-position: bottom center;
+        background-size: 100%;
+        margin-top: 0;
+    }
+
+    &__container-fluid {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            max-width: 100%;
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+        max-width: 1090px;
+        margin: 0 auto;
+        width: 100%;
+
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            min-height: 550px;
+            max-width: 100%;
+        }
+    }
+
+    &__left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        @media (max-width: 768px) {
+            align-items: center;
+            padding: 21px 0 0;
+            width: 100%;
+        }
+    }
+
+    &__right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+
+        @media (max-width: 768px) {
+            height: 260px;
+            padding: 0 30px;
+            width: 100%;
+        }
+    }
+
+    &__content {
+
+        // mobile
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+    }
+
+    &__logo {
+        display: block;
+        margin-bottom: 26.26px;
+        height: 45.77px;
+        width: auto;
+        max-width: 160px;
+
+        // mobile
+        @media (max-width: 768px) {
+            margin: 15px auto 0;
+            max-width: 126px;
+        }
+    }
+
+    &__title {
+        text-align: left;
+        font: normal normal 500 50px/51px $primary-font;
+        letter-spacing: 0px;
+        color: $primary-black;
+        margin-bottom: 14px;
+
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal 500 33px/34px $primary-font;
+            text-align: center;
+            margin-bottom: 12.35px;
+        }
+    }
+
+    &__highlight {
+        background-image: url(images/home/highlight.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        text-align: left;
+        font: normal normal 700 50px/51px $primary-font;
+        letter-spacing: 0px;
+        color: $primary-black;
+        margin-bottom: 14px;
+        padding: 8px 11px;
+
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal 500 33px/34px $primary-font;
+            text-align: center;
+        }
+    }
+
+    &__subtitle {
+        text-align: left;
+        font: normal normal 500 23px/33px $primary-font;
+        letter-spacing: 0px;
+        color: $primary-black;
+        margin-bottom: 65px;
+        width: 100%;
+        max-width: 460px;
+
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal 500 14px/20px $primary-font;
+            text-align: center;
+            padding: 0 30px;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__button {
+        background: $new-red;
+        border-radius: 4px;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font: normal normal 700 15px/18px $primary-font;
+        letter-spacing: 0px;
+        height: 38px;
+        width: 260px;
+
+        &:hover {
+            background-color: #cc1a34;
+        }
+    }
+}

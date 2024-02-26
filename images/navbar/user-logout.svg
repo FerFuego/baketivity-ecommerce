@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 59" width="30" height="30">
+	<title>Captura de pantalla 2022-11-04 a la(s) 14</title>
+	<defs>
+		<image  width="56" height="56" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAAXNSR0IB2cksfwAAAE5QTFRF////s7OzZmZnTU1NMzM0QEBBpqansrKzmZmZWVla8vLyZWVmWVlZ2dnZgICAc3N0paWmzMzM5eXmjIyMw8PDhISFv7+/cnJzUlJSf3+AWtBjtQAAABp0Uk5TAP///////////wD/////////oP////////+GJSWdAAABBklEQVR4nLXW6w7CIAwF4DmrzstQhm7u/V9UjWbacZoeiZ6fhC8l0ABVtaiXorKq1xWRjYA0BNwiKASETnalsLTivhAe2s8ZbTgubHiK7yj23PZgwmitqFsJlh5sXhMy6cEkhvRgK4b04EdPaulCS/rQkATEkoFQUhBJDgJJwlyyMJM0nEsNz+lip1ZSwamjvQQNz6wT6RWkCz5upUI4/GapfMn01XFcJzd+1QBBOR7OHA3njoWZI2HuOAgcBZFjIHQExM6HCTsX9oZz4Wg4Gs6dC6PhyPcx5eP+ccRx6MEw16t/gCqB+APiv1y+hyT863/1UFqxQW4g4A7c3gOzq/d0UaWj0A0ILSCiFqcM4wAAAABJRU5ErkJggg=="/>
+	</defs>
+	<use id="Background" href="#img1" x="3" y="2"/>
+</svg>

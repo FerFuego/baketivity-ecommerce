@@ -1,0 +1,233 @@
+.birthday-how-it-works {
+    padding: 64px 15px 96px;
+    @include mobile {
+        padding: 29px 15px 43px;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1088px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    &__title {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 44px;
+        color: $primary-black;
+        margin: 0 auto;
+        position: relative;
+        padding: 10px 20px;
+        text-align: center;
+        width: 100%;
+        &::after {
+            content: '';
+            background-image: url('images/birthday/title-line.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: -32px;
+            margin: 0 auto;
+            height: 14px;
+            width: 234px;
+            @include mobile {
+                bottom: -9px;
+                height: 10px;
+                width: 153px;
+            }
+        }
+        @include mobile {
+            font-size: 26px;
+            line-height: 28px;
+            margin-bottom: 30px;
+        }
+    }
+    &__items {
+        display: flex;
+        margin-top: 40px;
+        width: 100%;
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+        }
+    }
+    &__item {
+        border-radius: 27px;
+        padding: 19px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0 10px;
+        height: 306px;
+        width: 202px;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+        &::after {
+            content: '';
+            background-image: url('images/birthday/arrow-1.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 50%;
+            right: -40px;
+            width: 58px;
+            height: 23px;
+            z-index: 1;
+            @include mobile {
+                display: none;
+            }
+        }
+        &:nth-child(2) {
+            &::after {
+                background-image: url('images/birthday/arrow-2.svg');
+                @include mobile {
+                    display: none;
+                }
+            }
+        }
+        &:nth-child(3) {
+            &::after {
+                background-image: url('images/birthday/arrow-3.svg');
+                @include mobile {
+                    display: none;
+                }
+            }
+        }
+        &:nth-child(5) {
+            &::after {
+                display: none;
+            }
+        }
+        @include mobile {
+            width: 100%;
+            margin: 0 0 6.19px;
+            flex-direction: row;
+            height: 113px;
+            padding: 9px 11px 9px 11px;
+            max-width: 420px;
+        }
+    }
+    &__item-icon {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        flex: none;
+        margin-bottom: 13px;
+        height: 121px;
+        width: 121px;
+        @include mobile {
+            height: 94px;
+            width: 94px;
+            margin-right: 15px;
+            margin-bottom: 0;
+        }
+    }
+    &__item-number {
+        background-color: $new-red;
+        border-radius: 50%;
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: $white;
+        display: flex;
+        margin-bottom: 14px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3px;
+        height: 31px;
+        width: 31px;
+        @include mobile {
+            flex: none;
+            margin-left: -30px;
+            margin-bottom: 0;
+            margin-right: 20px;
+        }
+    }
+    &__item-title {
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: $primary-black;
+        text-align: center;
+        @include mobile {
+            text-align: left;
+        }
+    }
+    &__item-option {
+        position: relative;
+        width: 77px;
+        margin: 0 auto;
+        @include mobile {
+            margin: 0;
+            display: flex;
+            width: 100%;
+        }
+        .quick-cart__form {
+            justify-content: space-evenly;
+        }
+        input {
+            cursor: default;
+            font-family: $primary-font;
+            font-size: 20px;
+            font-weight: 500;
+            border: none;
+            box-shadow: none;
+            padding: 0;
+            height: 33px;
+            width: 33px !important;
+        }
+        .quick-cart__minus,
+        .quick-cart__plus {
+            cursor: default;
+        }
+    }
+    &__pricing {
+        font-family: $primary-font;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 700;
+        color: $primary-black;
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: -56px;
+        height: 35px;
+        width: 94px;
+        @include mobile {
+            top: 10px;
+            left: 26px;
+            position: relative;
+        }
+        @include mobile-xs {
+            display: none;
+        }
+        &::before {
+            content: '';
+            background-image: url('images/birthday/up-arrow.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: -50px;
+            left: 31px;
+            height: 50px;
+            width: 40px;
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+}

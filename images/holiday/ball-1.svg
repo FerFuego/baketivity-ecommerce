@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.827" height="36.976" viewBox="0 0 28.827 36.976">
+  <g id="Grupo_78063" data-name="Grupo 78063" transform="translate(-2679.349 -1215.229)">
+    <path id="Trazado_2746" data-name="Trazado 2746" d="M2690.433,1225.567a.53.53,0,0,1-.293-.089c-.762-.5-7.433-5.014-6.932-8.03.162-.97.97-1.652,2.4-2.024a3.811,3.811,0,0,1,4.157,1.035c2.184,2.583,1.232,8.417,1.19,8.664a.53.53,0,0,1-.312.4A.52.52,0,0,1,2690.433,1225.567Zm-3.4-9.277a4.665,4.665,0,0,0-1.156.163c-.988.257-1.534.651-1.622,1.171-.268,1.614,3.144,4.636,5.762,6.485.173-1.645.364-5.278-1.062-6.965A2.373,2.373,0,0,0,2687.033,1216.29Z" transform="translate(-0.568 0)" fill="#4d4d4f"/>
+    <path id="Trazado_2747" data-name="Trazado 2747" d="M2691.788,1224.743l1.289,3.356-3.063,1.034-1.092-3.844Z" transform="translate(-1.418 -1.409)" fill="#e52441"/>
+    <ellipse id="Elipse_104" data-name="Elipse 104" cx="12.312" cy="12.388" rx="12.312" ry="12.388" transform="translate(2679.349 1227.867) rotate(-10.789)" fill="#e52441"/>
+    <path id="Trazado_2748" data-name="Trazado 2748" d="M2683.087,1237.568c-.253,0-.41,0-.456-.007a.53.53,0,0,1-.51-.55.511.511,0,0,1,.55-.51c.105,0,10.561.309,18.61-6.023a.531.531,0,1,1,.656.834C2694.451,1237.2,2685.251,1237.568,2683.087,1237.568Z" transform="translate(-0.411 -2.242)" fill="#fff"/>
+    <path id="Trazado_2749" data-name="Trazado 2749" d="M2685.081,1250.329a.531.531,0,0,1,0-1.061c.153,0,15.362-.175,21.262-5.88a.531.531,0,1,1,.739.762c-6.206,6-21.353,6.174-21.994,6.179Z" transform="translate(-0.771 -4.149)" fill="#fff"/>
+    <circle id="Elipse_105" data-name="Elipse 105" cx="1.415" cy="1.415" r="1.415" transform="translate(2683.78 1239.021)" fill="#fff"/>
+    <circle id="Elipse_106" data-name="Elipse 106" cx="1.415" cy="1.415" r="1.415" transform="translate(2690.269 1237.694)" fill="#fff"/>
+    <circle id="Elipse_107" data-name="Elipse 107" cx="1.415" cy="1.415" r="1.415" transform="translate(2696.304 1235.914)" fill="#fff"/>
+    <circle id="Elipse_108" data-name="Elipse 108" cx="1.415" cy="1.415" r="1.415" transform="translate(2700.991 1233.58)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,142 @@
+.module-comparison {
+	position: relative;
+	padding: 50px 0 100px;
+	text-align: center;
+	
+	@media (min-width: 768px) {
+		padding-bottom: 0;
+	}
+	
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 50%;
+		background: #C0DD52;
+		z-index: -2;
+		transform: translateY(98%);
+	}
+	
+	.decor-bottom-left {
+		position: absolute;
+		bottom: 0;
+		left: -30px;
+		transform: translateY(50%);
+		max-width: 105px;
+		
+		@media (min-width: 768px) {
+			display: block;
+			bottom: 0;
+			left: 50px;
+			transform: translateY(100%);
+			max-width: 160px;
+		}
+	}
+	
+	.btn {
+		margin: auto;
+		margin-top: 35px;
+		max-width: 315px;
+	}
+	
+	.module--title {
+		max-width: 500px;
+		margin: 0 auto 20px;
+		position: relative;
+		
+		&:after {
+			content:'';
+			display: block;
+			float: right;
+			width: 32px;
+			height: 28px;
+			background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMS4wMTUiIGhlaWdodD0iMzIuNzIyIiB2aWV3Qm94PSIwIDAgMzEuMDE1IDMyLjcyMiI+CiAgPGcgaWQ9Ikdyb3VwXzQ3NjQiIGRhdGEtbmFtZT0iR3JvdXAgNDc2NCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAuMjU5IDMyLjcyMikgcm90YXRlKC0xNzMpIj4KICAgIDxwYXRoIGlkPSJQYXRoXzMxODM2IiBkYXRhLW5hbWU9IlBhdGggMzE4MzYiIGQ9Ik0xMi40LjA1YTIuMjA5LDIuMjA5LDAsMCwxLDIuOCwyLjA2MWMuMywyLjA3OS0xLjE2LDIuNjcyLTIuODU4LDIuODg5UTcuNyw1LjU5MywzLjA1OSw2LjE1OUMxLjU1NCw2LjM0My4zMzIsNS45MTYuMDUyLDQuMjY5Yy0uMjk1LTEuNzMzLjY4My0yLjY3LDIuMzE2LTIuOUM1LjQ1MS45MjUsOC41NDUuNTUyLDEyLjQuMDVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIiBmaWxsPSIjMDk5ODlhIi8+CiAgICA8cGF0aCBpZD0iUGF0aF8zMTgzNyIgZGF0YS1uYW1lPSJQYXRoIDMxODM3IiBkPSJNMCw5LjU0MkExMS42MjgsMTEuNjI4LDAsMCwxLDEuMTM4LDcuMzU3QzIuOTgzLDUuMjE0LDQuODkzLDMuMTI5LDYuOCwxLjAzOSw3Ljg1My0uMTIsOS4xMzgtLjM5LDEwLjM1LjY0MUEyLjMsMi4zLDAsMCwxLDEwLjQ4Myw0LjJjLTEuOTQ5LDIuMjQ5LTMuODc3LDQuNTI4LTYsNi42YTMuNDcyLDMuNDcyLDAsMCwxLTIuNzY2LjU2OEMxLjA1NywxMS4yMjcuNTksMTAuMjEyLDAsOS41NDJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMi4xNzQgMTAuMzk3KSIgZmlsbD0iIzA5OTg5YSIvPgogICAgPHBhdGggaWQ9IlBhdGhfMzE4MzgiIGRhdGEtbmFtZT0iUGF0aCAzMTgzOCIgZD0iTS4zNDcsNi4wNGMwLTEuMTgxLS4wMy0yLjM2NC4wMS0zLjU0NUEyLjI2NCwyLjI2NCwwLDAsMSwyLjg0LDAsMi4yMywyLjIzLDAsMCwxLDUuMTkzLDIuNDE4YTU2Ljk0NSw1Ni45NDUsMCwwLDEtLjQ0NCw3Ljk1OCwzLjE5LDMuMTksMCwwLDEtMi4yMzUsMS44NzFDMS4xMSwxMi41LjE1NCwxMS41LjA1LDEwLjAyNi0uMDQ3LDguNy4wMjgsNy4zNjkuMDI4LDYuMDRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNy4zNDIgMTYuNjg3KSIgZmlsbD0iIzA5OTg5YSIvPgogIDwvZz4KPC9zdmc+Cg==') center no-repeat;
+			background-size: contain;
+		}
+	}
+	
+	.mobile {
+		position: relative;
+		padding-bottom: 30px;
+
+		@media (min-width: 768px) {
+			display: none;
+		}
+		
+		display: flex;
+		max-width: 315px;
+		margin: auto;
+		
+		&--main {
+			flex: 0 0 79%;
+			width: 79%;
+		}
+		
+		&--slider {
+			flex: 0 0 21%;
+			width: 21%;
+			padding-top: 1px;
+		}
+
+		.js-mobile-slider {
+			position: static;
+		}
+
+		.slick-arrow {
+			position: absolute;
+			bottom: -9px;
+			background: url('data:image/svg+xml;base64,PHN2ZyBpZD0iQXJyb3ciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2IiB2aWV3Qm94PSIwIDAgMjYgMjYiPgogIDxnIGlkPSJFbGxpcHNlXzE3NSIgZGF0YS1uYW1lPSJFbGxpcHNlIDE3NSIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjIpIiBzdHJva2U9IiMwOTk4OWEiIHN0cm9rZS13aWR0aD0iMSI+CiAgICA8Y2lyY2xlIGN4PSIxMyIgY3k9IjEzIiByPSIxMyIgc3Ryb2tlPSJub25lIi8+CiAgICA8Y2lyY2xlIGN4PSIxMyIgY3k9IjEzIiByPSIxMi41IiBmaWxsPSJub25lIi8+CiAgPC9nPgogIDxwYXRoIGlkPSJQYXRoXzMyMjAwIiBkYXRhLW5hbWU9IlBhdGggMzIyMDAiIGQ9Ik0tODc0LjMwOCwzMTk5LjJsNiw2LTYsNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODg0LjgwNCAtMzE5Mi43KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDk5ODlhIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMSIvPgo8L3N2Zz4K') center no-repeat;
+			background-size: contain;
+			width: 26px;
+			height: 26px;
+			overflow: hidden;
+			text-indent: -99em;
+			z-index: 1;
+
+			&.slick-prev {
+				left: -10px;
+				transform: scaleX(-1);
+			}
+
+			&.slick-next {
+				right: -10px;
+			}
+		}
+		
+		.slick-dots {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			position: absolute;
+			right: 0;
+			bottom: -10px;
+			width: 100%;
+
+			button {
+				padding: 0;
+				margin: 0;
+				width: 10px;
+				height: 10px;
+				border: 1px solid #09989A;
+				border-radius: 100%;
+				overflow: hidden;
+				text-indent: -99em;
+				background: none;
+			}
+			
+			li {
+				margin: 0 3px;
+			}
+			
+			.slick-active {
+				button {
+					background: #09989A;
+				}
+			}
+		}
+	}
+}

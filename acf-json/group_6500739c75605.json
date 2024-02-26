@@ -1,0 +1,491 @@
+{
+    "key": "group_6500739c75605",
+    "title": "Page: Bake away",
+    "fields": [
+        {
+            "key": "field_650073b5d51b3",
+            "label": "Content",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_650073c05cb88": {
+                    "key": "layout_650073c05cb88",
+                    "name": "hero",
+                    "label": "Hero Bake Away",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_650073cad51b4",
+                            "label": "Hero Bake Away",
+                            "name": "hero",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_629a5e09093ff"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_652fe99ffc521": {
+                    "key": "layout_652fe99ffc521",
+                    "name": "hero-slider",
+                    "label": "Hero Slider",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_652fe9a9fc522",
+                            "label": "Hero Slider",
+                            "name": "hero-slider",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_652fe13df3fba"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6548e0f3c9b4c": {
+                    "key": "layout_6548e0f3c9b4c",
+                    "name": "highlighted",
+                    "label": "Highlighted",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6548e0f6c9b4d",
+                            "label": "Highlighted",
+                            "name": "highlighted",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6548dbd436c06"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6548f5687eeb0": {
+                    "key": "layout_6548f5687eeb0",
+                    "name": "how-baketivity-work",
+                    "label": "How Baketivity Work",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6548f5797eeb1",
+                            "label": "How Baketivity Work",
+                            "name": "how-baketivity-work",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6548f23618b15"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_654a3925fc24e": {
+                    "key": "layout_654a3925fc24e",
+                    "name": "experience",
+                    "label": "Experience",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_654a392ffc24f",
+                            "label": "Experience",
+                            "name": "experience",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633590cb37f42"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_65030fc625eca": {
+                    "key": "layout_65030fc625eca",
+                    "name": "grand_price",
+                    "label": "Grand Price",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_65030fd025ecb",
+                            "label": "Grand Price",
+                            "name": "grand_price",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_65030e1a818f7"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_650454327b437": {
+                    "key": "layout_650454327b437",
+                    "name": "left-right_bake_away",
+                    "label": "Left-Right Bake Away",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_650454497b438",
+                            "label": "Left-Right Bake Away",
+                            "name": "left-right_bake_away",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_650451e4e642c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6509c54814190": {
+                    "key": "layout_6509c54814190",
+                    "name": "simple-step-by-step-giving",
+                    "label": "Simple Step by Step",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6509c55f14191",
+                            "label": "Simple Step by Step",
+                            "name": "simple-step-by-step-giving",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63c96a7605971"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_65119f8c50ed4": {
+                    "key": "layout_65119f8c50ed4",
+                    "name": "capture_steps",
+                    "label": "Capture Steps",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_65119f9250ed5",
+                            "label": "Capture Steps",
+                            "name": "capture_steps",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_65119eebee4e1"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_65119c1962f9c": {
+                    "key": "layout_65119c1962f9c",
+                    "name": "simple_text",
+                    "label": "Simple Text",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_65119c2a62f9d",
+                            "label": "Simple Text",
+                            "name": "simple_text",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_65119ba961503"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6512d1676ceec": {
+                    "key": "layout_6512d1676ceec",
+                    "name": "submit_your_recipe",
+                    "label": "Submit your recipe",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6512d16b6ceed",
+                            "label": "Submit your recipe",
+                            "name": "submit_your_recipe",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6512cf75723ac"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_650b0812313ee": {
+                    "key": "layout_650b0812313ee",
+                    "name": "ready-to-vote",
+                    "label": "Ready to vote",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_650b0820313ef",
+                            "label": "Ready to vote",
+                            "name": "ready-to-vote",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_650b074a9c661"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6509c749ec22f": {
+                    "key": "layout_6509c749ec22f",
+                    "name": "accordion-faq",
+                    "label": "Faq Accordion",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6509c751ec230",
+                            "label": "Faq Accordion",
+                            "name": "accordion-faq",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63da92551af6c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_651583971ee1d": {
+                    "key": "layout_651583971ee1d",
+                    "name": "grid_video_recipes",
+                    "label": "Grid video recipes",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_651583a51ee1e",
+                            "label": "Grid video recipes",
+                            "name": "grid_video_recipes",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_651582de807b4"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/bake-away-landing-page.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/bake-away-landing-page-submit.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/bake-away-landing-page-vote.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1699363140
+}

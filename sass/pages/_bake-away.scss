@@ -1,0 +1,319 @@
+.bake-away {
+
+    /* HERO */
+    .hero {
+
+        @include mobile {
+            height: 774px;
+        }
+
+        @include mobile-sm {
+            height: 670px;
+        }
+
+        &__container-fluid {
+
+            @include mobile {
+                background: linear-gradient(180deg, #f3f5f6 0%, #f3f5f6 52%, rgba(255, 255, 255, 0) 55%)
+            }
+
+            @include mobile-sm {
+                background: linear-gradient(180deg, #f3f5f6 0%, #f3f5f6 60%, rgba(255, 255, 255, 0) 64%)
+            }
+
+            @include mobile-s {
+                background: linear-gradient(180deg, #f3f5f6 0%, #f3f5f6 63%, rgba(255, 255, 255, 0) 66%)
+            }
+
+            @include mobile-xs {
+                background: linear-gradient(180deg, #f3f5f6 0%, #f3f5f6 66%, rgba(255, 255, 255, 0) 69%)
+            }
+        }
+
+        &__logo {
+            height: auto;
+            margin-bottom: 0;
+        }
+
+        &__title {
+            font-weight: 700;
+            background-image: url(images/bake-away/brush-yellow-title.svg);
+            background-repeat: no-repeat;
+            padding: 0 0 0 15px;
+            margin-left: -15px;
+
+            @include mobile {
+                font-size: 33px;
+                line-height: 34px;
+                max-width: 318px;
+                margin-left: 0;
+                margin-bottom: 0;
+                padding: 18px 12px;
+                border-top-right-radius: 41px;
+            }
+        }
+
+        &__label {
+            font: normal normal 700 31px/33px $primary-font !important;
+            letter-spacing: 0px;
+            color: $primary-black;
+            margin-bottom: 10px;
+
+            // mobile
+            @include mobile {
+                font: normal normal 500 18px/34px $primary-font !important;
+                text-align: center;
+                margin-bottom: 0;
+            }
+        }
+
+        &__subtitle {
+            text-align: left;
+            font: normal normal 700 21px/33px $primary-font;
+            letter-spacing: 0px;
+            color: $primary-black;
+            margin-bottom: 65px;
+            width: 100%;
+            max-width: 460px;
+
+            // mobile
+            @include mobile {
+                font: normal normal 500 14px/20px $primary-font;
+                text-align: center;
+                padding: 0;
+                margin: 0 auto;
+                margin-bottom: 15.7px !important;
+                max-width: 238px;
+            }
+        }
+
+        &__right {
+            height: inherit;
+
+            @include mobile {
+                display: none;
+            }
+        }
+
+        &__logo {
+            position: absolute;
+            top: 26px;
+            right: -32px;
+        }
+
+        &__subtitle {
+            margin-bottom: 39.2px;
+        }
+
+        &__ctas {
+            .hero__button {
+                width: 100%;
+                max-width: 146.5px;
+
+                &:nth-child(2) {
+                    background-color: $white;
+                    border: 2px solid $new-red;
+                    color: $new-red;
+                }
+            }
+        }
+    }
+
+    /* STEP BY STEP */
+    .simple-step-by-step-giving {
+        padding: 50px 0 60px;
+
+        &__container {
+            @include mobile {
+                padding: 0 15px;
+                max-width: 100%;
+            }
+        }
+
+        &__body {
+            justify-content: space-between;
+        }
+
+        &__title {
+            p {
+                @include mobile {
+                    font-size: 26px;
+                    line-height: 38px;
+                }
+            }
+
+            &::after {
+                content: '';
+                background-image: url(images/bake-away/trazado-steps.svg);
+                height: 21px;
+                margin: 0 0 0 auto;
+                width: 267px;
+
+                @include mobile {
+                    width: 195px;
+                }
+            }
+        }
+
+        &__item {
+            width: 260px;
+
+            @include mobile {
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: row;
+                width: 400px;
+                max-width: 100%;
+            }
+        }
+
+        &__item-head {
+
+            @include mobile {
+                display: flex;
+                flex: none;
+            }
+        }
+
+        &__item-body {
+
+            @include mobile {
+                margin-left: 10px;
+            }
+        }
+
+        &__item-num {
+            background-color: $new-red;
+            color: $white;
+            border: $new-red;
+            position: relative;
+            z-index: 1;
+
+            @include mobile {
+                font-size: 17px;
+                line-height: 17px;
+                margin: 0 0 0 -18px;
+                flex: none;
+                position: relative;
+                top: 10px;
+                padding: 0;
+                height: 27px;
+                width: 27px;
+            }
+        }
+
+        &__item-title {
+            color: #7E2088;
+
+            @include mobile {
+                font-size: 18px;
+                line-height: 21px;
+                text-align: left;
+            }
+        }
+
+        &__item-content {
+
+            @include mobile {
+                text-align: left;
+            }
+        }
+
+        &__item-image {
+
+            @include mobile {
+                flex: none;
+                height: 98px;
+                width: 98px;
+            }
+        }
+
+        &__cta {
+            width: 200px;
+        }
+    }
+
+    /* FAQ */
+    .faq-accordion {
+
+        &__header {
+            background-image: url(images/bake-away/subrayado-violet-title.svg), url(images/bake-away/subrayado-green-title.svg);
+            background-repeat: no-repeat, no-repeat;
+            background-position: right bottom, right bottom;
+            background-size: auto, auto;
+
+            margin: 0 auto;
+            position: relative;
+            padding: 0 10px 12px;
+            width: fit-content;
+
+            @include mobile-md {
+                font-size: 33px;
+                line-height: 34px;
+                padding: 0 10px 22px;
+                background-position: center bottom, center bottom;
+            }
+        }
+
+        &__footer {
+            @include mobile-md {
+                margin-top: 35px;
+            }
+        }
+
+        &__footer-cta-container {
+            display: flex;
+            justify-content: space-between;
+            width: 450px;
+
+            @include mobile-md {
+                flex-direction: column;
+                align-items: center;
+                height: 90px;
+                padding: 0 15px;
+                width: 100%;
+            }
+        }
+
+        &__footer-cta {
+            background-color: $new-red;
+            font-family: $primary-font;
+            font-size: 15px;
+            line-height: 18px;
+            font-weight: 700;
+            color: $white;
+            text-decoration: none;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 38px;
+            width: 200px;
+
+            @include mobile-md {
+                width: 100%;
+            }
+        }
+
+        &__footer-cta-2 {
+            background-color: $white;
+            border: 2px solid $new-red;
+            font-family: $primary-font;
+            font-size: 15px;
+            line-height: 18px;
+            font-weight: 700;
+            color: $new-red;
+            text-decoration: none;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 38px;
+            width: 200px;
+
+            @include mobile-md {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,171 @@
+.ba-form-login {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed; 
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999999;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    &:target {
+        visibility: visible;
+        opacity: 1;
+    }
+    &__form {
+        background-color: #E8E8E8;
+        padding: 30px;
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 10vh;
+        margin: 0 auto;
+        width: 600px;
+        z-index: 999999999;
+        // mobile
+        @media (max-width: 768px) {
+            width: 95%;
+            max-width: 360px;
+        }
+        @media (max-width: 300px) {
+            padding: 30px 13px;
+        }
+    }
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    &__row-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        // mobile
+        @media (max-width: 768px) {
+            justify-content: space-between;
+        }
+    }
+    &__wide {
+        margin-right: 12px;
+        margin-bottom: 14px;
+        // mobile
+        @media (max-width: 768px) {
+            margin-right: 0;
+        }
+    }
+    &__label {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: $primary-black;
+        margin-bottom: 5px;
+        &--remember {
+            font-size: 12px;
+            line-height: 1px;
+            width: 46%;
+        }
+    }
+    &__input {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: $primary-black;
+        background: $white;
+        border-radius: 4px;
+        text-align: left !important;
+        padding-left: 15px !important;
+        height: 41px !important;
+    }
+    &__forgot {
+        text-decoration: underline;
+        font: normal normal normal 12px/14px $primary-font;
+        letter-spacing: 0.12px;
+        color: $primary_black !important;
+    }
+    &__submit {
+        background-color: $new-red !important;
+        width: 60px;
+        height: 41px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 22px;
+        font: normal normal 700 14px/18px $primary-font;
+        letter-spacing: 0.14px;
+        color: $white;
+        min-width: 60px;
+        padding: 8px 0;
+        &:hover {
+            color: $white !important;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            margin: 15px 0 24px;
+            width: 100%;
+        }
+    }
+    &__hr {
+        background-color: $white;
+        height: 2px;
+    }
+    &__register a {
+        font: normal normal 500 14px/20px $primary-font;
+        letter-spacing: 0px;
+        text-decoration: none !important;
+        color: $primary-black;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &__register img {
+        margin-left: 10px;
+    }
+    &__cta {
+        background-color: $new-red !important;
+        width: auto;
+        max-width: 170px;
+        height: 41px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 22px;
+        font: normal normal 700 14px/18px $primary-font;
+        letter-spacing: 0.14px;
+        color: $white;
+        min-width: 60px;
+        padding: 8px 15px;
+        &:hover {
+            color: $white !important;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            margin: 0 auto;
+        }
+    }
+    &__close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: none;
+        color: $white;
+        font-family: $primary-font;
+    }
+    &__close:hover {
+        color: $grey-light;
+    }
+}

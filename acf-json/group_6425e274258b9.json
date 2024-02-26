@@ -1,0 +1,167 @@
+{
+    "key": "group_6425e274258b9",
+    "title": "Page: Blog",
+    "fields": [
+        {
+            "key": "field_6425e2f321bf9",
+            "label": "Content",
+            "name": "blog__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_6425e2fc9b05a": {
+                    "key": "layout_6425e2fc9b05a",
+                    "name": "blog-header",
+                    "label": "Blog Header",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6425e4dad405f",
+                            "label": "Blog Header",
+                            "name": "blog-header",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6425e3a68d234"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_642adcf1eada3": {
+                    "key": "layout_642adcf1eada3",
+                    "name": "blog-banner-cta-1",
+                    "label": "Blog Banner CTA 1",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_642add10eada4",
+                            "label": "Blog Banner CTA 1",
+                            "name": "blog-banner-cta-1",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_642adbc66e2a0"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_642add34eada5": {
+                    "key": "layout_642add34eada5",
+                    "name": "blog-banner-cta-2",
+                    "label": "Blog Banner CTA 2",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_642add4beada6",
+                            "label": "Blog Banner CTA 2",
+                            "name": "blog-banner-cta-2",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_642adc7dd49cf"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6426eaf9f8e57": {
+                    "key": "layout_6426eaf9f8e57",
+                    "name": "faq",
+                    "label": "FAQ",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6426eb02f8e58",
+                            "label": "FAQ",
+                            "name": "faq",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63da92551af6c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/blog-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1680530795
+}

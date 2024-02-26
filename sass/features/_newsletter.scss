@@ -1,0 +1,57 @@
+/* Email Collection Box */ 
+#klaviyo_emailsignup_widget-6 #kla_email_klaviyo_emailsignup_widget--1 {
+	width: 100%;
+    max-width: 650px;
+    margin: 0 0 35px 35px !important;
+    text-align: left;
+    border: solid 3px #0AA8AA;
+    border-top-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    height: 65px;
+    background: #fff;
+    color: #4D4D4F;
+    font-size: 23px;
+    line-height: 27px;
+	font-family: smoothy;
+} 
+
+#klaviyo_emailsignup_widget-6 .klaviyo_field_group {
+	position:relative;
+}
+
+#klaviyo_emailsignup_widget-6 .klaviyo_submit_button {
+	position: absolute;
+    right: 46px;
+    top: 8px;
+    border: solid 3px #0AA8AA;
+    font-size: 21px;
+    line-height: 23px;
+    width: 108px;
+    height: 48px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #0AA8AA;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+#klaviyo_emailsignup_widget-6 .klaviyo_messages {
+   	position: relative;
+    display: inline-block;
+    max-width: 650px;
+    margin-left: 45px;
+    color: white;
+    margin-top: -20px;
+}
+
+@media (max-width:768px) {
+	#klaviyo_emailsignup_widget-6 .klaviyo_submit_button {
+		right:16px;
+	}
+	
+	#klaviyo_emailsignup_widget-6 #kla_email_klaviyo_emailsignup_widget--1 {margin-left:0px !important }
+} 

@@ -1,0 +1,97 @@
+.big-menu {
+    background: $white;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 14px 14px;
+    display: none;
+    height: 0;
+    //max-height: 235px;
+    margin: 0 auto;
+    right: 0;
+    top: 70px;
+    position: absolute;
+    padding: 30px;
+    left: 50%;
+    transform: translateY(0) translateX(-50%);
+    width: auto;
+    width: fit-content;
+    min-width: 200px;
+    transition: 3s all;
+
+    // mobile
+    @media (max-width: 768px) {
+        max-height: 100%;
+    }
+
+    &__list {
+        display: flex;
+        width: 100%;
+        min-width: 160px;
+        margin: 0 !important;
+        flex-direction: column;
+    }
+
+    &__multi {
+        display: flex;
+        align-items: flex-start;
+
+        .big-menu__list {
+            border-right: 1px solid #E8E8E8;
+            margin-right: 36px !important;
+            min-width: 215px;
+
+            &:last-child {
+                border-right: none;
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    &__item {
+        margin: 0 0 15px !important;
+        width: 100%;
+
+        &:last-of-type {
+            margin-bottom: 0 !important;
+        }
+    }
+
+    &__item-link {
+        color: $primary-black !important;
+        font-family: $primary-font !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        line-height: 23px !important;
+        text-align: left;
+
+        &:hover {
+            color: $title-green !important;
+
+            // mobile
+            @media (max-width: 1024px) {
+                color: $white !important;
+            }
+        }
+    }
+
+    &__img {
+        margin-right: 10px;
+        max-height: 20px;
+        max-width: 20px;
+
+        // tablet
+        @media (max-width: 1024px) {
+            margin-right: 13px;
+            width: 20px !important;
+            filter: invert(100%) brightness(200%);
+        }
+    }
+
+    .buy-with-prime {
+        filter: none !important;
+
+        // tablet
+        @media (max-width: 1024px) {
+            filter: none !important;
+        }
+    }
+}

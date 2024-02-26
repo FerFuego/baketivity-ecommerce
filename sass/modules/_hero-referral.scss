@@ -1,0 +1,286 @@
+.hero-referral {
+    background-color: #B4D3D5;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 570px;
+    width: 100%;
+
+    // mobile
+    @media (max-width: 768px) {
+        background-position: center bottom;
+        padding-top: 40px;
+        height: 613px;
+        align-items: flex-start;
+    }
+
+    &__container {
+        display: flex;
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+
+        // mobile
+        @media (max-width: 768px) {
+            padding: 0 42px;
+            flex-direction: column;
+        }
+
+        @media (max-width: 320px) {
+            padding: 0 8px;
+        }
+    }
+
+    &__left {
+        width: 60%;
+
+        // mobile
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__right {
+        width: 40%;
+
+        // mobile
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        font-family: $primary-font;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 51px;
+        color: $primary-black;
+        margin-bottom: 5px;
+        width: 100%;
+        max-width: 441px;
+        position: relative;
+
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 33px;
+            line-height: 33px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        &::before {
+            content: '';
+            background-image: url(images/referral/exclamation-white.svg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 77px;
+            width: 77px;
+            position: absolute;
+            top: -30px;
+            left: -60px;
+
+            // mobile
+            @media (max-width: 768px) {
+                background-size: contain;
+                height: 47px;
+                width: 47px;
+                top: -20px;
+                left: -25px;
+            }
+        }
+    }
+
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 33px;
+        color: $primary-black;
+        margin-bottom: 31px;
+        width: 100%;
+        max-width: 422px;
+
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            max-width: 100%;
+        }
+    }
+
+    &__invites {
+        margin-bottom: 12.45px;
+
+        // mobile
+        @media (max-width: 768px) {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
+    &__invite-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        background-color: $new-red;
+        height: 37px;
+        width: 267px;
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 5px;
+        border-radius: 4px;
+    }
+
+    &__form,
+    .aw-email-referral-form {
+        position: relative;
+        display: block;
+        width: 267px;
+
+        // mobile
+        @media (max-width: 768px) {
+            margin: 0;
+        }
+
+        .form-row {
+            display: none;
+
+            &:last-of-type {
+                display: block !important;
+            }
+        }
+
+        label {
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 19px;
+            color: $primary-black;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type=text],
+        input[type=email] {
+            display: block;
+            width: 267px;
+            height: 37px;
+            background-color: $white;
+            border: none;
+            border-radius: 4px;
+            box-shadow: none;
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 19px;
+        }
+
+        input[type=submit],
+        button[type=submit] {
+            background-color: $white;
+            background-image: url(images/referral/arrow-right-solid.svg);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: 11px;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            color: #C7C7C7;
+            font-family: $primary-font;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 12px;
+            position: absolute;
+            padding: 0 16px 0 0;
+            height: 35px;
+            right: 10px;
+            bottom: 1px;
+        }
+    }
+
+    .aw-referrals-share-or {
+        font-family: $primary-font;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19px;
+        color: $primary-black;
+        display: block;
+        margin-bottom: 5px;
+        text-align: left;
+        text-transform: inherit;
+
+        &::after {
+            content: 'send an email';
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 19px;
+            color: $primary-black;
+            display: inline-block;
+            margin-left: 5px;
+            text-align: left;
+            text-transform: inherit;
+        }
+    }
+
+    .aw-referrals-share-buttons {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            background-color: $new-red !important;
+            height: 37px;
+            width: 267px;
+            text-transform: inherit !important;
+            font-family: $primary-font;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            margin: 0 0 5px;
+            border-radius: 4px;
+            padding: 0;
+        }
+    }
+
+    /* Change Autocomplete styles in Chrome*/
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+        border: none;
+        -webkit-text-fill-color: none;
+        -webkit-box-shadow: 0 0 0px 1000px $white inset;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+
+    .woocommerce {
+        position: relative !important;
+        right: inherit !important;
+    }
+
+    &__message {
+        max-width: 300px;
+
+        // mobile
+        @media (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+}

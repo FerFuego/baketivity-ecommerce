@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="351" height="51.916" viewBox="0 0 351 51.916">
+  <defs>
+    <filter id="Elipse_34" x="0" y="0" width="51.916" height="51.916" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_34-2" x="299.084" y="0" width="51.916" height="51.916" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_77726" data-name="Grupo 77726" transform="translate(-61 -3238)">
+    <g id="Grupo_77581" data-name="Grupo 77581" transform="translate(70 3244)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Elipse_34)">
+        <circle id="Elipse_34-3" data-name="Elipse 34" cx="16.958" cy="16.958" r="16.958" transform="translate(9 6)" fill="#fff"/>
+      </g>
+      <g id="Grupo_77532" data-name="Grupo 77532" transform="translate(11.733 8.479)">
+        <path id="Trazado_1880" data-name="Trazado 1880" d="M0,0,7.055,8.825,0,18.071" transform="translate(7.055 18.071) rotate(180)" fill="none" stroke="#4d4d4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="Grupo_77582" data-name="Grupo 77582" transform="translate(403 3277.916) rotate(180)">
+      <g transform="matrix(-1, 0, 0, -1, 342, 39.92)" filter="url(#Elipse_34-2)">
+        <circle id="Elipse_34-4" data-name="Elipse 34" cx="16.958" cy="16.958" r="16.958" transform="translate(342 39.92) rotate(180)" fill="#fff"/>
+      </g>
+      <g id="Grupo_77532-2" data-name="Grupo 77532" transform="translate(11.733 8.479)">
+        <path id="Trazado_1880-2" data-name="Trazado 1880" d="M0,0,7.055,8.825,0,18.071" transform="translate(7.055 18.071) rotate(180)" fill="none" stroke="#4d4d4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

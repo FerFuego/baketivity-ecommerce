@@ -1,0 +1,149 @@
+{
+    "key": "group_63da95af3572d",
+    "title": "Page: FAQ",
+    "fields": [
+        {
+            "key": "field_63da95eb54ab8",
+            "label": "Content Page",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_63da95fe3e3b7": {
+                    "key": "layout_63da95fe3e3b7",
+                    "name": "hero-faq",
+                    "label": "Hero FAQ",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63da963954ab9",
+                            "label": "hero-faq",
+                            "name": "hero-faq",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63da8fd5b4df5"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63da96e854aba": {
+                    "key": "layout_63da96e854aba",
+                    "name": "accordion_faq",
+                    "label": "Accordion FAQ",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63da972154abb",
+                            "label": "accordion-faq",
+                            "name": "accordion-faq",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63da92551af6c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63dbb3dd08afe": {
+                    "key": "layout_63dbb3dd08afe",
+                    "name": "contact_faq",
+                    "label": "Contact FAQ",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63dbb4cfa3b33",
+                            "label": "contact-text",
+                            "name": "contact-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_63dbb3e108aff",
+                            "label": "contact-link",
+                            "name": "contact-link",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template_pages\/faq-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1675344753
+}

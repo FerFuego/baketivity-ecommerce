@@ -1,0 +1,198 @@
+{
+    "key": "group_632b276fed801",
+    "title": "Page: About Us",
+    "fields": [
+        {
+            "key": "field_632b2909e74b4",
+            "label": "Flexible Content",
+            "name": "about-us__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_632b291f805f4": {
+                    "key": "layout_632b291f805f4",
+                    "name": "hero-about-us",
+                    "label": "Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_632b2d733bedf",
+                            "label": "Hero",
+                            "name": "hero-about-us",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6333669019c6c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6332de79e1a8e": {
+                    "key": "layout_6332de79e1a8e",
+                    "name": "baketivity_begining",
+                    "label": "Baketivity Begining",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6332de79e1a8f",
+                            "label": "Baketivity Begining",
+                            "name": "baketivity_begining",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_632b2c6db3acb"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6332e1421f9ce": {
+                    "key": "layout_6332e1421f9ce",
+                    "name": "family_focused",
+                    "label": "Family Focused",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6332e1421f9cf",
+                            "label": "Family Focused",
+                            "name": "family_focused",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6332df42df2fa"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6333681a94b39": {
+                    "key": "layout_6333681a94b39",
+                    "name": "baking-up-movement",
+                    "label": "Baking Up A Movement",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6333681a94b3a",
+                            "label": "Baking Up A Movement",
+                            "name": "baking-up-movement",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6333677fc1dad"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63343af4fbb80": {
+                    "key": "layout_63343af4fbb80",
+                    "name": "product_page_cta",
+                    "label": "Banner CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63343af4fbb81",
+                            "label": "Banner CTA",
+                            "name": "product_page_cta",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62bee7119b59a"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Module",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/about-us-new.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1664367487
+}

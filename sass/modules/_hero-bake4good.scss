@@ -1,0 +1,225 @@
+.hero-bake4good {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    height: 558px;
+    margin-top: 0px;
+    // mobile
+    @media (max-width: 768px) {
+        background-color: #f3f5f6;
+        background-position: bottom center;
+        background-size: 100%;
+        height: 810px;
+        margin-top: 0;
+    }
+    // mobile
+    @media (max-width: 480px) {
+        background-color: #f3f5f6;
+        background-position: bottom center;
+        background-size: 100%;
+        height: 645px;
+        margin-top: 0;
+    }
+    // mobile mini
+    @media (max-width: 340px) {
+        height: 566px;
+    }
+    &__container-fluid {
+        background: rgb(243,245,246);
+        background: linear-gradient(90deg, rgba(243,245,246,1) 0%, rgba(243,245,246,1) 40%, rgba(255,255,255,0) 55%);
+        display: block;
+        width: 100%;
+        height: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            background: none;
+            background: rgb(243,245,246);
+            background: linear-gradient(180deg, rgba(243,245,246,1) 0%, rgba(243,245,246,1) 41%, rgba(255,255,255,0) 60%);
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            min-height: 500px;
+            max-width: 100%;
+        }
+        @media (max-width: 480px){
+            background: none;
+            background: rgb(243,245,246);
+            background: linear-gradient(180deg, rgba(243,245,246,1) 0%, rgba(243,245,246,1) 49%, rgba(255,255,255,0) 60%);
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            min-height: 500px;
+            max-width: 100%;
+        }
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 560px;
+        max-width: 1090px;
+        margin: 0 auto;
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            min-height: 500px;
+            max-width: 100%;
+            padding: 0 17px 0 19px;
+        }
+    }
+    &__left{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        @media (max-width: 768px){
+            align-items: center;
+            padding: 0;
+            width: 100%;
+        }
+    }
+    &__right{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        @media (max-width: 768px){
+            height: 400px;
+            width: 100%;
+        }
+        @media (max-width: 480px){
+            height: 260px;
+            width: 100%;
+        }
+    }
+    &__content{
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+    }
+    &__container-title {
+        background-image: url(images/bake4good/bg-title-hero-1.svg), url(images/bake4good/bg-title-hero-2.svg);
+        background-position: 0% 13%, 0% 51%;
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto, auto;
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 22px 0 20px 26px;
+        margin-left: -26px;
+        // mobile
+        @media (max-width: 768px) {
+            background-image: url(images/bake4good/bg-title-hero-3.svg), url(images/bake4good/bg-title-hero-2.svg);
+            background-position: 0% 19%, 0% 49%;
+            background-size: 101%, 122px;
+            padding: 22px 0 20px;
+            margin-left: 0;
+            max-width: 350px;
+        }
+    }
+    &__container-logos {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: -12px;
+        // mobile
+        @media (max-width: 768px) {
+            margin-top: 15px;
+        }
+    }
+    &__logo-1 {
+        display: block;
+        height: auto;
+        width: 314px;
+        // mobile
+        @media (max-width: 768px) {
+            width: 179px;
+        }
+        // mobile mini
+        @media (max-width: 340px) {
+            width: 153px;
+        }
+    }
+    &__logo-2 {
+        display: block;
+        height: auto;
+        margin-left: 8px;
+        width: 183px;
+        // mobile
+        @media (max-width: 768px) {
+            width: 127px;
+        }
+    }
+    &__title{
+        display: block;
+        text-align: left;
+        font: normal normal 700 50px/51px $primary-font;
+        letter-spacing: 0px;
+        color: $primary-black;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: 558px;
+        position: relative;
+
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal 700 30px/33px $primary-font;
+            text-align: center;
+            max-width: 100%;
+            margin: 0 auto 0;
+        }
+        // mobile mini
+        @media (max-width: 340px) {
+            font: normal normal 700 24px/28px $primary-font;
+        }
+    }
+    &__subtitle {
+        margin-top: -12px;
+        position: relative;
+        text-align: left;
+        font: normal normal 500 19px/29px $primary-font;
+        color: $primary-black;
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 555px;
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal 500 14px/21px $primary-font;
+            text-align: center;
+            max-width: 335px;
+            margin: 0 auto 20px;
+        }
+    }
+    &__button{
+        background: $new-red;
+        border-radius: 4px;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font: normal normal 700 15px/18px $primary-font;
+        letter-spacing: 0px;
+        height: 38px;
+        width: 260px;
+        // mobile
+        @media (max-width: 768px) {
+            position: relative;
+            bottom: 0;
+            z-index: 2;
+        }
+    }
+}

@@ -1,0 +1,413 @@
+.baking-club-duff {
+    background-position: center bottom;
+    display: block;
+    padding: 34px 15px 0;
+    height: 651px;
+    width: 100%;
+    // mobile
+    @media (max-width: 768px) {
+        background-size: cover;
+        background-position: center bottom;
+        padding: 31px 15px 31px;
+        height: auto;
+        min-height: 828px;
+    }
+    &__container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
+        max-width: 1088px;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            min-height: 500px;
+            max-width: 100%;
+        }
+    }
+    &__content {
+        display: block;
+        position: relative;
+        padding-top: 90px;
+        // mobile
+        @media (max-width: 768px) {
+            padding-top: 20px;
+        }
+    }
+    &__left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        @media (max-width: 768px){
+            align-items: center;
+            width: 100%;
+        }
+    }
+    &__right{
+        height: 100%;
+        width: 50%;
+        display: block;
+        position: relative;
+        @media (max-width: 768px){
+            display: none;
+        }
+    }
+    &__title {
+        color: $primary-black;
+        font-family: $primary-font;
+        font-size: 40px;
+        font-weight: 700;
+        max-width: 357px;
+        margin-bottom: 34px;
+        position: relative;
+        // mobile
+        @media (max-width: 768px){
+            text-align: center;
+            font-size: 26px;
+            margin: 0 auto 34px;
+        }
+        &::after {
+            content: '';
+            background-image: url('images/baking/subrayado-red-duff.svg');
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            bottom: -22px;
+            left: 0;
+            width: 298px;
+            height: 30px;
+            // mobile
+            @media (max-width: 768px){
+                background-size: contain;
+                right: 0;
+                left: 0;
+                margin: 0 auto;
+                width: 232px;
+                height: 23px;
+            }
+        }
+    }
+    &__copy {
+        width: 100%;
+        max-width: 536px;
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 36px;
+        }
+        p {
+            font-family: $primary-font;
+            font-size: 20px;
+            font-weight: 400;
+            color: $primary-black;
+            margin-bottom: 20px;
+            line-height: 29px;
+            // mobile
+            @media (max-width: 768px) {
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 0;
+            }
+        }
+        strong {
+            font-family: $primary-font;
+            font-size: 20px;
+            font-weight: 400;
+            color: $new-red;
+            margin-bottom: 20px;
+            // mobile
+            @media (max-width: 768px) {
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__date-title {
+        background-image: url(images/baking/trazado-yellow-2.svg);
+        background-repeat: no-repeat;
+        font-family: $primary-font;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $new-red;
+        margin-bottom: 0;
+        margin-left: -20px;
+        padding: 10px 20px;
+        max-width: 267px;
+        // mobile
+        @media (max-width: 768px){
+            text-align: center;
+            font-size: 26px;
+            margin: 0 auto 6px;
+        }
+    }
+    &__image-mobile {
+        display: none;
+        // mobile
+        @media (max-width: 768px) {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: block;
+            position: relative;
+            top: 15px;
+            height: 300px;
+            width: 300px;
+            margin: 0px auto;
+        }
+        &::before {
+            content: '';
+            background-image: url('images/baking/exclamation-red.svg');
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            bottom: 137px;
+            left: 14px;        
+            width: 46px;
+            height: 45px;
+        }
+        &::after {
+            content: '';
+            background-image: url('images/baking/rulo-red-arrow.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: block;
+            position: absolute;
+            top: -4px;
+            right: -18px;
+            width: 104px;
+            height: 114px;
+        }
+    }
+    &__image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: block;
+        position: relative;
+        top: 38px;
+        height: 545px;
+        width: 600px;
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+        }
+        &::before {
+            content: '';
+            background-image: url('images/baking/exclamation-red.svg');
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 66px;
+            width: 46px;
+            height: 45px;
+        }
+        &::after {
+            content: '';
+            background-image: url('images/baking/rulo-red-arrow.svg');
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            top: 62px;
+            right: 50px;
+            width: 127px;
+            height: 138px;
+        }
+    }
+    &__image-row-mobile {
+        display: none;
+        // mobile
+        @media (max-width: 768px) {
+            display: block;
+            position: relative;
+            top: -10px;
+            height: 400px;
+            width: 400px;
+            margin: 0px auto 0px;
+        }
+        &::before {
+            content: '';
+            background-image: url('images/baking/exclamation-red.svg');
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            bottom: 253px;
+            left: 28px;       
+            width: 46px;
+            height: 45px;
+        }
+        &::after {
+            content: '';
+            background-image: url('images/baking/rulo-red-arrow.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: block;
+            position: absolute;
+            top: 16px;
+            right: 10px;
+            width: 104px;
+            height: 114px;
+        }
+    }
+    &__image-row-mobile-1 {
+        height: 140px;
+        width: 190px;    
+        position: absolute;
+        bottom: 83px;
+        left: 15px;
+        outline: 5px solid $white;
+        border-radius: 0;
+        box-shadow: 0px 0px 20px $primary-black;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        rotate: 5deg;
+    }
+    &__image-row-mobile-2 {
+        height: 140px;
+        width: 190px;    
+        position: absolute;
+        left: 95px;
+        top: 10px;
+        outline: 5px solid $white;
+        border-radius: 0;
+        box-shadow: 0px 0px 20px $primary-black;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        rotate: -3deg;
+    }
+    &__image-row-mobile-3 {
+        height: 140px;
+        width: 190px;    
+        position: absolute;
+        bottom: 126px;
+        left: 190px;    
+        outline: 5px solid $white;
+        border-radius: 0;
+        box-shadow: 0px 0px 20px $primary-black;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        rotate: -5deg;
+    }
+    &__image-row {
+        display: block;
+        position: relative;
+        top: 38px;
+        height: 545px;
+        width: 600px;
+    }
+    &__image-row-1 {
+        height: 195px;
+        width: 300px;
+        position: absolute;
+        bottom: 93px;
+        left: 18px;
+        outline: 5px solid $white;
+        border-radius: 0;
+        box-shadow: 0px 0px 20px $primary-black;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        rotate: 5deg;
+    }
+    &__image-row-2 {
+        height: 195px;
+        width: 285px;
+        position: absolute;
+        left: 103px;
+        top: 15px;
+        outline: 5px solid $white;
+        border-radius: 0;
+        box-shadow: 0px 0px 20px $primary-black;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        rotate: -3deg;
+    }
+    &__image-row-3 {
+        height: 195px;
+        width: 285px;
+        position: absolute;
+        bottom: 170px;
+        left: 285px;    
+        outline: 5px solid $white;
+        border-radius: 0;
+        box-shadow: 0px 0px 20px $primary-black;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        rotate: -5deg;
+    }
+    &__logo {
+        margin-bottom: 22px;
+        margin-left: -16px;
+        height: auto;
+        width: 269px;
+        // mobile
+        @media (max-width: 768px) {
+            margin: 0 auto 13px;
+            width: 220px;
+        }
+    }
+    &__button {
+        background-color: $new-red;
+        border-radius: 4px;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        height: 37px;
+        width: 210px;
+        // mobile
+        @media (max-width: 768px) {
+            margin: 0 auto;
+        }
+    }
+    &__watch-video-cta {
+        background-image: url('images/baking/click-to-watch-2.webp');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        top: 0px;
+        right: -80px;
+        width: 217px;
+        height: 111px;
+        z-index: 2;
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    &__watch-video-cta-mobile {
+        background-image: url('images/baking/click-to-watch-2.webp');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: none;
+        position: relative;
+        cursor: pointer;
+        width: 217px;
+        height: 111px;
+        // mobile
+        @media (max-width: 768px) {
+            display: block;
+            right: 0;
+            left: 0;
+            top: -25px;
+            margin: 0 auto;
+        }
+    }
+}

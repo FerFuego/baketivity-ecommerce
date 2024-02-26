@@ -1,0 +1,276 @@
+.blog-body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 40px 0 0;
+    display: block;
+    height: auto;
+    width: 100%;
+
+    &__container {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        max-width: 1088px;
+    }
+
+    &__title {
+        background-image: url(images/blog/brush-green-category.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        font-family: $primary-font;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 45px;
+        color: $primary-black;
+
+        display: block;
+        margin: 30px auto 10px;
+        padding: 0px 24px;
+        position: relative;
+        text-align: center;
+        width: fit-content;
+        min-width: 236px;
+
+        /* &::after {
+            content: '';
+            display: block;
+            background-image: url(images/blog/trazado-title.svg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            height: 30px;
+            width: 236px;
+        } */
+    }
+
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30px;
+        color: $primary-black;
+        text-align: center;
+        margin-bottom: 0;
+
+        @include tablet {
+            font-size: 22px;
+            line-height: 26px;
+            max-width: 100%;
+            margin: 0 15px;
+        }
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 352px 352px 352px;
+        grid-gap: 16px;
+        padding-top: 39px;
+        margin-bottom: 50px;
+
+        // tablet
+        @media (max-width: 1090px) {
+            grid-template-columns: 50% 50%;
+            justify-items: center;
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: 100%;
+            padding: 39px 15px 0;
+        }
+    }
+
+    &__item-post {
+        background-color: #FFD64F;
+        border-radius: 20px;
+        display: block;
+        align-items: center;
+        margin-bottom: 8px;
+        padding: 28px 0 31px;
+        position: relative;
+        width: 352px;
+        height: 488px;
+
+        // mobile
+        @media (max-width: 768px) {
+            display: flex;
+            height: 136px;
+            padding: 0 10px 0 0;
+            overflow: hidden;
+            margin-bottom: 8px;
+            align-items: flex-start;
+        }
+    }
+
+    &__item-post-title {
+        font-family: $primary-font;
+        font-size: 22px;
+        font-weight: 700;
+        height: 53px;
+        display: block;
+        text-align: center;
+        line-height: 26px;
+        padding: 0 10px;
+        overflow: hidden;
+        width: 100%;
+
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__item-post-title--mobile {
+        display: none;
+
+        // mobile
+        @media (max-width: 768px) {
+            font-family: $primary-font;
+            font-size: 16px;
+            font-weight: 500;
+            display: block;
+            line-height: 22px;
+            padding: 10px;
+            overflow: hidden;
+            margin-bottom: 0;
+            width: 100%;
+            max-width: 245px;
+        }
+    }
+
+    &__item-post-cont-img {
+        height: 225px;
+        display: block;
+        margin-bottom: 22px;
+        width: 100%;
+
+        // mobile
+        @media (max-width: 768px) {
+            height: 136px;
+            width: 94px;
+            margin-bottom: 0;
+        }
+    }
+
+    &__item-post-img {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0 !important;
+        height: 225px;
+        display: block;
+        width: 100%;
+
+        // mobile
+        @media (max-width: 768px) {
+            height: 136px;
+        }
+    }
+
+    &__item-post-btn {
+        background-color: $new-red;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: center;
+        color: $white;
+        margin: 0 auto;
+        padding: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 22px;
+        width: 146px;
+
+        // mobile
+        @media (max-width: 768px) {
+            left: 54px;
+            right: 0;
+            bottom: 13px;
+        }
+    }
+
+    &__item-post-text {
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        color: $primary-black;
+        padding: 0 33px;
+        width: 100%;
+
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    /* BLOG PAGE */
+    nav#post-navigation {
+
+        // mobile
+        @media (max-width: 768px) {
+            margin-top: 40px;
+        }
+    }
+
+    .pagination .page-nav-container .page-numbers {
+        border: none !important;
+        border-radius: 50%;
+        background-color: #E8E8E8 !important;
+        font-family: $primary-font;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 500;
+        margin: 0 5px;
+        vertical-align: middle;
+        color: $primary-black !important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 42px;
+        height: 42px;
+    }
+
+    .pagination .current {
+        opacity: .5;
+    }
+
+    /* CATEGORY PAGE*/
+    .pagination .page-numbers li .page-numbers,
+    .woocommerce-pagination .page-numbers li .page-numbers {
+        border: none !important;
+        background-color: #E8E8E8 !important;
+        color: $primary-black !important;
+        font-family: $primary-font;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+    }
+
+    .pagination .page-numbers li span {
+        opacity: .5;
+    }
+}

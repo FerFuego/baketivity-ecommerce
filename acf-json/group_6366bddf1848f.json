@@ -1,0 +1,570 @@
+{
+    "key": "group_6366bddf1848f",
+    "title": "Page: Holiday",
+    "fields": [
+        {
+            "key": "field_6366bddf1dc92",
+            "label": "Content Page",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_62a8ebd110b9d": {
+                    "key": "layout_62a8ebd110b9d",
+                    "name": "hero-home",
+                    "label": "Hero Home",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf212ca",
+                            "label": "hero-home",
+                            "name": "hero-home",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633b3951e01e3"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a8f606154d1": {
+                    "key": "layout_62a8f606154d1",
+                    "name": "steps-to-play",
+                    "label": "Steps to Play",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf212d6",
+                            "label": "Steps to Play",
+                            "name": "steps-to-play",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e30503eca"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_633592293353d": {
+                    "key": "layout_633592293353d",
+                    "name": "experience",
+                    "label": "Experience",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf212dd",
+                            "label": "Experience",
+                            "name": "experience",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633590cb37f42"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a8f6c64d8c6": {
+                    "key": "layout_62a8f6c64d8c6",
+                    "name": "subscription",
+                    "label": "Subscription",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf212e4",
+                            "label": "Subscription",
+                            "name": "subscription",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a33be90af30"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a8f8504d8c8": {
+                    "key": "layout_62a8f8504d8c8",
+                    "name": "shipping-info",
+                    "label": "Shipping Info",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf212ea",
+                            "label": "Shipping Info",
+                            "name": "shipping-info",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e439cfa04"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_633754892cb86": {
+                    "key": "layout_633754892cb86",
+                    "name": "what-is-inside",
+                    "label": "What is inside",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf212f1",
+                            "label": "What is inside",
+                            "name": "what-is-inside",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6337510494d4b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a8f905e2a88": {
+                    "key": "layout_62a8f905e2a88",
+                    "name": "one-time-kits",
+                    "label": "One Time Kits",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf212f7",
+                            "label": "One Time Kits",
+                            "name": "one-time-kits",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e47d11b44"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a8f932e2a8a": {
+                    "key": "layout_62a8f932e2a8a",
+                    "name": "find-a-kit",
+                    "label": "Find a kit",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf212fe",
+                            "label": "Find a kit",
+                            "name": "find-a-kit",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e4d44df69"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a8f9a44b009": {
+                    "key": "layout_62a8f9a44b009",
+                    "name": "testimonials",
+                    "label": "Testimonials",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf21304",
+                            "label": "Testimonials",
+                            "name": "testimonials",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e5108b206"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a8fa5424338": {
+                    "key": "layout_62a8fa5424338",
+                    "name": "share",
+                    "label": "Share",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf2130b",
+                            "label": "Share",
+                            "name": "share",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633c89d79a288"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a8fa772433a": {
+                    "key": "layout_62a8fa772433a",
+                    "name": "logo-reels",
+                    "label": "Logo Reels",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf21313",
+                            "label": "Logo Reels",
+                            "name": "logo-reels",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e58932da9"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62a8fabb2433c": {
+                    "key": "layout_62a8fabb2433c",
+                    "name": "banner-cta",
+                    "label": "Banner CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf2131a",
+                            "label": "Banner CTA",
+                            "name": "banner-cta",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6304e12a3c3bc"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6334bdc69ea46": {
+                    "key": "layout_6334bdc69ea46",
+                    "name": "banner-duff",
+                    "label": "Banner Duff",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf21320",
+                            "label": "Banner Duff",
+                            "name": "banner-duff",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6334a56e4c75e"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6335fc2d693aa": {
+                    "key": "layout_6335fc2d693aa",
+                    "name": "plan-for-plan",
+                    "label": "Plan for plan",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366bddf21327",
+                            "label": "Plan for plan",
+                            "name": "plan-for-plan",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6335fb6b80294"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6366cc4cf9610": {
+                    "key": "layout_6366cc4cf9610",
+                    "name": "banner-promo",
+                    "label": "Banner Promo",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366cc57f9611",
+                            "label": "Banner Promo",
+                            "name": "banner-promo",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_636e9bb59ac5d"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6366e8f441762": {
+                    "key": "layout_6366e8f441762",
+                    "name": "holiday-season",
+                    "label": "Holiday Season",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6366e90a41763",
+                            "label": "Holiday Season",
+                            "name": "holiday-season",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6366e70aae370"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_636816caeb01d": {
+                    "key": "layout_636816caeb01d",
+                    "name": "experience-holiday",
+                    "label": "Experience Holiday",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_636816dceb01e",
+                            "label": "Experience Holiday",
+                            "name": "experience-holiday",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6368119be1620"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template_pages\/holiday-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1668194921
+}

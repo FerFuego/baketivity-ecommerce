@@ -1,0 +1,58 @@
+
+.single-camp_video .post-header-banner{
+	padding-bottom: 120px;
+}
+
+.d-camp-videos h3 a, 
+.d-camp-videos h3{
+	    color: #EE324D;
+    font-size: 58px;
+    text-align: center;
+    line-height: 68px;
+    line-height: 65px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.wp-video {
+    margin: 0 auto;
+}
+.d-camp-videos {
+    margin-top: 25px;
+}
+.d-camp-videos h3 a{
+	text-decoration: none !important;
+}
+.tag {
+    text-align: center;
+}
+.mejs-overlay-button{
+	background-color: red;
+}
+.d-camp-video{
+	margin-bottom: 50px;
+}
+.d-camp-videos .tag a{
+	font-size: 17px;
+    color: #0AA8AA;
+    text-decoration: none !important;
+    font-family: "congenial"!important;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.d-camp-videos{
+	margin-bottom: 40px;
+}
+
+@media (min-width: 768px){
+	.d-camp-videos {
+	    display: flex;
+	    flex-wrap: wrap;
+	
+	    justify-content: space-between;
+	}
+	.d-camp-video {
+	    width: 48%;
+	}
+
+}

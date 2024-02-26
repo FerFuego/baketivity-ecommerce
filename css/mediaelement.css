@@ -1,0 +1,29 @@
+.mejs-controls {
+    background: rgba(18,114,230,0.9) !important;
+}
+.mejs-overlay-button {
+
+    background: rgba(18,114,230,0.9) !important;
+    width: 120px !important;
+    position: relative;
+}
+
+.mejs-overlay-button:before{
+   content: "\f04b";
+    position: absolute;
+    width: 35px;
+    height: auto;
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+    line-height: inherit;
+    vertical-align: baseline;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 35px;
+   
+}

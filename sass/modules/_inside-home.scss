@@ -1,0 +1,171 @@
+.inside-home {
+    background-color: #FFD64F;
+    height: 856px;
+    // tablet
+    @media (max-width: 800px) {
+        height: auto;
+    }
+    &__container {
+        display: flex;
+        height: auto;
+        margin: 0 auto;
+        max-width: 1088px;
+        position: relative;
+        width: 100%;
+        // tablet
+        @media (max-width: 800px) {
+            padding-left: 20px;
+            padding-right: 20px;
+            flex-direction: column;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+            max-width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+        }
+    }
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        height: auto;
+        font: normal normal 900 37px/41px 'FilsonPro';
+        letter-spacing: 0px;
+        color: $primary-black;
+        text-align: center;
+        margin-bottom: 24px;
+        width: 100%;
+        &::after {
+            content: '';
+            display: block;
+            background-image: url(images/modules/underline-red-title.svg);
+            background-repeat: no-repeat;
+            margin: -12px 0 0 -12px;
+            height: 17.58px; 
+            width: 280px; 
+            // mobile
+            @media (max-width: 768px) {
+                background-size: contain;
+                margin: -5px auto 0;
+                height: 17.58px;
+                width: 172px;
+            }
+        }
+        span {
+            display: flex;
+            align-items: flex-start;
+            font: normal normal 900 37px/41px 'FilsonPro';
+            margin-bottom: 10px;
+            // mobile
+            @media (max-width: 768px) {
+                font: normal normal 700 26px/33px 'FilsonPro';
+                margin-bottom: 0;
+            }
+        }
+        img {
+            margin-left: 12px;
+            // mobile
+            @media (max-width: 768px) {
+                margin-left: 5px;
+                height: 25px;
+                width: auto;
+            }
+        }
+        // tablet
+        @media (max-width: 800px) {
+            align-items: center;
+        }
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 340px;
+        padding-top: 60px;
+        padding-bottom: 70px;
+        max-width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 100%;
+        }
+    }
+    &__item {
+        margin-bottom: 20px;
+        position: relative;
+        &:last-child {
+            margin-bottom: 0;
+            .inside-home__item-title {
+                background-image: url(images/cooking-kits/trazado-title-2.svg) !important;
+                padding: 14px 10px 10px 10px;
+                margin-left: -10px;
+                // mobile
+                @media (max-width: 768px) {
+                    margin: 0 auto;
+                }
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            width: 100%;
+            max-width: 333px;
+            margin: 0 auto 45.19px;
+        }
+    }
+    &__item-title {
+        background-image: url(images/cooking-kits/trazado-title-1.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        font: normal normal 700 22px/30px 'FilsonPro';
+        letter-spacing: 0px;
+        color: $primary-black;
+        text-transform: uppercase;
+        margin-bottom: -5px;
+        padding: 10px 10px 10px 20px;
+        margin-left: -20px;
+        width: max-content;
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal 700 20px/28px 'FilsonPro' !important;
+            margin-bottom: 10.4px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    &__item-copy {
+        font: normal normal normal 18px/28px 'FilsonPro';
+        letter-spacing: 0px;
+        color: $primary-black;
+        margin-bottom: 0;
+        // mobile
+        @media (max-width: 768px) {
+            font: normal normal normal 16px/22px 'FilsonPro' !important;
+            text-align: center;
+        }
+    }
+    &__photo {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        position: absolute;        
+        left: 360px;
+        top: 0;
+        height: 856px;
+        width: 903px;
+        // tablet
+        @media (max-width: 800px) {
+            position: relative;
+            left: 0;
+            height: 340px;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,295 @@
+.baketivity-my-account {
+    &__login-page {
+        #sign-up-message {
+            display: none;
+        }
+
+        .form-row-wide {
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .site-content {
+            background-image: url(images/my-account/background-my-account-min-2.webp);
+            background-size: 100%;
+            background-position: top center;
+            background-repeat: no-repeat;
+            padding-top: 78px;
+            position: relative;
+
+            &::before {
+                background-color: $black;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0.4;
+            }
+
+            // mobile
+            @include mobile {
+                background-size: auto;
+            }
+        }
+
+        .entry-header {
+            display: none;
+        }
+
+        .woocommerce {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .woocommerce-message {
+            position: absolute;
+            right: 0;
+            color: $primary-black;
+            font-family: $primary-font;
+        }
+
+        .entry-content {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 112px;
+        }
+
+        &__login-section {
+            background-color: $white;
+            border-radius: 15px;
+            position: relative;
+            display: block;
+            float: none;
+            margin-bottom: 0;
+            margin-right: 0;
+            width: 364px;
+        }
+
+        &__form {
+            padding: 15px 21px 34px 21px !important;
+        }
+
+        &__title {
+            font-family: $primary-font;
+            font-size: 42px;
+            line-height: 45px;
+            font-weight: 700;
+            text-align: center;
+            padding: 30px 21px 0 21px;
+            margin-bottom: 23px;
+            position: relative;
+
+            &::after {
+                content: '';
+                background-image: url(images/my-account/red-subrayado.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                display: block;
+                height: 22.3px;
+                margin: 0 auto;
+                position: absolute;
+                bottom: -15px;
+                left: 0;
+                right: 0;
+                width: 170px;
+            }
+        }
+
+        &__input {
+            background-color: #F8F8F8 !important;
+            border-radius: 8px !important;
+            border: none;
+            max-width: 322px;
+
+            font-family: $primary-font;
+            font-size: 16px;
+            font-weight: 400 !important;
+            line-height: 22px;
+            color: $primary-black !important;
+            box-shadow: none !important;
+            padding: 9px !important;
+
+            &::placeholder {
+                font: normal normal 400 14px/18px $primary-font;
+                color: $primary-black;
+            }
+
+            &::-webkit-input-placeholder {
+                font: normal normal 400 14px/18px $primary-font;
+                color: $primary-black;
+            }
+
+            &:-ms-input-placeholder {
+                font: normal normal 400 14px/18px $primary-font;
+                color: $primary-black;
+            }
+        }
+
+        &__label {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            width: 50%;
+
+            span {
+                font-family: $primary-font;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                color: $primary-black !important;
+                padding-left: 23px;
+            }
+
+            /* DEFAULT */
+            input[type="checkbox"]+span::before {
+                content: "";
+                top: 3px;
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border: 2px solid $primary-black !important;
+                border-radius: 0 !important;
+                left: 0;
+            }
+
+            /* CHECKED */
+            input[type="checkbox"]:checked+span::after {
+                content: "\2713";
+                font-weight: bold;
+                font-size: 15px;
+                top: 5px !important;
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                border-radius: 0 !important;
+                background: transparent !important;
+                left: 4px !important;
+            }
+        }
+
+        &__cta-signup {
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            margin-left: 5px;
+            text-decoration: underline;
+            color: #09989A !important;
+        }
+
+        &__content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 49px;
+        }
+
+        &__lostcontainer {
+            text-align: right;
+            width: 50%;
+        }
+
+        &__lostpassword {
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            color: $primary-black !important;
+            text-align: right;
+            text-decoration: none !important;
+        }
+
+        &__input-checkbox {
+            display: none;
+            opacity: 0;
+        }
+
+        &__text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            color: $primary-black;
+            width: 100%;
+        }
+
+        &__submit {
+            font-family: $primary-font;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18px;
+            background-color: $new-red;
+            box-shadow: none;
+            border-radius: 4px;
+            color: $white;
+            padding: 10px 15px;
+            width: 100% !important;
+
+            &:disabled {
+                background-color: #BEBEBE;
+            }
+
+            &.active {
+                background-color: $new-red;
+            }
+        }
+
+        &__eye {
+            position: absolute;
+            right: 10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+
+            &--open {
+                background-image: url(images/my-account/eye-open.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+
+            &--close {
+                background-image: url(images/my-account/eye-close.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+        }
+
+        &__actions {
+            margin-bottom: 0px;
+        }
+
+        &__response {
+            text-align: center;
+            margin-bottom: 0px;
+
+            * {
+                font-family: $primary-font;
+                font-size: 14px !important;
+                font-weight: 500 !important;
+                line-height: 18px !important;
+                margin-top: 0 !important;
+                margin-bottom: 0px;
+                text-align: center;
+            }
+        }
+    }
+
+    .wp_google_login {
+        margin: 10px auto 10px !important;
+        font-family: $primary-font;
+    }
+}

@@ -1,0 +1,294 @@
+.baketivity-time {
+    // Modifier styles of module Cooking Club What is Inside
+    .cooking-club-what-is-inside {
+        height: 590px;
+        // tablet
+        @include tablet {
+            height: auto;
+        }
+        &__container {
+            width: 100%;
+            max-width: 935px;
+            padding: 0 15px;
+        }
+        &__title {
+            width: 100% !important;
+            max-width: 535px !important;
+            margin-bottom: 34px;
+            strong {
+                background-image: none !important;
+                color: #e42541;
+                display: inline-block;
+            }
+        }
+        &__title:after {
+            left: inherit !important;
+            right: 0 !important;
+            bottom: -10px !important;
+            margin: 0 !important;
+            // mobile
+            @include mobile-sm {
+                left: 0 !important;
+                margin: 0 auto !important;
+            }
+        }
+        &__subtitle {
+            font-family: $primary-font;
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 41px;
+            color: $primary-black;
+            margin-bottom: 0;
+            text-align: center;
+            width: 100% !important;
+            // mobile
+            @include mobile-sm {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        &__item:last-child div.cooking-club-what-is-inside__item-image::after {
+            display: none !important;
+        }
+        &__body {
+            margin-top: 58px;
+            @include mobile-md {
+                flex-direction: column;
+            }
+        }
+        &__item-image {
+            margin-bottom: 28px;
+        }
+        &__item-title {
+            max-width: 182px;
+        }
+    }
+    // Modifier styles of module Simple Step by Step Giving
+    .simple-step-by-step-giving {
+        &__header {
+            margin-bottom: 42px;
+        }
+        &__item {
+            // mobile 
+            @include mobile {
+                flex-direction: row;
+                position: relative;
+                align-items: flex-start;
+                max-width: 350px;
+                height: 134px;
+                &:nth-child(1) {
+                    margin-bottom: 0;
+                }
+                &:nth-child(2) {
+                    margin-bottom: 0;
+                }
+            }
+            @include mobile-sm {
+                max-width: 95%;
+            }
+            @include mobile-s {
+                max-width: 95%;
+            }
+            @include mobile-xs {
+                margin-bottom: 0;
+            }
+        }
+        &__item-image {
+            // mobile 
+            @include mobile {
+                flex: none;
+                height: 99px;
+                width: 99px;
+            }
+            @include mobile-s {
+                height: 89px;
+                width: 89px;
+            }
+        }
+        &__item-num {
+            // mobile 
+            @include mobile {
+                flex: none;
+                position: absolute;
+                left: 82px;
+                top: 30px;
+            }
+            @include mobile-s {
+                left: 72px;
+            }
+        }
+        &__item-title {
+            // mobile 
+            @include mobile {
+                flex: none;
+                margin-top: 0;
+                margin-left: 23px;
+                text-align: left;
+                width: 100%;
+            }
+            @include mobile-s {
+                margin-left: 18px;
+            }
+        }
+        &__item-content {
+            // mobile 
+            @include mobile {
+                font-size: 14px;
+                flex-wrap: wrap;
+                display: flex;
+                clear: both;
+                margin-top: 0;
+                left: 123px;
+                top: 27px;
+                position: absolute;
+                text-align: left;
+                width: 100%;
+                max-width: 300px;
+            }
+            @include mobile-sm {
+                max-width: 270px;
+            }
+            @include mobile-s {
+                font-size: 12px;
+                max-width: 228px;
+                left: 110px;
+            }
+            @include mobile-xs {
+                font-size: 11px;
+                line-height: 17px;
+                max-width: 188px;
+            }
+        }
+        &__item-title {
+            max-width: 100%;
+        }
+        &__title::after {
+            display: none;
+        }
+        &__title img {
+            display: inline-block;
+            margin-bottom: -14px;
+            // mobile
+            @include mobile-md {
+                display: block;
+                width: 253px;
+            }
+        }
+        &__footer {
+            @include mobile-xs {
+                margin-top: 30px;
+            }
+        }
+    }
+    // Modifier styles of module Gifting is better
+    .gifting-is-better {
+        padding: 40px 0 0;
+        &__container {
+            // mobile
+            @include mobile {
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        &__header-title {
+            background-image: url(images/baketivity-time/brush-light-blue.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top center;
+            font-size: 37px;
+            font-weight: 700;
+            line-height: 47px;
+            width: 100%;
+            max-width: 580px;
+            padding: 10px;
+            &::after {
+                background-image: url(images/baking/subrayado-red-inside.svg);
+                background-size: cover;
+                right: 55px;
+                bottom: -5px;
+                height: 23px;
+                width: 358px;
+                // mobile
+                @include mobile {
+                    background-size: contain;
+                    right: 10px;
+                    bottom: -10px;
+                    width: 202px;
+                    height: 14px;
+                }
+            }
+            // mobile
+            @include mobile {
+                background-position: bottom center;
+                padding: 0;
+                font-size: 26px;
+                font-weight: 800;
+                line-height: 32px;
+                max-width: 275px;
+            }
+        }
+        &__left {
+            width: 50%;
+            // mobile
+            @include mobile {
+                display: block;
+                width: 100%;
+            }
+        }
+        &__right {
+            padding-left: 24px;
+            width: 50%;
+            // mobile
+            @include mobile {
+                display: block;
+                width: 100%;
+                padding-left: 0;
+            }
+        }
+        &__image-desktop {
+            // mobile
+            @include mobile {
+                position: relative;
+                display: block;
+                margin: 0 auto;
+                height: 284px;
+                width: 290px;
+            }
+        }
+        &__image {
+            width: auto;
+            height: auto;
+            left: initial;
+            max-width: 100%;
+            outline: 5px solid $white;
+            border-radius: 0;
+            box-shadow: 0px 0px 20px $primary-black;
+            rotate: -6deg;
+            width: 100%;
+            max-width: 490px;
+            margin-top: 36px;
+            // mobile
+            @include mobile {
+                margin-top: 0;
+            }
+        }
+        &__content p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        &__content strong {
+            // mobile
+            @include mobile {
+                font-size: 22px !important;
+            }
+        }
+    }
+    // Modifier styles of module Testimonials
+    .testimonials {
+        &__item {
+            border-radius: 33px;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "key": "group_63d90b9dcd54f",
+    "title": "Option: Free Shipping",
+    "fields": [
+        {
+            "key": "field_63d90baae71b2",
+            "label": "Free Shipping Meter",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_63d90befe71b4",
+            "label": "Activate",
+            "name": "activate_free_shipping_meter",
+            "type": "true_false",
+            "instructions": "If active or deactivate this module, you should do the same into the Woocommerce Discount Rule",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_63d90bc0e71b3",
+            "label": "Cost",
+            "name": "cost",
+            "type": "text",
+            "instructions": "Only number, without symbol",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_63d90befe71b4",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_641b540ac9ea7",
+            "label": "Starter Kit",
+            "name": "starter_kit",
+            "type": "post_object",
+            "instructions": "Set Starter Kit to scape the Free shipping Meter.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "product"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1679512663
+}

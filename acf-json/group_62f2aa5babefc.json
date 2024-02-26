@@ -1,0 +1,260 @@
+{
+    "key": "group_62f2aa5babefc",
+    "title": "Page: Cake It",
+    "fields": [
+        {
+            "key": "field_62f2aa94707a8",
+            "label": "Content",
+            "name": "cake__flexible_content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_62f2aaa3818f6": {
+                    "key": "layout_62f2aaa3818f6",
+                    "name": "hero_cake_it",
+                    "label": "Hero Cake It",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62f2aecf61828",
+                            "label": "Hero Cake It",
+                            "name": "hero_cake_it",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62f2adc81ce3d"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62f2c295847a5": {
+                    "key": "layout_62f2c295847a5",
+                    "name": "how_to_cash_it",
+                    "label": "How to Cash It",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62f2c2a5847a6",
+                            "label": "How to Cash It",
+                            "name": "how_to_cash_it",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62f2c0f982357"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62f3c5b3329e2": {
+                    "key": "layout_62f3c5b3329e2",
+                    "name": "cake_book",
+                    "label": "Cake Book",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62f3c5bd329e3",
+                            "label": "Cake Book",
+                            "name": "cake_book",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62f3c39c71c43"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62f3f186f8129": {
+                    "key": "layout_62f3f186f8129",
+                    "name": "have_your_cake",
+                    "label": "Have your cake",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62f3f1aa501ba",
+                            "label": "Have your cake",
+                            "name": "have_your_cake",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62f3efd7b7365"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62f4f6e993ad2": {
+                    "key": "layout_62f4f6e993ad2",
+                    "name": "video",
+                    "label": "Video",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62f4f6ff93ad3",
+                            "label": "Video",
+                            "name": "video",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62f4f4fd78612"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62f50bd6faf82": {
+                    "key": "layout_62f50bd6faf82",
+                    "name": "banner_social_network",
+                    "label": "Banner Social Network",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62f50be3faf83",
+                            "label": "Banner Social Network",
+                            "name": "banner_social_network",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62f50a49e89be"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62f5489b308bb": {
+                    "key": "layout_62f5489b308bb",
+                    "name": "subscription_cake",
+                    "label": "Subscription Cake",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62f548a8308bc",
+                            "label": "Subscription Cake",
+                            "name": "subscription_cake",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62f53afcc10b3"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/cake-it-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1660242166
+}

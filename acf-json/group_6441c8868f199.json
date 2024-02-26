@@ -1,0 +1,260 @@
+{
+    "key": "group_6441c8868f199",
+    "title": "Page: Birthday",
+    "fields": [
+        {
+            "key": "field_6441c89eb4b90",
+            "label": "Content",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_6441c8a55b536": {
+                    "key": "layout_6441c8a55b536",
+                    "name": "hero",
+                    "label": "Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6441c8dfb4b91",
+                            "label": "Hero",
+                            "name": "hero",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633b3951e01e3"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_644287a21b489": {
+                    "key": "layout_644287a21b489",
+                    "name": "bundle-includes",
+                    "label": "Bundle Includes",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_644287ae1b48a",
+                            "label": "Bundle Includes",
+                            "name": "bundle-includes",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_644284764ff77"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6442e17ed8078": {
+                    "key": "layout_6442e17ed8078",
+                    "name": "birthday-how-it-works",
+                    "label": "How it works",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6442e187d8079",
+                            "label": "How it works",
+                            "name": "birthday-how-it-works",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6442e13d8f9bc"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6446a3647675f": {
+                    "key": "layout_6446a3647675f",
+                    "name": "let-the-celebration-begin",
+                    "label": "Let the celebration begin",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6446a37276760",
+                            "label": "Let the celebration begin",
+                            "name": "let-the-celebration-begin",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64469f5a09afb"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64472b0870744": {
+                    "key": "layout_64472b0870744",
+                    "name": "birthday-box",
+                    "label": "Birthday Box",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64472b0e70745",
+                            "label": "Birthday Box",
+                            "name": "birthday-box",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64472954262fb"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6447d4b53d912": {
+                    "key": "layout_6447d4b53d912",
+                    "name": "birthday-kid",
+                    "label": "Birthday Kid",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6447d4bb3d913",
+                            "label": "Birthday Kid",
+                            "name": "birthday-kid",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6447d48d3f662"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_644698bbdc561": {
+                    "key": "layout_644698bbdc561",
+                    "name": "birthday-banner-footer",
+                    "label": "Birthday Banner Footer",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_644698c9dc562",
+                            "label": "Birthday Banner Footer",
+                            "name": "birthday-banner-footer",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63aafb4f09f09"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template_pages\/birthday-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1682429141
+}

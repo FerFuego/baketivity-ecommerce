@@ -1,0 +1,215 @@
+.fundraising-goals {
+    background-color: #D4DB50;
+    display: block;
+    position: relative;
+    padding: 38px 15px 33px;
+    margin: 0;
+    width: 100%;
+    &__container{
+        display: block;
+        position: relative;
+        margin: 0 auto 0;
+        height: 100%;
+        width: 100%;
+        max-width: 1088px;
+        // mobile
+        @media (max-width: 1000px) {
+            max-width: 800px;
+        }
+        @media (max-width: 768px) {
+            flex-direction: column;
+            max-width: 100%;
+            border-radius: 0;
+        }
+    }
+    &__body {
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+        max-width: 805px;
+        margin: 0 auto;
+        transition: all .5s ease-in-out;
+        &.open {
+            height: 300px;   
+            // mobile
+            @media (max-width: 768px) {
+                height: 260px;
+            }
+        }
+    }
+    &__footer {}
+    &__title {
+        background-image: url(images/bake4good/brush-title-white-goals.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 51px;
+        text-align: center;
+        color: $primary-black;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 10px 30px;
+        position: relative;
+        &::before {
+            content: "";
+            background-image: url(images/bake4good/exclamation-green.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: -30px;
+            top: 0px;
+            height: 61px;
+            width: 61px;
+            // mobile
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+        // mobile
+        @media (max-width: 768px) {
+            background-image: url(images/bake4good/brush-white-mobile-1.svg), url(images/bake4good/brush-white-mobile-2.svg);
+            background-position: 25px -7px, 7px 19px;
+            background-size: auto, auto;
+            font-size: 26px;
+            line-height: 32px;
+            margin: 0 auto 17px;
+            width: 100%;
+            max-width: 290px;
+            padding: 0;
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 33px;
+        text-align: center;
+        color: $primary-black;
+        width: 100%;
+        margin: 0 auto 23px;
+        max-width: 794px;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 16px;
+            line-height: 22px;
+            margin: 0 auto 17px;
+            padding: 0;
+        }
+    }
+    &__table {
+        background-color: $white;
+        padding: 10px;
+        border-radius: 14px;
+        font-family: $primary-font;
+        td {
+            background-color: $white !important;
+            vertical-align: middle !important;
+            padding: 5px;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    &__table-head {
+        font-family: $primary-font;
+        font-size: 18px;
+        font-weight: 700;
+        color: $primary-black;
+        td {
+            border-spacing: 10px;
+            border-bottom: 1px solid $new-red;
+            &:first-of-type {
+                border-bottom: none;
+            }
+        }
+    }
+    &__table-row {
+        td {
+            border-bottom: 1px solid #F8F8F8;
+            background-color: $white !important;
+        }
+    }
+    &__table-form {
+        td {
+            padding: 13px 5px 5px;
+        }
+    }
+    &__table-input {
+        background-color: #F8F8F8 !important;
+        border-radius: 14px;
+        border: none !important;
+        box-shadow: none !important;
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 500;
+        color: $primary-black;
+        height: 45px !important;
+        width: 168px !important;
+        &--last {
+            width: 100% !important;
+        }
+        &#three {
+            color: #09989A;
+            font-weight: 700;
+        }
+    }
+    &__table--mobile {
+        display: none;
+        background-color: $white;
+        border-radius: 18px;
+        padding: 12px 22px;
+        hr {
+            background-color: $new-red;
+            height: 2px;
+            margin: 10px 0 20px;
+            display: block;
+            border: 0;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__row--mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        width: 100%;
+        label {
+            color: $primary-black;
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 18px;
+            padding-right: 20px;
+        }
+        input {
+            max-width: 168px;
+        }
+        #three_mobile {
+            color: #09989A;
+            font-weight: 700;
+        }
+    }
+    &__cta {
+        background-color: $new-red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        color: $white;
+        position: relative;
+        margin: 0 auto;
+        padding: 0;
+        height: 37px;
+        width: 180px;
+    }
+}

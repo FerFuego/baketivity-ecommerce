@@ -1,0 +1,310 @@
+{
+    "key": "group_633ad9b1a2e43",
+    "title": "Page: Subscriptions",
+    "fields": [
+        {
+            "key": "field_65049e077355b",
+            "label": "Campain Header",
+            "name": "campain_header",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_633ada5256c03",
+            "label": "Flexible Content",
+            "name": "subscriptions__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_633ada5e016da": {
+                    "key": "layout_633ada5e016da",
+                    "name": "hero_subscriptions",
+                    "label": "Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_633e05f0a35ca",
+                            "label": "Hero",
+                            "name": "hero_subscriptions",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633e0687c0cea"
+                            ],
+                            "display": "seamless",
+                            "layout": "",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_650493af71d9d": {
+                    "key": "layout_650493af71d9d",
+                    "name": "hero_campain",
+                    "label": "Hero Campain",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_650493af71d9e",
+                            "label": "Hero",
+                            "name": "hero_campain",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_65049329e084f"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_633ec1c56fa68": {
+                    "key": "layout_633ec1c56fa68",
+                    "name": "video_streaming",
+                    "label": "Video",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_633ec1c56fa69",
+                            "label": "Video",
+                            "name": "video_streaming",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633ec1daa06af"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_633ec12ddaec8": {
+                    "key": "layout_633ec12ddaec8",
+                    "name": "subscription-alternative",
+                    "label": "Subscription",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_633ec12ddaec9",
+                            "label": "Subscription",
+                            "name": "subscription-alternative",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6346ab6e9f31b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_633ee0ba18b9f": {
+                    "key": "layout_633ee0ba18b9f",
+                    "name": "bakerivity_kit",
+                    "label": "Baketivity Kit",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_633ee0ba18ba0",
+                            "label": "Baketivity Kit",
+                            "name": "bakerivity_kit",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633ed840d7700"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6346aef195915": {
+                    "key": "layout_6346aef195915",
+                    "name": "subscriptions_join_cta",
+                    "label": "Subscriptions CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6346aef195916",
+                            "label": "Subscriptions CTA",
+                            "name": "subscriptions_join_cta",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_635ae96e28b84"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_633e0613a35cb": {
+                    "key": "layout_633e0613a35cb",
+                    "name": "testimonials",
+                    "label": "Testimonials",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_633e0613a35cc",
+                            "label": "Testimonials",
+                            "name": "testimonials",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e5108b206"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_647760bf12e14": {
+                    "key": "layout_647760bf12e14",
+                    "name": "video-promo",
+                    "label": "Video Promo",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_647760ca12e15",
+                            "label": "Video Promo",
+                            "name": "video-promo",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64762b3f15f0b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Module",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_pages\/subscription.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1694801495
+}

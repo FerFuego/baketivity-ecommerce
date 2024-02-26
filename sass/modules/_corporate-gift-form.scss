@@ -1,0 +1,111 @@
+.corporate-form {
+    padding: 60px 0;
+    &__container {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__title {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 44px;
+        color: $primary-black;
+        display: block;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        max-width: 646px;
+        margin: 0 auto 60px;
+        &::after {
+            content: '';
+            width: 284px;
+            height: 19px;
+            position: absolute;
+            bottom: -15px;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(images/gifting/subrayado-light-green.svg);
+            // mobile
+            @media (max-width: 767px) {
+                background-image: url(images/gifting/subrayado-light-green-2.svg);
+                right: -82px;
+                width: 90px;
+            }
+        }
+        // mobile
+        @media (max-width: 767px) {
+            font-size: 23px;
+            line-height: 29px;
+            margin-bottom: 0px;
+            max-width: 278px;
+        }
+    }
+    .gform_wrapper {
+        max-width: 628px;
+        margin: 0 auto;
+        // mobile 
+        @media (max-width: 768px) {
+            padding: 20px 20px 0;
+        }
+        * {
+           font-family: $primary-font !important;
+           font-size: 14px !important;
+           font-weight: 400 !important;
+           b {
+                font-weight: 700 !important;
+           }
+       }
+       input,
+       select {
+           background-color: #F8F8F8;
+           border: none;
+           box-shadow: none;
+           border-radius: 8px;
+       }
+       .gsection_title {
+            font-size: 22px !important;
+            line-height: 32px !important;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #0AA8AA;
+            margin-top: 25px;
+       }
+       .gfield_description {
+            border: none !important;
+            color: #9B9B9B !important;
+            font-size: 12px !important;
+            font-weight: 400 !important;
+            line-height: 18px !important;
+            min-height: 200px;
+            margin-top: 30px !important;
+       }
+       input[type=submit] {
+            width: 187px;
+            height: 37px;
+            background-color: $new-red;
+            border-radius: 4px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700 !important;
+            color: $white;
+            line-height: 1 !important;
+            margin: 60px auto 0;
+        }
+        .validation_message {
+            display: none !important;
+        }
+    } 
+    .gform_confirmation_wrapper {
+        max-width: 100%;
+        padding: 20px;
+        font-family: $primary-font;
+        text-align: center;
+    }
+}

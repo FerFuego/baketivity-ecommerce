@@ -1,0 +1,222 @@
+.sign-up-for-your-free-kit {
+    background-image: url(images/starter-kit/bg-olas.svg);
+    background-repeat: no-repeat;
+    background-position: center 75%;
+    background-size: contain;
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 70px 0;
+    // mobile
+    @media (max-width: 768px) {
+        background-size: auto;
+        background-position: center 65%;
+        padding: 27px 0;
+    }
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+        // mobile
+        @media (max-width: 825px) {
+            flex-direction: column-reverse;
+            align-items: center;
+            padding: 0 20px;
+        }
+    }
+    &__left {
+        width: 45%;
+        // mobile
+        @media (max-width: 825px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0px;
+            width: 100%;
+        }
+    }
+    &__right {
+        width: 55%;
+        // mobile
+        @media (max-width: 825px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+    }
+    &__img {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        
+        display: block;
+        height: 450px;
+        width: 450px;
+        border-radius: 50%;
+        position: relative;
+
+        // mobile
+        @media (max-width: 768px) {
+            height: 301px;
+            width: 301px;
+            margin-bottom: 36px;
+        }
+
+        &::after {
+            content: '';
+            background-image: url(images/starter-kit/rulo-red-right.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: block;
+            height: 86px;
+            width: 91px;
+            position: absolute;
+            top: -6px;
+            right: -14px;
+            // mobile  
+            @media (max-width: 825px) {
+                right: inherit;
+                top: -30px;
+                transform: rotateX(0deg) rotateY(0deg) rotateZ(67deg);
+            }
+        }
+    }
+    &__title {
+        font-family: 'FilsonPro';
+        font-size: 38px;
+        line-height: 47px;
+        letter-spacing: 0.76px;
+        color: $primary-black;
+        width: 100%;
+        max-width: 575px;
+        margin-bottom: 30px;
+        // mobile
+        @media (max-width: 825px) {
+            font-size: 23px !important;
+            line-height: 32px !important;
+            letter-spacing: 0.52px !important;
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+        @media (max-width: 320px) {
+            font-size: 18px !important;
+            line-height: 22px !important;
+        }
+        h1,h2,h3,h4,h5,h6 {
+            font-family: 'FilsonPro';
+            line-height: 47px;
+            letter-spacing: 0.76px;
+            color: $primary-black;
+            margin-bottom: 0;
+            // mobile
+            @media (max-width: 825px) {
+                text-align: center;
+            }
+            @media (max-width: 320px) {
+                font-size: 18px !important;
+                line-height: 22px !important;
+            }
+        }
+        p, strong {
+            font-family: 'FilsonPro';
+            font-size: 38px;
+            line-height: 47px;
+            letter-spacing: 0.76px;
+            color: $primary-black;
+            margin-bottom: 0;
+            // mobile
+            @media (max-width: 825px) {
+                font-size: 23px !important;
+                line-height: 32px !important;
+                letter-spacing: 0.52px !important;
+                text-align: center;
+            }
+            @media (max-width: 320px) {
+                font-size: 18px !important;
+                line-height: 22px !important;
+            }
+        }
+        p {
+            font-weight: 700;
+        }
+        strong {
+            font-weight: 800;
+            &:first-of-type {
+                background-image: url(images/starter-kit/brush-yellow-1.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: contain;
+                padding: 10px;
+            }
+            &:last-of-type {
+                background-image: url(images/starter-kit/trazado-under-title-yellow.svg);
+                background-repeat: no-repeat;
+                background-position: bottom center;
+                background-size: contain;
+                padding-bottom: 17px;
+            }
+        }
+    }
+    &__subtitle {
+        font-family: 'FilsonPro';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19px;
+        color: $primary-black;
+        width: 100%;
+        margin-bottom: 30px;
+        // mobile
+        @media (max-width: 825px) {
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    &__subtitle-mobile {
+        display: none;
+        // mobile
+        @media (max-width: 768px) {
+            display: block;
+            font-family: 'FilsonPro';
+            font-size: 12px !important;
+            font-weight: 500 !important;
+            line-height: 17px !important;
+            color: $primary-black;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $new-red;
+        border-radius: 4px;
+        color: $white;
+        font-family: "FilsonPro";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.64px;
+        height: 37px;
+        width: 190px;
+        // mobile
+        @media (max-width: 768px) {
+            margin: 0 auto 53px;
+        }
+    }
+    .wc-forward {
+        display: none;
+    }
+}

@@ -1,0 +1,113 @@
+.baking-page,
+.cooking-page {
+    .title-subscription {
+        margin-top: 60px;
+        padding: 0 15px;
+        width: 100%;
+
+        // mobile
+        @include mobile {
+            margin-top: 37px;
+            padding-top: 0;
+        }
+
+        &__title {
+            font-family: $primary-font;
+            font-size: 37px;
+            font-weight: 700;
+            line-height: 41px;
+            color: $primary-black;
+            margin-bottom: 10px;
+            display: block;
+            text-align: center;
+            position: relative;
+            width: 100%;
+
+            @include mobile {
+                font-size: 24px;
+                line-height: 37px;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                background-image: url(images/cooking-kits/subrayado-red-title.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                bottom: -16px;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                height: 22px;
+                width: 267px;
+
+                // mobile
+                @include mobile {
+                    height: 16px;
+                    width: 196px !important;
+                }
+            }
+        }
+    }
+
+    .m-subscription__title {
+        border: 1.5px solid $new-red;
+        border-radius: 21px;
+        padding: 5px 17px;
+
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 16px !important;
+        }
+    }
+
+    .m-subscription__link {
+        display: none;
+
+        // mobile
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+
+    .m-subscription__shipping {
+        margin-bottom: 0;
+
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 40px;
+        }
+    }
+
+    .shopping-list {
+        display: block;
+        background-color: #F4F4F4;
+        padding-bottom: 87px !important;
+        height: 280px;
+
+        @include mobile {
+            padding-bottom: 0 !important;
+            height: 200px;
+        }
+
+        .shopping-list__body {
+            background-color: #FFD64F80;
+            max-width: 1088px;
+            margin: 0 auto;
+            border-radius: 14px;
+
+            @include mobile {
+                height: 157px;
+                margin-bottom: 40px;
+                border-radius: 0;
+            }
+        }
+
+        .shopping-list__image {
+            @include mobile {
+                top: 0;
+            }
+        }
+    }
+}

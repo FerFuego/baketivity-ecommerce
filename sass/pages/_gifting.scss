@@ -1,0 +1,204 @@
+.page-gifting {
+    .hero-about-us {
+
+        // Mobile
+        @media (max-width: 767px) {
+            height: 536px;
+            background: linear-gradient(180deg, #f3f5f6 0%, white 15%, rgba(252, 252, 252, 0.504639) 45%, rgba(252, 252, 252, 0) 55%, rgba(255, 255, 255, 0) 100%);
+        }            
+
+        &__container {
+            height: 500px;
+        }
+
+        &__subcontainer {
+            max-width: 550px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            // Mobile
+            @media (max-width: 767px) {
+                padding: 24px 20px 28px;
+                justify-content: flex-start;
+            }
+        }
+
+        &__bg-img--desktop {
+            width: 100%;
+            height: 100%;
+        }
+
+        &__bg-img--mobile {
+            height: 536px;
+            width: 100%;
+            
+        }
+
+        &__cta {
+            width: 180px;
+            text-align: center;
+            margin-top: 20px;
+
+            // Mobile
+            @media (max-width: 767px) {
+                margin: 15px auto 0;
+            }            
+        }
+
+        &__copy {
+            // Mobile
+            @media (max-width: 767px) {
+                margin: 0px;
+            }            
+        }
+
+    }
+
+
+
+    .how-it-works {
+
+        &__body {
+            margin-bottom: 25px;
+
+            &::before {
+                display: none;
+            }
+        }
+        &__container {
+            width: 806px;
+            margin: 0 auto;
+
+            // Mobile
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+        }
+
+        &__content {
+            padding: 36.3px 11px 0 20px;
+        }
+
+        &__title {
+            background-image: url(images/gifting/trazado-yellow.svg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: 0 auto;
+            text-align: center;    
+            width: 606px;
+            height: 37px;
+
+            // Mobile
+            @media (max-width: 767px) {
+                background-image: url(images/gifting/trazado-yellow-mb.svg);
+                margin: 0 auto;
+                width: 322px;
+                height: 72px;
+                font-size: 26px;
+                line-height: 32px;
+                padding: 8px 20px;
+            } 
+
+            &::after {
+                display: none;
+            }
+        }
+
+        &__step-number {
+            display: none;
+        }
+        &__step-title {
+            text-transform: none;
+        }
+    }
+
+    .everything-you-want-in-a-gift {
+
+        &__container {
+            width: 806px;
+            margin: 0 auto;
+
+            // Mobile
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+
+
+            &__cta {
+                background-color: $new-red;
+                font-family: "FilsonPro",sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 40px;
+                border-radius: 4px;
+                color: #fff;
+                position: relative;
+                margin: 0 auto;
+                width: 175px;
+                height: 46px;
+                margin-bottom: 64px;
+
+                // Mobile
+                @media (max-width: 767px) {                
+                    width: 164px;
+                    height: 38px;
+                }
+            }
+        }        
+    }
+
+    .testimonials {
+        margin: 0px 0 auto;
+        padding: 36px 0 60px;
+
+        &__title {
+            font-family: 'FilsonPro';
+            font-weight: 800;
+            text-align: center;
+            font-size: 37px;
+            line-height: 44px;
+            color: $primary-black;
+
+            // Mobile
+            @media (max-width: 767px) {                
+                font-size: 23px;
+                line-height: 30px;
+                width: 250px;
+                margin: 0 auto;
+            }            
+        }
+
+        .slider-test {
+            margin-top: 30px;
+            padding-bottom: 40px !important;
+
+            .slick-dots{
+                bottom: -15px;
+            } 
+        }
+    }
+    
+    .slick-next {
+        background-image: url(images/modules/rounded-white-slider-arrows.svg) !important;
+        background-color: transparent !important;
+        background-repeat: no-repeat !important;
+        background-position: right center !important;
+    }
+    .slick-prev {
+        background-image: url(images/modules/rounded-white-slider-arrows.svg) !important;
+        background-color: transparent !important;
+        background-repeat: no-repeat !important;
+        background-position: left center !important;
+    }
+
+    .slick-dots li button:before {
+        content: '';
+    }
+
+}

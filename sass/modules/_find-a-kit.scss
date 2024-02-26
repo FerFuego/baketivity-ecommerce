@@ -1,0 +1,16 @@
+.fak-wrapper {
+    .fak-title {
+        //mobile
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
+    }
+    .fak-text {
+        font-family: $primary-font;
+        font-weight: 500;
+        width: 100%;
+        max-width: 550px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

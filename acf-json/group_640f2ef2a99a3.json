@@ -1,0 +1,384 @@
+{
+    "key": "group_640f2ef2a99a3",
+    "title": "Page: Bake4good",
+    "fields": [
+        {
+            "key": "field_640f3020bcbd1",
+            "label": "Bake4good",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_640f304a0f552": {
+                    "key": "layout_640f304a0f552",
+                    "name": "hero_bake4good",
+                    "label": "Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_640f33f237fb0",
+                            "label": "Hero",
+                            "name": "hero_bake4good",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_640f3299a9739"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_643fdf3ad38da": {
+                    "key": "layout_643fdf3ad38da",
+                    "name": "video_streaming",
+                    "label": "Video",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_643fdf46d38db",
+                            "label": "Video",
+                            "name": "video_streaming",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_633ec1daa06af"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_640f5bcf49bff": {
+                    "key": "layout_640f5bcf49bff",
+                    "name": "raise-funds",
+                    "label": "Raise Funds",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_640f5bf149c00",
+                            "label": "Raise Funds",
+                            "name": "raise-funds",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_640f5a2cd75e9"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_640f761106477": {
+                    "key": "layout_640f761106477",
+                    "name": "proud-partners",
+                    "label": "Proud partners",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_640f761506478",
+                            "label": "Proud partners",
+                            "name": "proud-partners",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_640f74df9b189"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64107155ccc61": {
+                    "key": "layout_64107155ccc61",
+                    "name": "fundraising-drive",
+                    "label": "Fundraising Drive",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64107162ccc62",
+                            "label": "Fundraising Drive",
+                            "name": "fundraising-drive",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_641070ab70b2e"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6411e083c11b8": {
+                    "key": "layout_6411e083c11b8",
+                    "name": "fundraising-goals",
+                    "label": "Fundraising Goals",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6411e088c11b9",
+                            "label": "Fundraising Goals",
+                            "name": "fundraising-goals",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6411df5dbf609"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64130ff7804b8": {
+                    "key": "layout_64130ff7804b8",
+                    "name": "raise-money",
+                    "label": "Raise Money",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64130ffe804b9",
+                            "label": "Raise Money",
+                            "name": "raise-money",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64130e837c013"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64187c9e2d9c3": {
+                    "key": "layout_64187c9e2d9c3",
+                    "name": "every-baketivity-kit-includes",
+                    "label": "Every Baketivity kit includes",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64187cb22d9c4",
+                            "label": "Every Baketivity kit includes",
+                            "name": "every-baketivity-kit-includes",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6418759d7ec33"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64189753b1f49": {
+                    "key": "layout_64189753b1f49",
+                    "name": "best-sellers",
+                    "label": "Best-Sellers",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64189758b1f4a",
+                            "label": "Best-Sellers",
+                            "name": "best-sellers",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64189609485c3"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6418ac72208af": {
+                    "key": "layout_6418ac72208af",
+                    "name": "started-fundraising-form",
+                    "label": "Started Fundraising Form",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6418ac79208b0",
+                            "label": "Started Fundraising Form",
+                            "name": "started-fundraising-form",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6418ab3e28d0e"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6418ec064d6f4": {
+                    "key": "layout_6418ec064d6f4",
+                    "name": "we-serve-more-families",
+                    "label": "We Serve More Families",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6418ec144d6f5",
+                            "label": "We Serve More Families",
+                            "name": "we-serve-more-families",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6418eb47a0954"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template_pages\/bake-4-good-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1681907566
+}

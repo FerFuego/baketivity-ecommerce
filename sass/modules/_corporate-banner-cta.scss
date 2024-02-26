@@ -1,0 +1,91 @@
+.corporate-banner-cta {
+    background-color: #09989A;
+    display: flex;
+    align-items: center;
+    height: 105.45px;
+
+    width: 100vw;
+    margin: 0;
+    position: relative;
+    left: 0;
+
+    // mobile
+    @media (max-width: 767px) {
+        height: 137.5px;
+    }
+
+    &__container {
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+    }
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        // mobile
+        @media (max-width: 767px) {
+            padding: 0 20px;
+            flex-direction: column;
+        }
+    }
+    &__title {
+        display: flex;
+        height: fit-content;
+        font-family: $primary-font;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        color: $white;
+        margin-bottom: 0!important;
+        margin-right: 30px;
+        // mobile
+        @media (max-width: 767px) {
+            font-size: 18px;
+            line-height: 1.2em;
+            text-align: center;
+            margin-bottom: 14.03px !important;
+            margin-right: 0;
+            max-width: 238px;
+        }
+    }
+    &__button {
+        background-color: $new-red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: $white;
+        position: relative;
+        height: 47px;
+        width: 191px;
+        padding: 0px;
+    }
+    &__button-2 {
+        background-color: $new-red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: $white;
+        position: relative;
+        height: 47px;
+        width: 191px;
+        padding: 0px;
+        margin-left: 24px;
+        // mobile 
+        @media (max-width: 768px) {
+            margin-left: 0;
+            margin-top: 24px;
+        }
+    }
+}

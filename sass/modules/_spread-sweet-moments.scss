@@ -1,0 +1,166 @@
+.spread-sweet-moments {
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    padding: 24px 0 30px;
+    width: 100%;
+    // mobile
+    @media (max-width: 768px) {
+        padding: 40px 22px 30px;
+    }
+    &__container {
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+        display: flex;
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column-reverse;
+            max-width: 100%;
+        }
+    }
+    &__left {
+        height: 570px;
+        width: 47%;
+        // mobile
+        @media (max-width: 768px) {
+            height: 285px;
+            width: 100%;
+        }
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 37px;
+        width: 50%;
+        // mobile
+        @media (max-width: 768px) {
+            margin-left: 0;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+    &__title {
+        font-family: $primary-font;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 50px;
+        color: $new-red;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        width: 100%;
+        max-width: 498px;
+        display: block;
+
+        background-image: url('images/modules/underline-green-title.svg');
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        //mobile
+        @media (max-width: 768px) {
+            background-position: center bottom;
+            font-size: 23px;
+            line-height: 29px;
+            text-align: center;
+            max-width: 272px;
+            margin: 0 auto 30px;
+        }
+    }
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $primary-black;
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 508px;
+        display: block;
+        //mobile
+        @media (max-width: 768px) {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            max-width: 100%;
+        }
+    }
+    &__copy {
+        font-family: $primary-font;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        color: $primary-black;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: 485px;
+        display: block;
+        // mobile
+        @media (max-width: 768px) {
+            max-width: 100%;
+        }
+        p {
+            font-family: $primary-font;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            color: $primary-black;
+            margin-bottom: 0;
+            //mobile
+            @media (max-width: 768px) {
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+            }
+        }
+        a {
+            text-decoration: underline;
+            color: $title-green !important;
+        }
+    }
+    &__image {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 100%;
+        &::before {
+            content: '';
+            background-image: url(images/referral/exclamation-green.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            display: block;
+            top: 10px;
+            left: 15px;
+            height: 65px;
+            width: 68px;
+            // mobile
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+        &::after {
+            content: '';
+            background-image: url(images/referral/rulo-left-green.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            display: block;
+            bottom: 140px;
+            right: 30px;
+            height: 97px;
+            width: 118px;
+            // mobile
+            @media (max-width: 768px) {
+                top: -14px;
+                right: 14px;
+                bottom: inherit;
+                height: 90px;
+                width: 70px;
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}

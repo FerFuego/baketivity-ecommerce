@@ -1,0 +1,138 @@
+.d-bar {
+  font-size:0;
+  background-color: $title-green;
+  display: block;
+}
+.d-bar p {
+    margin: 0;
+    color: #fff;
+	font-size:16px;
+}
+.d-bar p b {
+  font-weight: 600;
+}
+.countdown-banner .vc_row {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.home .only-on-home {
+	display:block !important;
+}
+.home .except-on-home {
+	display:none !important;
+}
+	  
+/*MV*/
+.d-bar {padding: 10px;}
+.d-bar p {font-family: 'FilsonPro' !important; font-weight:400;}
+
+.d-bar {display:none !important}
+.home .d-bar {display: block !important} 
+
+@media screen and (max-width: 768px) {
+  .home .d-bar~#page #masthead {top:0px !important; position:relative}
+  .d-bar~#page #masthead {top:0px !important; margin-top:0px; position:relative}
+	
+	.home .d-bar, .d-bar {
+		background-color: $title-green !important;
+		display: block !important;
+		position: relative !important;
+		top: 0px !important;
+		min-height: 55px !important;
+		width: 100% !important;
+		z-index: 99999!important; /*100*/
+		padding:7px !important;
+	}
+  .home .d-bar ~ #page #content {margin-top:0px;}
+  .d-bar ~ #page #content {margin-top:55px;}
+  #newsletter-message { display:none !important;}
+  .d-bar form .klaviyo_field_group {
+    display: flex;
+  }
+  .d-bar form .klaviyo_field_group label {
+    display: none;
+  }
+}
+
+
+.d-bar .klaviyo_messages {display:none !important}
+/* Header Newsletter */
+#newsletter-message {text-align: center; display:inline-block; padding:0; line-height:41px;}
+#klaviyo_emailsignup_widget-4 {
+	display:inline-block;
+  	margin-left:10px !important;
+}
+
+#kla_embed_klaviyo_emailsignup_widget--1 {
+  margin: 0;
+}
+
+.d-bar .klaviyo_submit_button {
+	margin-left:-14px;
+    right: 0;
+    color: #fff;
+    background: #E52441;
+    border-radius: 8px;
+    font-size: 16px !important;
+    font-weight: bold;
+    font-family: "FilsonPro";
+
+    height: 41px;
+    line-height: 16px;
+
+    // mobile
+    @media (max-width: 768px) {
+      font-size: 17px !important;
+      line-height: 26px;
+      padding: 9px 10px 10px;
+      overflow: hidden;
+      max-width: 155px;
+    }
+
+}
+
+@-moz-document url-prefix() { 
+  .d-bar .klaviyo_submit_button {height:42px;}
+}
+
+.d-bar .klaviyo_submit_button:hover {
+	background:#EE324D
+}
+#kla_email_klaviyo_emailsignup_widget--1 {
+    border-top-left-radius: 8px;
+    font-family: "FilsonPro";
+    font-size: 16px;
+    color: #43454b !important;
+    background: #fff;
+    box-shadow: none;
+    border-bottom-left-radius: 8px;
+    display: block !important;
+	float:left;
+    min-width: 220px;
+    height: 41px;
+    line-height: 16px;
+}
+
+.d-bar .klaviyo_messages {
+  	width: 100%;
+    position: absolute;
+    color: white;
+    font-family: 'FilsonPro';
+    top: 18px;
+    text-align: left;
+}
+
+.d-bar .klaviyo_header, .d-bar .klaviyo_subheader {
+  display:inline-block;
+}
+
+.d-bar .klaviyo_subheader {
+ margin-left:10px;
+}
+
+body .d-bar-message.col-full, body.page-id-165818 .d-bar-message.col-full {
+  width: 100% !important;
+  max-width: 1920px !important;
+  margin: 0px auto !important;
+  padding: 0px !important;
+}

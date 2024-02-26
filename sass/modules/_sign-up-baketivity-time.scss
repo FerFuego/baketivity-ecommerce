@@ -1,0 +1,176 @@
+.sign-up-baketivity-time {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    height: 310px;
+    width: 100%;
+    // mobile
+    @include mobile {
+        height: 540px;
+    }
+    @include mobile-md {
+        background-size: cover;
+        height: 640px;
+    }
+    @include mobile-sm {
+        height: 580px;
+    }
+    @include mobile-s {
+        height: 580px;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%; 
+        max-width: 1088px;
+        margin: 0 auto;
+        // mobile
+        @include mobile {
+            justify-content: flex-end;
+        }
+    }
+    &__content {
+        position: relative;
+        // mobile
+        @include mobile {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 36px;
+        }
+        &::before {
+            content: '';
+            background-image: url(images/baketivity-time/rulo-arrow.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 400px;
+            bottom: -50px;
+            display: block;
+            width: 140px;
+            height: 107px;
+            // mobile
+            @include mobile {
+                display: none;
+            }
+        }
+        &::after {
+            content: '';
+            background-image: url(images/baketivity-time/big-arrow.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            right: -35px;
+            bottom: -50px;
+            display: block;
+            width: 98px;
+            height: 69px;
+            // mobile
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+    &__title {
+        background-image: url(images/baketivity-time/brush-white-1.svg), url(images/baketivity-time/brush-white-2.svg);
+        background-repeat: no-repeat;
+        background-position: center top, center bottom;
+        background-size: contain;
+        display: block;
+        margin-left: -18px;
+        margin-bottom: 13px;
+        padding: 14px 16px;
+        width: 100%;
+        max-width: 430px;
+        * {
+            font-family: $primary-font;
+            font-size: 37px;
+            line-height: 46px;
+            font-weight: 800;
+            color: $primary-black;
+            margin-bottom: 0;
+            // mobile
+            @include mobile {
+                font-size: 26px;
+                line-height: 32px;
+            }
+        }
+        strong {
+            font-weight: 800;
+            color: $primary-red;
+        }
+        &::before {
+            content: '';
+            display: none;
+            background-image: url(images/baketivity-time/exclamation-red-1.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: -18px;
+            top: 0px;
+            width: 36px;
+            height: 35px;
+            // mobile
+            @include mobile {
+                display: block;
+            }
+        }
+        &::after {
+            content: '';
+            display: none;
+            background-image: url(images/baketivity-time/trazado-red-1.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            right: 35px;
+            bottom: 2px;
+            width: 153px;
+            height: 10px;
+            // mobile
+            @include mobile {
+                display: block;
+            }
+        }
+        // mobile
+        @include mobile {
+            background-image: url(images/baketivity-time/brush-white-3.svg);
+            max-width: 325px;
+            margin-left: 0;
+            position: relative;
+        }
+    }
+    &__cta {
+        background: $primary-red;
+        border-radius: 4px;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font: normal normal 700 15px/18px $primary-font, sans-serif;
+        letter-spacing: 0px;
+        position: relative;
+        height: 37px;
+        width: 180px;
+        &::after {
+            content: '';
+            background-image: url(images/baketivity-time/small-arrow.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 50px;
+            bottom: -50px;
+            display: block;
+            width: 35px;
+            height: 38px;
+            // mobile
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+}

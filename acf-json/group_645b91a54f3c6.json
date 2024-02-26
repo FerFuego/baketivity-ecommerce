@@ -1,0 +1,353 @@
+{
+    "key": "group_645b91a54f3c6",
+    "title": "Page: Baketivity Time",
+    "fields": [
+        {
+            "key": "field_645b91b66abae",
+            "label": "Content",
+            "name": "page__flexible-content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_645b91c75eb3e": {
+                    "key": "layout_645b91c75eb3e",
+                    "name": "hero-baketivity-time",
+                    "label": "Hero Baketivity Time",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_645b92096abaf",
+                            "label": "Hero Baketivity Time",
+                            "name": "hero-baketivity-time",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_645ba49da0685"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_657740a606e47": {
+                    "key": "layout_657740a606e47",
+                    "name": "baketivity-time-form",
+                    "label": "Baketivity Time Form",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_657740ad06e48",
+                            "label": "Baketivity Time Form",
+                            "name": "baketivity-time-form",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_65773ea658b73"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6548dfa599ff7": {
+                    "key": "layout_6548dfa599ff7",
+                    "name": "highlighted",
+                    "label": "Highlighted",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6548dfb199ff8",
+                            "label": "Highlighted",
+                            "name": "highlighted",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_6548dbd436c06"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_645b98044d188": {
+                    "key": "layout_645b98044d188",
+                    "name": "center-text",
+                    "label": "Center Text",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_645b980e4d189",
+                            "label": "Center Text",
+                            "name": "center-text",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_645b97c506940"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_645bb96236c72": {
+                    "key": "layout_645bb96236c72",
+                    "name": "sign-up",
+                    "label": "Sign up",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_645bb96d36c73",
+                            "label": "Sign up",
+                            "name": "sign-up",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_645bb88b24648"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_645cda4bef362": {
+                    "key": "layout_645cda4bef362",
+                    "name": "cooking-what-is-inside",
+                    "label": "What is inside",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_645cda55ef363",
+                            "label": "What is inside",
+                            "name": "cooking-what-is-inside",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63a9fc3ae8b2d"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_645d02bba9c95": {
+                    "key": "layout_645d02bba9c95",
+                    "name": "get-the-physical",
+                    "label": "Get the physical",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_645d02daa9c96",
+                            "label": "Get the physical",
+                            "name": "get-the-physical",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_645d020a2bffe"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_645d286b97166": {
+                    "key": "layout_645d286b97166",
+                    "name": "simple-step-by-step-giving",
+                    "label": "Simple step by step giving",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_645d288897167",
+                            "label": "Simple step by step giving",
+                            "name": "simple-step-by-step-giving",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63c96a7605971"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_645d4a7058c5d": {
+                    "key": "layout_645d4a7058c5d",
+                    "name": "gifting-is-better",
+                    "label": "Gifting is Better",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_645d4aa758c5e",
+                            "label": "Gifting is Better",
+                            "name": "gifting-is-better",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63c92cbb3e27c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_645e29dd94320": {
+                    "key": "layout_645e29dd94320",
+                    "name": "testimonials",
+                    "label": "Testimonials",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_645e29e794321",
+                            "label": "Testimonials",
+                            "name": "testimonials",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62a8e5108b206"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template_pages\/baketivity-time-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1702314195
+}

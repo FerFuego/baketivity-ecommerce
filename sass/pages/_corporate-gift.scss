@@ -1,0 +1,24 @@
+.corporate-gift {
+    .testimonials {
+        margin-top: 0 !important;
+    }
+    .baking-banner-footer {
+        &__title {
+            background-image: url(images/shop/bg-white-title.svg);
+            background-size: contain;
+            
+            &::after {
+                bottom: 0px;
+                right: 0px;
+                width: 130px;
+                background-size: contain;
+
+                @media (max-width: 767px) {
+                    bottom: -6px;
+                    right: 78px;
+                    width: 160px;
+                }
+            }
+        }
+    }
+}

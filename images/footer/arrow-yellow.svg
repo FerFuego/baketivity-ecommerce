@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 68" width="155" height="68">
+	<title>Arrow Yellow</title>
+	<defs>
+		<image  width="151" height="57" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAAA5CAMAAAAMV0nVAAAAAXNSR0IB2cksfwAAAFpQTFRF44NU88Ji7Kxd6qJb3GVO2VtM1kpK0jtH6qNb+Nhn4HhS7a1e3m5Q1UJI9c1l5o1W2FNL55hZ2lxN3m9Q9c5l8Lhf3GZO4HlS5o5X8Ldf6JlZ44JU4n9U9tBlBHBNCAAAAB50Uk5T////////AAD//////wD//4D/////////////////F189cwAAAmtJREFUeJzN2dmW4iAQBuAKWc1KoDvbzLz/aw6E2IYt2poA/03bLsfvVBVgFCBCMUCSZnlQgeL2E4SgDMUH1U0Nq1+dNuG5RFrUlalHV2txiUQxJNiL65B172xfusZBjgkFqKqvp7iudoiDx82GAQvbuN2HDhI3Cxa0e1be9xEudrAgdNcWPEAVHXQVrrVZXSJknOydnbvksm3uiWtNxkpnWxZzX18ycK+4BI5aK8fq5s+1BtPFsiLQyTvc71xrCBTGrrZntvQNFw8eC+NinbuTyvamiyeji8kW9WdM2wcunmaYDLY2rj/dQD508WTUNG9x+dGwneDiwabPcfMbtHudT3Lllpai3zQUl/FtON3Fk4162eL6tdeO6yfU5RIXS0MLVda+tEIHsZqvcq1vsagLIXq+rzXimdmFLhasDdv8bNTECUevdZlobX9YtOm2G7ALXSxEbehR0aQBu9bF3614tWjbgGE3LsMKRZadQwzY6MqV831NHrXI2E5xLVs4dOV81OR2gi4j4hG3LtZPpWi9dnruBsyhi4XIkxYT+eHqMWBuXWzSQCoakmS7AXPtYqGVTYbFXZ5cajt3MrELE18u1s7FKBNe8Ofig7Y/ora1Oa7/VD5d6r6xyh4D5tHFQvc14zvtz4D5deXNvptRvQ3Y5N2lyNCf9c8cgEuRiTQhuAyyIQwX2zXkg3MKxcXOgP0Xa3M4rjz/+283YGG40rpD0g9C1LcLJxAbvqla/LmyFHqki7Yt1o+rVNoWiutA9FVNo7fz0fxLwPcC5H4t4se1KKKogkG+DPfjGtW2afHjImrbtPhxNWrbtPwHOKT7Y7U4/TwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="6"/>
+</svg>

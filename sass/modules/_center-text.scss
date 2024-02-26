@@ -1,0 +1,51 @@
+.module-center-text {
+    &__container {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px auto;
+        padding: 36px 15px 63px;
+        display: flex;
+        justify-content: center;
+    }
+    &__text {
+        position: relative;
+        &::after {
+            content: '';
+            background-image: url(images/baketivity-time/red-subrayado.svg);
+            position: absolute;
+            display: block;
+            margin: 0;
+            bottom: -22px;
+            right: 49px;
+            height: 29px;
+            width: 288px;
+        }
+    }
+    &__text * {
+        font-family: $primary-font;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30px;
+        color: $primary-black;
+        margin-bottom: 0;
+        text-align: center;
+        width: 100%;
+        max-width: 550px;
+        img {
+            display: inline-block;
+            position: relative;
+            height: auto;
+            bottom: -10px;
+            width: 100%;
+            max-width: 93px;
+        }
+        span {
+            background-image: url(images/baketivity-time/red-circle.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            padding: 10px;
+            margin-left: -5px;
+        }
+    }
+}

@@ -1,0 +1,117 @@
+.baketivity-my-account {
+    &__login-page {
+        &__register-section {
+            background-color: $white;
+            border-radius: 15px;
+            position: relative;
+            display: block;
+            float: none;
+            margin-bottom: 0;
+            margin-right: 0;
+            width: 364px;
+
+            .form-row-wide {
+                position: relative;
+                margin-bottom: 9px;
+            }
+
+            .form-row-wide:last-child {
+                margin-bottom: 33px !important;
+            }
+        }
+
+        &__form {
+            padding: 15px 21px 34px 21px !important;
+            margin-bottom: 0;
+        }
+
+        &__input-email {
+            margin-bottom: 7.5px;
+        }
+
+        &__register-content {
+            margin-top: 33px;
+            margin-bottom: 5px;
+        }
+
+        &__label-register {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            width: 100%;
+
+            span {
+                font-family: $primary-font;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                color: $primary-black !important;
+                padding-left: 23px;
+            }
+
+            /* DEFAULT */
+            input[type="checkbox"]+span::before {
+                content: "";
+                top: -2px;
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border: 2px solid $primary-black !important;
+                border-radius: 0 !important;
+                left: 0;
+            }
+
+            /* CHECKED */
+            input[type="checkbox"]:checked+span::after {
+                content: "\2713";
+                font-weight: bold;
+                font-size: 15px;
+                top: 1px !important;
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                border-radius: 0 !important;
+                background: transparent !important;
+                left: 4px !important;
+            }
+        }
+
+        &__instructions {
+            font-family: $primary-font;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 16px;
+            margin-bottom: 0;
+            text-align: center;
+            color: #BEBEBE;
+            margin: 0 auto 17px;
+            max-width: 254px;
+
+            &--last {
+                max-width: 240px;
+            }
+        }
+
+        &__last-row {
+            margin-bottom: 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        &__cta-signin {
+            font-family: $primary-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            margin-left: 0;
+            text-align: center;
+            text-decoration: underline;
+            color: #09989A !important;
+        }
+
+        &__register-submit {
+            margin-bottom: 30.9px;
+        }
+    }
+}

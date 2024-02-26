@@ -1,0 +1,140 @@
+.content-duff {
+  &__container {
+    background-color: #e47455;
+    width: 100%;
+    max-width: 1080px;
+    margin: 40px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    position: relative;
+
+    // mobile
+    @media (max-width: 991px) {
+      flex-direction: column;
+      border-radius: 0;
+      margin-top:0px;
+    }
+  }
+  &__header {
+    max-width: 700px;
+
+    @media (min-width: 992px) and (max-width: 1050px) {
+      max-width: 630px;
+    }
+
+    // mobile
+    @media (max-width: 991px) {
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+
+  &__title {
+    font-family: "FilsonPro";
+    font-size: 37px;
+    line-height: 40px;
+    color: white;
+    font-weight: 800;
+    z-index: 1;
+    position: relative;
+    background: url(images/duff/content_title_bg_desktop.svg);
+    background-repeat: no-repeat;
+    padding: 13px 0 0 17px;
+    margin-left: -17px;
+    background-size: 100%;
+    height: 107px;
+
+    @media (min-width: 992px) and (max-width: 1050px) {
+      font-size: 33px;
+    }
+
+    // mobile
+    @media (max-width: 991px) {
+      font-size: 22px !important;
+      line-height: 28px !important;
+      background-size: contain;
+      background: url(images/duff/content_title_bg_mobile.svg);
+      margin: auto;
+      text-align: center;
+      font-weight: 700;
+      width: 333px;
+      padding: 11px 0 0 0;
+    }
+  }
+
+  &__title-2 {
+    font-family: "FilsonPro";
+    font-size: 37px;
+    line-height: 44px;
+    color: white;
+    font-weight: 600;
+    margin-top: -28px;
+    background: url(images/duff/content_title-2_bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 8px;
+
+    @media (max-width: 991px) {
+      width: 263px !important;
+      font-size: 22px !important;
+      line-height: 28px !important;
+      background-position: bottom center;
+      background-size: contain !important;
+      text-align: center;
+      margin: auto;
+      margin-top: -10px !important;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__content {
+    font-family: "FilsonPro";
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0;
+    width: 94%;
+
+    @media (max-width: 991px) {
+      font-size: 16px;
+      line-height: 26px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__image {
+    width: 350px;
+    height: 358px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+
+    @media (min-width: 992px) and (max-width: 1050px) {
+      width: 280px;
+      background-position: bottom;
+    }
+
+    @media (max-width: 991px) {
+      position: relative;
+      margin: auto;
+      margin-bottom: -44px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .title_desktop {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .title_mobile {
+    display: none;
+  }
+}

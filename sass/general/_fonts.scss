@@ -1,0 +1,134 @@
+
+
+@font-face {
+	font-family: 'FilsonProBook';
+	src: url('./fonts/FilsonProBook.eot');
+	src: url('./fonts/FilsonProBook.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FilsonProBook.woff2') format('woff2'),
+		url('./fonts/FilsonProBook.woff') format('woff'),
+		url('./fonts/FilsonProBook.ttf') format('truetype'),
+		url('./fonts/FilsonProBook.svg#FilsonProBook') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'FilsonPro';
+	src: url('./fonts/FilsonProRegular.eot');
+	src: url('./fonts/FilsonProRegular.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FilsonProRegular.woff2') format('woff2'),
+		url('./fonts/FilsonProRegular.woff') format('woff'),
+		url('./fonts/FilsonProRegular.ttf') format('truetype'),
+		url('./fonts/FilsonProRegular.svg#FilsonProRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FilsonPro-Bold';
+	src: url('./fonts/FilsonProBold.eot');
+	src: url('./fonts/FilsonProBold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FilsonProBold.woff2') format('woff2'),
+		url('./fonts/FilsonProBold.woff') format('woff'),
+		url('./fonts/FilsonProBold.ttf') format('truetype'),
+		url('./fonts/FilsonProBold.svg#FilsonProBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FilsonPro';
+	src: url('./fonts/FilsonProMedium.eot');
+	src: url('./fonts/FilsonProMedium.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FilsonProMedium.woff2') format('woff2'),
+		url('./fonts/FilsonProMedium.woff') format('woff'),
+		url('./fonts/FilsonProMedium.ttf') format('truetype'),
+		url('./fonts/FilsonProMedium.svg#FilsonProMedium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FilsonPro';
+	src: url('./fonts/FilsonProLight.eot');
+	src: url('./fonts/FilsonProLight.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FilsonProLight.woff2') format('woff2'),
+		url('./fonts/FilsonProLight.woff') format('woff'),
+		url('./fonts/FilsonProLight.ttf') format('truetype'),
+		url('./fonts/FilsonProLight.svg#FilsonProLight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FilsonPro';
+	src: url('./fonts/FilsonProBlack.eot');
+	src: url('./fonts/FilsonProBlack.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FilsonProBlack.woff2') format('woff2'),
+		url('./fonts/FilsonProBlack.woff') format('woff'),
+		url('./fonts/FilsonProBlack.ttf') format('truetype'),
+		url('./fonts/FilsonProBlack.svg#FilsonProBlack') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FilsonPro';
+	src: url('./fonts/FilsonProBold.eot');
+	src: url('./fonts/FilsonProBold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FilsonProBold.woff2') format('woff2'),
+		url('./fonts/FilsonProBold.woff') format('woff'),
+		url('./fonts/FilsonProBold.ttf') format('truetype'),
+		url('./fonts/FilsonProBold.svg#FilsonProBold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FilsonProH';
+	src: url('./fonts/FilsonProHeavy.eot');
+	src: url('./fonts/FilsonProHeavy.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FilsonProHeavy.woff2') format('woff2'),
+		url('./fonts/FilsonProHeavy.woff') format('woff'),
+		url('./fonts/FilsonProHeavy.ttf') format('truetype'),
+		url('./fonts/FilsonProHeavy.svg#FilsonProHeavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+.filson-pro-medium {
+	font-family: 'FilsonPro';
+	font-weight: 500;
+}
+
+.filson-pro-bold {
+	font-family: 'FilsonPro';
+	font-weight: 600;
+}
+
+.filson-pro-black {
+	font-family: 'FilsonPro';
+	font-weight: 800;
+}
+
+.filson-pro-regular {
+	font-family: 'FilsonPro';
+	font-weight: normal;
+}
+
+.filson-pro-heavy {
+	font-family: 'FilsonProH';
+	font-weight: 900;
+}

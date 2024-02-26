@@ -1,0 +1,19 @@
+#yith-wacp-popup {
+    .single-cart-item {
+        .variation {
+            margin-top: 0;
+            font-family: $primary-font;
+            color: $title-green !important;
+        }
+
+        dt.variation-Discount {
+            display: none;
+        }
+
+        .variation-Discount {
+            span {
+                background-color: $title-green !important;
+            }
+        }
+    }
+}

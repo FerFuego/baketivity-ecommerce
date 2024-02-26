@@ -1,0 +1,293 @@
+.product-shop-duff {
+  background-color: $light-grey-2;
+  border-radius: 15px;
+  margin: 0;
+  padding: 20px 20px 22px;
+  position: relative;
+  height: auto !important;
+  min-height: 355px !important;
+  min-width: 207px;
+  width: auto !important;
+
+  &__image {
+    height: 160px;
+    width: 100%;
+    img {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+  &__title {
+    margin-bottom: 10px;
+    line-height: 0;
+    text-align: center;
+    width: 100%;
+    a {
+      font-family: $primary-font;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+      color: $new-red;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+
+  &__ba-slider {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 12px auto;
+    border-radius: 4px;
+  }
+
+  &__ul {
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    margin-left: 0;
+    margin-bottom: 0;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 155px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    scroll-snap-align: center;
+    margin-right: 0px;
+    box-sizing: border-box;
+    transform-origin: center center;
+    transform: scale(1);
+  }
+
+  &__control_prev {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    left: 5%;
+  }
+
+  &__control_next {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 5%;
+  }
+
+  &__control_prev,
+  &__control_next {
+    position: absolute;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    padding: 3px;
+    box-sizing: border-box;
+    color: $primary-black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+    visibility: visible;
+    width: 16px;
+    height: 16px;
+    top: 46%;
+    z-index: 98;
+  }
+
+  &__control_prev {
+    left: 40px;
+    @media (max-width:768px) {
+      left:5px;
+    }
+  }
+  &__control_next {
+    right: 40px;
+
+    @media (max-width:768px) {
+      right:5px;
+    }
+  }
+  /*.inactive {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  &__control_prev:hover,
+  &__control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+  }*/
+
+  &__control_prev {
+    border-radius: 0 2px 2px 0;
+  }
+
+  &__control_next {
+    border-radius: 2px 0 0 2px;
+  }
+
+  &__price {
+    margin-bottom: 0;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+    ins {
+      font-family: $primary-font;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1em;
+      color: $primary-black;
+      margin-right: 10px;
+      span {
+        font-family: $primary-font;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1em;
+        color: $primary-black;
+      }
+    }
+    del {
+      font-family: $primary-font;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1em;
+      color: $primary-black;
+      span {
+        font-family: $primary-font;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1em;
+        color: $primary-black;
+      }
+    }
+    .subscription-details {
+      font-family: $primary-font !important;
+      font-size: 11px !important;
+    }
+  }
+  &__badges {
+    position: absolute;
+    top: 0px;
+    span {
+      border: 0;
+    }
+  }
+  &__badges-label {
+    color: $primary-black;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: $primary-font;
+    position: absolute;
+    left: -25px;
+    right: -25px;
+    top: 12px;
+    margin: 0 auto;
+    width: 50px;
+  }
+  &__badges-label-prime {
+    color: $white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: $primary-font;
+    position: absolute;
+    left: -25px;
+    right: -25px;
+    top: 9px;
+    margin: 0 auto;
+    width: 50px;
+}
+  .ribbon-new {
+    width: 0px !important;
+    height: 54px !important;
+    border-left: 24px solid #c0dd52 !important;
+    border-right: 24px solid #c0dd52 !important;
+    border-bottom: 12px solid transparent !important;
+    z-index: 2;
+  }
+  .ribbon-sale {
+    width: 0px !important;
+    height: 54px !important;
+    border-left: 24px solid #7BD2D3 !important;
+    border-right: 24px solid #7BD2D3 !important;
+    border-bottom: 12px solid transparent !important;
+    z-index: 2;
+  }
+  .ribbon-prime {
+    width: 0px !important;
+    height: 54px !important;
+    border-left: 24px solid #1999fb !important;
+    border-right: 24px solid #1999fb !important;
+    border-bottom: 12px solid transparent !important;
+    z-index: 2;
+  }
+  .add_to_cart_inline {
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border: none !important;
+    padding: 0 !important;
+    text-align: center;
+    width: 100%;
+
+    ins,
+    del,
+    .amount,
+    .subscription-details {
+      display: none !important;
+    }
+  }
+  .product_type_simple,
+  .product_type_variable,
+  .add_to_cart_button {
+    background-color: $new-red;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: $white;
+    font-family: $primary-font;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: capitalize;
+
+    margin: 20px auto 0;
+    padding: 0 !important;
+    height: 37.63px;
+    width: 139.55px;
+
+    span {
+      color: $white;
+      font-family: $primary-font;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1em;
+      text-transform: capitalize;
+    }
+  }
+  .added_to_cart {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+}

@@ -1,0 +1,95 @@
+.banner-referral {
+    background-color: $new-red;
+    display: flex;
+    align-items: center;
+    height: 105.45px;
+
+    width: 100vw;
+    margin: 0;
+    position: relative;
+    left: 0;
+
+    // mobile
+    @media (max-width: 767px) {
+        height: 137.5px;
+    }
+
+    &__container {
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+    }
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        // mobile
+        @media (max-width: 767px) {
+            padding: 0 20px;
+            flex-direction: column;
+        }
+    }
+    &__title {
+        display: flex;
+        height: fit-content;
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.3em;
+        color: $white;
+        margin-bottom: 0!important;
+        // mobile
+        @media (max-width: 767px) {
+            font-size: 18px;
+            line-height: 1.2em;
+            text-align: center;
+            margin-bottom: 14.03px !important;
+            max-width: 238px;
+        }
+        &::after {
+            content: '';
+            background-image: url(images/modules/right-arrow-green-cta.svg);
+            background-repeat: no-repeat;
+            display: block;
+            margin-left: 14.05px;
+            margin-right: 23.09px;
+            height: 24.61px;
+            width: 76.42px;
+            // mobile
+            @media (max-width: 767px) {
+                display: none;
+            }
+        }
+    }
+    &__button {
+        background-color: $title-green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $white;
+        border-radius: 4px;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        color: $white;
+        position: relative;
+        height: 44.66px;
+        width: 210px;
+        padding:10px;
+        &::after {
+            content: '';
+            background-image: url(images/modules/exclamation-green-cta.svg);
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            right: -70px;
+            height: 56.46px;
+            width: 55.49px;
+            // mobile
+            @media (max-width: 767px) {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,339 @@
+.how-to-cash-it {
+    &__container {
+        width: 100%;
+        max-width: 921px;
+        margin: 65px auto 55px;
+        // mobile
+        @media (max-width: 768px) {
+            max-width: 100%;
+            padding: 0 20px;
+            margin: 30px 0 27px;
+        }
+    }
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    &__title {
+        font-size: 30px;
+        font-family: 'FilsonPro';
+        font-weight: 800;
+        color: $primary-black;
+        line-height: 50px;
+        text-align: center;
+        margin: 0;
+        padding: 0 30px;
+
+        background-image: url(images/cake-it/bg-title.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 23px !important;
+            line-height: 29px !important;
+            margin-bottom: 10px;
+        }
+    }
+    &__subtitle {
+        font-size: 30px;
+        font-family: 'FilsonPro';
+        font-weight: 800;
+        color: $primary-black;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 38.16px;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 16px !important;
+            line-height: 20px !important;
+            margin-bottom: 5px;
+        }
+    }
+    &__paragraph {
+        font-size: 20px;
+        font-family: 'FilsonPro';
+        font-weight: 500;
+        color: $primary-black;
+        line-height: 30px;
+        text-align: center;
+        margin: 0;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 16px !important;
+            line-height: 20px !important;
+        }
+    }
+    &__body {
+        display: block;
+        margin-bottom: 40px;
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 100px !important;
+        }
+    }
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 100%;
+        max-width: 292px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // mobile
+        @media (max-width: 768px) {
+            max-width: 100%;
+        }
+    }
+    &__item-num {
+        font-size: 29px;
+        font-weight: 700;
+        font-family: 'FilsonPro';
+        line-height: 53px;
+        text-align: center;
+        color: $white;
+
+        background-color: $bordo;
+        display: flex;
+        justify-content: center;
+        width: 47px;
+        height: 47px;
+        border-radius: 50%;
+        margin: 15px auto;
+    }
+    &__item-icon {
+        width: 100%;
+        max-width: 163px;
+        height: auto;
+        margin: 0 auto;
+    }
+    &__item-title {
+        font-size: 26px;
+        font-family: 'FilsonPro';
+        font-weight: 700;
+        line-height: 35px;
+        color: $primary-black;
+        text-align: center;
+        margin-bottom: 5px;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 23px !important;
+            line-height: 28px !important;
+            max-width: 230px;
+            margin: 0 auto 5px;
+        }
+    }
+    &__item-paragraph {
+        font-size: 16px;
+        font-family: 'FilsonPro';
+        font-weight: 400;
+        line-height: 22px;
+        color: $primary-black;
+        margin-bottom: 0;
+        text-align: center;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 14px !important;
+            line-height: 21px !important;
+            max-width: 220px;
+        }
+    }
+    &__footer {}
+    &__footer-text-1 {
+        font-size: 14px;
+        font-family: 'FilsonPro';
+        font-weight: 400;
+        line-height: 21px;
+        color: $primary-black;
+        margin-bottom: 20.45px;
+        text-align: center;
+        width: 100%;
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 12px !important;
+            line-height: 19px !important;
+            max-width: 304px;
+            margin: 0 auto;
+        }
+    }
+    &__footer-text-2 {
+        font-size: 14px;
+        font-family: 'FilsonPro';
+        font-weight: 400;
+        line-height: 21px;
+        color: $primary-black;
+        margin-bottom: 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+        p {
+            display: initial;
+            font-size: 14px;
+            font-family: 'FilsonPro';
+            font-weight: 400;
+            line-height: 21px;
+            color: $primary-black;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        a {
+            font-size: 14px;
+            font-family: 'FilsonPro';
+            font-weight: 400;
+            line-height: 21px;
+            color: $primary-black !important;
+            text-decoration: underline;
+        }
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 12px !important;
+            line-height: 19px !important;
+            max-width: 304px;
+            margin: 0 auto;
+            p, a {
+                font-size: 12px !important;
+                line-height: 19px !important;
+            }
+        }
+    }
+    &__overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 100;
+    }
+    &__overlay:target {
+        visibility: visible;
+        opacity: 1;
+    }
+    &__popup {
+        margin: 70px auto;
+        padding: 70px 92px 50px;
+        background: #fff;
+        border: 1px solid #707070;
+        width: 100%;
+        max-width: 1088px;
+        position: relative;
+        transition: all 500ms ease-in-out;
+        height: 90vh;
+        // mobile
+        @media (max-width: 768px) {
+            padding: 50px 20px;
+        }
+    }
+    &__close {
+        font-family: 'FilsonPro';
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: 300;
+        text-decoration: none;
+        color: $primary-black;
+    }
+    &__content-pop {
+        max-height: 92vh;
+        overflow: auto;
+        height: 100%;
+        * {
+            font-size: 14px;
+            font-family: 'FilsonPro';
+            font-weight: 400;
+            line-height: 21px;
+            color: $primary-black;
+        }
+        strong {
+            font-weight: 700;
+        }
+    }
+    &__dots {
+        position: absolute;
+        bottom: -48.71px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        li {
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            padding: 0;
+            cursor: pointer;
+            &.slick-active {
+                button {
+                    background-color: #4D4D4F;
+                    height: 17px;
+                    width: 17px;
+                }
+            }
+        }
+        button {
+            font-size: 0;
+            line-height: 0;
+            display: block;
+            height: 13px;
+            width: 13px;
+            padding: 5px;
+            cursor: pointer;
+            color: transparent;
+            border: 0;
+            outline: none;
+            background: #D8D8D8;
+            border-radius: 50%;
+        }
+    }
+    .slick-prev {
+        background-image: url(images/modules/rounded-white-slider-arrows.svg);
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 783%;
+        background-position: left center;
+        width: 43.92px;
+        height: 43.92px;
+        left: 10px;
+        margin-left: 0 !important;
+        top: 45%;
+        font-size: 0;
+        position: absolute;
+        &::before {
+            display: none;
+        }
+    }
+    .slick-next {
+        background-image: url(images/modules/rounded-white-slider-arrows.svg);
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 783%;
+        background-position: right center;
+        width: 43.92px;
+        height: 43.92px;
+        right: 10px;
+        top: 45%;
+        font-size: 0;
+        position: absolute;
+        &::before {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,214 @@
+.simple-step-by-step-giving {
+    padding: 50px 0 40px;
+
+    &__header {
+        width: 100%;
+        margin-bottom: 63px;
+
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 28px;
+        }
+    }
+
+    &__title {
+        font-family: $primary-font;
+        font-size: 37px;
+        font-weight: 800;
+        line-height: 44px;
+        color: $primary-black;
+        display: block;
+        text-align: center;
+        position: relative;
+        margin: 0 auto 40px;
+        width: max-content;
+
+        p {
+            font-family: $primary-font;
+            font-size: 37px;
+            font-weight: 800;
+            line-height: 44px;
+            color: $primary-black;
+            display: block;
+            text-align: center;
+        }
+
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 23px;
+            line-height: 29px;
+            margin: 0 auto 22px;
+        }
+
+        &::after {
+            content: '';
+            width: 284px;
+            height: 19px;
+            position: absolute;
+            bottom: -15px;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(images/gifting/subrayado-light-green.svg);
+
+            // mobile
+            @media (max-width: 768px) {
+                content: '';
+                width: 163px;
+                height: 12px;
+                bottom: -10px;
+            }
+        }
+    }
+
+    &__subtitle {
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: $primary-black;
+        text-align: center;
+        width: 100%;
+        max-width: 901px;
+        margin: 0 auto;
+
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 16px;
+            line-height: 21px;
+            max-width: 325px;
+        }
+    }
+
+    &__container {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__body {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 47px;
+
+        // mobile
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 0;
+        }
+    }
+
+    &__item {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        // mobile
+        @media (max-width: 768px) {
+            margin-bottom: 34px;
+            width: 100%;
+            max-width: 290px;
+        }
+    }
+
+    &__item-image {
+        height: 168px;
+        width: 168px;
+
+        // mobile
+        @media (max-width: 768px) {
+            height: 135px;
+            width: 135px;
+        }
+    }
+
+    &__item-num {
+        font-family: $primary-font;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 21px;
+        color: $primary-black;
+        text-align: center;
+        display: flex;
+        height: 44px;
+        width: 44px;
+        border: 3px solid $white;
+        border-radius: 50%;
+        background-color: #C0DD52;
+        margin: -20px auto 11px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4px;
+
+        // mobile
+        @media (max-width: 768px) {
+            height: 36px;
+            width: 36px;
+        }
+    }
+
+    &__item-title {
+        font-family: $primary-font;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 28px;
+        color: $primary-black;
+        text-align: center;
+        margin-bottom: 15px;
+        max-width: 200px;
+
+        // mobile
+        @media (max-width: 768px) {
+            font-size: 21px;
+            line-height: 28px;
+            margin-bottom: 10px;
+            max-width: 100%;
+        }
+    }
+
+    &__item-content {
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        color: $primary-black;
+        text-align: center;
+        max-width: 228px;
+    }
+
+    &__footer * {
+        font-family: $primary-font;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+        color: #808080;
+        text-align: center;
+        width: 100%;
+        max-width: 345px;
+        margin: 0 auto;
+    }
+
+    &__cta {
+        background: $new-red;
+        border-radius: 4px;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font: normal normal 700 15px/18px $primary-font;
+        letter-spacing: 0px;
+        position: relative;
+        height: 37px;
+        width: 180px;
+    }
+}

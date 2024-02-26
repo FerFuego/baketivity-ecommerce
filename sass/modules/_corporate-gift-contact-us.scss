@@ -1,0 +1,118 @@
+.corporate-gift-contact-us {
+    height: 84px;
+    // mobile
+    @media (max-width: 880px) {
+        height: 167px;
+    }
+    &__container {
+        background-color: #13989A;
+        height: 100%;
+        max-width: 1088px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 15px;
+        // mobile
+        @media (max-width: 880px) {
+            flex-direction: column;
+            max-width: 335px;
+        }
+    }
+    &__title {
+        font-family: $primary-font;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $primary-black;
+        display: block;
+        margin-right: 12px;
+        margin-bottom: 0;
+        padding: 18px 22px 10px 22px;
+        position: relative;
+
+        background-image: url(images/corporate/bg-title-white.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        
+        // mobile
+        @media (max-width: 880px) {
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+        @media (max-width: 600px) {
+            font-size: 22px;
+            padding: 15px 6px 10px 6px;
+            text-align: center;
+            margin-right: 0;
+            width: 100%;
+            max-width: 218px;   
+        }
+        @media (max-width: 330px) {
+            font-size: 16px;
+        }
+
+        &::before {
+            content: '';
+            background-image: url(images/corporate/arrow-1.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: block;
+            position: absolute;
+            right: 250px;
+            height: 53px;
+            width: 86px;
+            bottom: 8px;
+
+            // mobile
+            @media (max-width: 880px) {
+                transform: rotate(45deg);
+                right: 191px;
+                bottom: -13px;
+            }
+        }
+    }
+    &__cta {
+        background-color: $new-red;
+        color: $white;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: $primary-font;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 15px;
+        position: relative;
+        height: 37px;
+        width: 173px;
+        &::after {
+            content: '';
+            background-image: url(images/corporate/arrow-2.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: block;
+            position: absolute;
+            right: -80px;
+            height: 55px;
+            width: 56px;
+            bottom: -5px;
+            // mobile
+            @media (max-width: 880px) {
+                
+            }
+        }
+    }
+}
+
+.cooking-page {
+    .baking-banner-footer__title {
+        // mobile
+        @media (max-width: 480px) {
+            background-size: auto;
+            font-size: 18px;
+        }
+    }
+}

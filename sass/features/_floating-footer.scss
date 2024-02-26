@@ -1,0 +1,88 @@
+#floating-footer {
+	position: fixed;
+    z-index: 99999;
+    width:100%;
+    background:$new-red;
+    bottom:0;
+    color: white;
+    font-family: 'FilsonPro';
+    font-size:18px;
+    text-align:center;
+}
+
+#floating-footer .desktop_message, #floating-footer .mobile_message {color:white;}
+
+#floating-footer p {
+   font-family: 'FilsonPro';
+   font-size:14px !important;
+   font-weight:400;
+   line-height:1;
+   padding: 0;
+   margin: 1em 0;
+}
+
+#floating-footer p strong {
+    font-family: 'FilsonPro';
+    font-weight: 700;
+    font-size:14px !important;
+    line-height:1;
+}
+
+.close-floating-footer {
+   content: "X";
+   display:block;
+   position:absolute;
+   right:20px;
+   top:50%;
+   margin-top: -8px;
+   line-height: 1;
+   cursor:pointer;
+   font-size:14px;
+}
+  
+#floating-footer span {
+   background: white; 
+   color:#F15B70;
+   padding: 18px 10px;
+   font-weight: 500;
+}
+
+#floating-footer .desktop_message {display:none}
+#floating-footer .mobile_message {display:inline-block}
+
+/* Displaying in all pages */
+#floating-footer.all_pages {
+  	display:block;
+}
+
+/* Displaying Only on Home */
+#floating-footer.only_home {
+	display:none;
+}
+.home #floating-footer.only_home {
+	display:block;
+}
+
+/* Not displaying on home */
+#floating-footer.except_home {
+	display:block;
+}
+
+.home #floating-footer.except_home {
+	display:none;
+}
+/* End display options */
+
+
+.BeaconFabButtonFrame {bottom:60px !important; right:10px !important;}
+
+
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+    .BeaconFabButtonFrame {bottom:70px !important; right:10px !important;}
+	#floating-footer .mobile_message {display:none}
+	#floating-footer .desktop_message {display:inline-block}
+  #floating-footer p, #floating-footer p strong {font-size:18px !important;}
+  .close-floating-footer {font-size:18px;}
+}

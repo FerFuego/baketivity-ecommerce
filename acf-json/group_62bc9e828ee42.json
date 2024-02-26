@@ -1,0 +1,136 @@
+{
+    "key": "group_62bc9e828ee42",
+    "title": "Page: Single Product",
+    "fields": [
+        {
+            "key": "field_62bc9ea7a51fb",
+            "label": "Content",
+            "name": "product__flexible_content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_62beff9098cba": {
+                    "key": "layout_62beff9098cba",
+                    "name": "product_full_description",
+                    "label": "Product full description",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62beffc498cbb",
+                            "label": "Product full description",
+                            "name": "product_full_description",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62befdf1141e5"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62bc9eb45eeb4": {
+                    "key": "layout_62bc9eb45eeb4",
+                    "name": "whats_included",
+                    "label": "What's included List",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62bca0363f2ba",
+                            "label": "What's included",
+                            "name": "whats_included",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_62bc9f9bbae82"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64762c59bd370": {
+                    "key": "layout_64762c59bd370",
+                    "name": "video-promo",
+                    "label": "Video Promo",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64762c63bd371",
+                            "label": "Video Promo",
+                            "name": "video-promo",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64762b3f15f0b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1685466247
+}

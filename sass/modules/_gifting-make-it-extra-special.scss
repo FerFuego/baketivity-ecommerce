@@ -1,0 +1,229 @@
+
+.make-it-extra-special {
+	display: block;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+	height: 187px;
+
+
+	// Mobile
+	@media (max-width: 767px) {
+		height: 462px;
+	}	
+
+	.container {
+		width: 100%;
+		max-width: 1010px;
+		margin: auto;
+		display: flex;
+		height: auto;
+		max-height: 100%;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		flex-wrap: nowrap;
+
+		// Mobile
+		@media (max-width: 767px) {
+			flex-direction: column;
+		}			
+
+	}
+	&__col-1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		position: relative;
+		margin-right: 35px;
+		align-items: center;
+		align-content: center;
+
+		// Mobile
+		@media (max-width: 767px) {
+			flex-direction: column;
+			margin-right: 0px;
+		}					
+	}
+	&__img-cont {
+		position: relative;
+		width: 100%;
+		height: auto;
+		max-width: 255px;
+		&::after {
+			content: "";
+			width: 35px;
+			height: 33px;
+			background-image: url(images/home/exclamation-pink.svg);
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 22px;
+			right: -29px;
+		}
+	}
+	&__logos {
+		width: 100%;
+		max-width: 255px;
+		margin-top: 30px;
+	}
+	&__title {
+		background-image: url(images/gifting/trazado-white-3.svg);
+		background-repeat: no-repeat, no-repeat;
+		background-position: center;
+		background-size: contain;
+		display: block;
+		font-size: 37px;
+		line-height: 35px;
+		color: $new-red;
+		margin: 0;
+		width: 449px;
+		height: 62px;
+		margin-top: 5px;
+		padding: 18px 15px 0px 15px;
+		position: relative;
+		text-align: center;
+
+		// Mobile
+		@media (max-width: 767px) {
+			width: 292px;
+			font-size: 23px;
+			line-height: 30px;
+		}	
+
+		&::after {
+			content: "";
+			width: 298px;
+			height: 30px;
+			background-image: url(images/gifting/subrayado-light-green-3.svg);
+			background-repeat: no-repeat;
+			position: absolute;
+			background-size: cover;
+			bottom: -9px;
+			left: 135px;
+			width: 279px;
+			height: 21px;
+
+			// Mobile
+			@media (max-width: 767px) {
+				width: 195px;
+				height: 15px;
+				bottom: 0px;
+				left: 96px;
+			}
+		}
+	}
+	&__copy {
+		color: $white;
+		font-size: 24px;
+		line-height: 33px;
+		text-align: left;
+		width: 308px;
+		margin-top: 26px;
+
+		// Mobile
+		@media (max-width: 767px) {
+			font-size: 17px;
+			line-height: 20px;
+			text-align: center;
+			width: 230px;
+		}
+	}
+	&__col-2 {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		min-width: 200px;
+
+		// Mobile
+		@media (max-width: 767px) {
+			position: relative;
+		}
+	}
+	&__img-content {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		max-width: 294px;
+		margin-right: -50px;
+
+		// Mobile
+		@media (max-width: 767px) {
+			max-width: 333px;
+		}
+
+		&::before {
+			content: "";
+			width: 111px;
+			height: 110px;
+			background-image: url(images/gifting/loop-green.svg);
+			background-size: contain;
+			display: block;
+			position: absolute;
+			background-repeat: no-repeat;
+			left: -95px;
+			top:20px;
+
+			// Mobile
+			@media (max-width: 767px) {
+				left: 50px;
+				top: 150px;
+				background-image: url(images/gifting/loop-green-mb.svg);
+				left: 5px;	
+			}
+		}			
+	}
+	&__img-1 {
+		width: 236px;
+		height: 191px;
+		margin-top: 26px;
+		display: block;
+		object-fit: cover;
+		margin-top: -30px;	
+
+		// Mobile
+		@media (max-width: 767px) {
+			width: 100%;
+			height: 235px;
+			margin: 0 auto;
+			margin-top: 15px;
+		}
+	}
+	&__col-3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		position: relative;
+		min-width: 215px;
+
+		// Mobile
+		@media (max-width: 767px) {
+			min-width: 333px;
+		}		
+	}
+	&__button {
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+		width: 175px;
+		height: 47px;
+		border-radius: 4px;
+		background-color: $new-red;
+		font-size: 15px;
+		font-weight: 700;
+		line-height: 18px;
+		color: $white;
+		transition: all 0.3s ease-in-out;
+		position: absolute;
+		margin: 30px -60px;
+
+		// Mobile
+		@media (max-width: 767px) {
+			margin: 0px;
+			top: 255px;
+			width: 164px;
+			height: 38px;
+		}				
+	}
+}

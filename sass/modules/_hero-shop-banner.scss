@@ -1,0 +1,141 @@
+.hero-shop-banner {
+    position: relative;
+    display: none;
+    z-index: 2;
+    height: auto;
+    width: 100%;
+
+    // mobile
+    @media (max-width: 992px) {
+        height: 87px;
+    }
+
+    @media (max-width: 600px) {
+        height: 180px;
+    }
+
+    @media (max-width: 425px) {
+        height: 140px;
+    }
+
+    @media (max-width: 360px) {
+        height: 106px;
+    }
+
+    &__container {
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: 650px;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+
+        // mobile
+        @media (max-width: 768px) {
+            max-width: 100%;
+            background-image: none !important;
+            justify-content: center;
+            padding: 0 15px;
+        }
+    }
+
+    &__promo {
+        background-color: #FFD64F;
+        border-radius: 8px;
+        border: 1px solid #FFD64F;
+        display: block;
+        max-width: 1088px;
+        margin: 20px auto;
+        text-align: center;
+        padding: 12px 10px 12px 18px;
+        position: relative;
+
+        // mobile
+        @include mobile-md {
+            margin: 20px;
+        }
+    }
+
+    &__magazine {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile {
+            max-width: 100%;
+            margin: 0 20px 20px;
+        }
+    }
+
+    &__car {
+        margin-left: -10px;
+        margin-right: 5px;
+    }
+
+    &__message {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        color: $primary-black;
+        font-family: $primary-font;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0 auto;
+        width: max-content;
+
+        strong {
+            font-weight: 800;
+        }
+
+        &::before {
+            content: '';
+            background-image: url(images/shop/white-exclamation-1.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: -4px;
+            left: -40px;
+            height: 32px;
+            width: 24px;
+
+            @include mobile-md {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: '';
+            background-image: url(images/shop/white-exclamation-2.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: -4px;
+            right: -30px;
+            height: 32px;
+            width: 24px;
+
+            @include mobile-md {
+                display: none;
+            }
+        }
+
+        @include mobile-md {
+            font-size: 12px;
+        }
+    }
+
+    &__img {
+        margin: 0 auto;
+
+        // mobile
+        @media (max-width: 560px) {
+            display: none;
+        }
+    }
+}
